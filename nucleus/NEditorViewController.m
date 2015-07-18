@@ -7,16 +7,23 @@
 //
 
 #import "NEditorViewController.h"
+#import "QEDTextView.h"
 
 @interface NEditorViewController ()
 @property (nonatomic, strong) UIWebView *editorWebView;
+@property (nonatomic, strong) QEDTextView *textView;
 @end
 
 @implementation NEditorViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view addSubview:self.editorWebView];
+    _textView = [[QEDTextView alloc] initWithFrame:self.view.bounds];
+    _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
+//    _textView.delegate = self;
+    [self.view addSubview:_textView];
+    
+//    [self.view addSubview:self.editorWebView];
     [self.view setBackgroundColor:[UIColor blackColor]];
     [self loadFile:_filePath];
 }
@@ -31,8 +38,12 @@
     NSString *htmlString = [NSString stringWithContentsOfFile:htmlFilePath encoding:NSUTF8StringEncoding error:nil];
     NSString *code = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
     if (code) {
+        _textView.text = code;
+        return;
+
         htmlString = [htmlString stringByReplacingOccurrencesOfString:@"{{CODE}}" withString:code];
     } else {
+        return;
         htmlString = [htmlString stringByReplacingOccurrencesOfString:@"{{CODE}}" withString:@""];
     }
     [self.editorWebView loadHTMLString:htmlString baseURL:[NSURL URLWithString:@""]];

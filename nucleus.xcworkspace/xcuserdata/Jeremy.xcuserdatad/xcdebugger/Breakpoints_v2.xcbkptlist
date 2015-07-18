@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nucleus/NEditorViewController.m"
-            timestampString = "458848042.567622"
+            timestampString = "458878206.355774"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "-setFilePath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -128,6 +128,22 @@
             startingLineNumber = "22"
             endingLineNumber = "22"
             landmarkName = "-children"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nucleus/CYRTextView/CYRTextStorage.m"
+            timestampString = "458937833.344746"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "-applyStylesToRange:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

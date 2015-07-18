@@ -7,6 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F76BE4A1B59E43D00692E5E /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F76BE491B59E43D00692E5E /* ObjectiveGit.framework */; };
+		3F76BE4B1B59E43D00692E5E /* ObjectiveGit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F76BE491B59E43D00692E5E /* ObjectiveGit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F76BE631B59EBC100692E5E /* CYRLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BE5C1B59EBC100692E5E /* CYRLayoutManager.m */; };
+		3F76BE641B59EBC100692E5E /* CYRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BE5E1B59EBC100692E5E /* CYRTextStorage.m */; };
+		3F76BE651B59EBC100692E5E /* CYRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BE601B59EBC100692E5E /* CYRTextView.m */; };
+		3F76BE661B59EBC100692E5E /* CYRToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BE621B59EBC100692E5E /* CYRToken.m */; };
+		3F76BEBD1B59EBD600692E5E /* actionscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE681B59EBD600692E5E /* actionscript.plist */; };
+		3F76BEBE1B59EBD600692E5E /* actionscript3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE691B59EBD600692E5E /* actionscript3.plist */; };
+		3F76BEBF1B59EBD600692E5E /* active4d.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE6A1B59EBD600692E5E /* active4d.plist */; };
+		3F76BEC01B59EBD600692E5E /* ada.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE6B1B59EBD600692E5E /* ada.plist */; };
+		3F76BEC11B59EBD600692E5E /* ampl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE6C1B59EBD600692E5E /* ampl.plist */; };
+		3F76BEC21B59EBD600692E5E /* apache.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE6D1B59EBD600692E5E /* apache.plist */; };
+		3F76BEC31B59EBD600692E5E /* applescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE6E1B59EBD600692E5E /* applescript.plist */; };
+		3F76BEC41B59EBD600692E5E /* asm-mips.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE6F1B59EBD600692E5E /* asm-mips.plist */; };
+		3F76BEC51B59EBD600692E5E /* asm-x86.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE701B59EBD600692E5E /* asm-x86.plist */; };
+		3F76BEC61B59EBD600692E5E /* asp-js.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE711B59EBD600692E5E /* asp-js.plist */; };
+		3F76BEC71B59EBD600692E5E /* asp-vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE721B59EBD600692E5E /* asp-vb.plist */; };
+		3F76BEC81B59EBD600692E5E /* aspdotnet-cs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE731B59EBD600692E5E /* aspdotnet-cs.plist */; };
+		3F76BEC91B59EBD600692E5E /* aspdotnet-vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE741B59EBD600692E5E /* aspdotnet-vb.plist */; };
+		3F76BECA1B59EBD600692E5E /* awk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE751B59EBD600692E5E /* awk.plist */; };
+		3F76BECB1B59EBD600692E5E /* batch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE761B59EBD600692E5E /* batch.plist */; };
+		3F76BECC1B59EBD600692E5E /* c.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE771B59EBD600692E5E /* c.plist */; };
+		3F76BECD1B59EBD600692E5E /* cobol.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE781B59EBD600692E5E /* cobol.plist */; };
+		3F76BECE1B59EBD600692E5E /* coffeescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE791B59EBD600692E5E /* coffeescript.plist */; };
+		3F76BECF1B59EBD600692E5E /* coldfusion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE7A1B59EBD600692E5E /* coldfusion.plist */; };
+		3F76BED01B59EBD600692E5E /* cpp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE7B1B59EBD600692E5E /* cpp.plist */; };
+		3F76BED11B59EBD600692E5E /* csharp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE7C1B59EBD600692E5E /* csharp.plist */; };
+		3F76BED21B59EBD600692E5E /* csound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE7D1B59EBD600692E5E /* csound.plist */; };
+		3F76BED31B59EBD600692E5E /* css.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE7E1B59EBD600692E5E /* css.plist */; };
+		3F76BED41B59EBD600692E5E /* d.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE7F1B59EBD600692E5E /* d.plist */; };
+		3F76BED51B59EBD600692E5E /* dylan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE801B59EBD600692E5E /* dylan.plist */; };
+		3F76BED61B59EBD600692E5E /* eiffel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE811B59EBD600692E5E /* eiffel.plist */; };
+		3F76BED71B59EBD600692E5E /* erl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE821B59EBD600692E5E /* erl.plist */; };
+		3F76BED81B59EBD600692E5E /* eztpl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE831B59EBD600692E5E /* eztpl.plist */; };
+		3F76BED91B59EBD600692E5E /* f-script.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE841B59EBD600692E5E /* f-script.plist */; };
+		3F76BEDA1B59EBD600692E5E /* fortran.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE851B59EBD600692E5E /* fortran.plist */; };
+		3F76BEDB1B59EBD600692E5E /* freefem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE861B59EBD600692E5E /* freefem.plist */; };
+		3F76BEDC1B59EBD600692E5E /* gedcom.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE871B59EBD600692E5E /* gedcom.plist */; };
+		3F76BEDD1B59EBD600692E5E /* gnuassembler.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE881B59EBD600692E5E /* gnuassembler.plist */; };
+		3F76BEDE1B59EBD600692E5E /* graphviz.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE891B59EBD600692E5E /* graphviz.plist */; };
+		3F76BEDF1B59EBD600692E5E /* haskell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE8A1B59EBD600692E5E /* haskell.plist */; };
+		3F76BEE01B59EBD600692E5E /* header.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE8B1B59EBD600692E5E /* header.plist */; };
+		3F76BEE11B59EBD600692E5E /* html.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE8C1B59EBD600692E5E /* html.plist */; };
+		3F76BEE21B59EBD600692E5E /* idl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE8D1B59EBD600692E5E /* idl.plist */; };
+		3F76BEE31B59EBD600692E5E /* java.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE8E1B59EBD600692E5E /* java.plist */; };
+		3F76BEE41B59EBD600692E5E /* javafx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE8F1B59EBD600692E5E /* javafx.plist */; };
+		3F76BEE51B59EBD600692E5E /* javascript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE901B59EBD600692E5E /* javascript.plist */; };
+		3F76BEE61B59EBD600692E5E /* jsp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE911B59EBD600692E5E /* jsp.plist */; };
+		3F76BEE71B59EBD600692E5E /* latex.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE921B59EBD600692E5E /* latex.plist */; };
+		3F76BEE81B59EBD600692E5E /* lilypond.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE931B59EBD600692E5E /* lilypond.plist */; };
+		3F76BEE91B59EBD600692E5E /* lisp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE941B59EBD600692E5E /* lisp.plist */; };
+		3F76BEEA1B59EBD600692E5E /* logtalk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE951B59EBD600692E5E /* logtalk.plist */; };
+		3F76BEEB1B59EBD600692E5E /* lsl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE961B59EBD600692E5E /* lsl.plist */; };
+		3F76BEEC1B59EBD600692E5E /* lua.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE971B59EBD600692E5E /* lua.plist */; };
+		3F76BEED1B59EBD600692E5E /* matlab.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE981B59EBD600692E5E /* matlab.plist */; };
+		3F76BEEE1B59EBD600692E5E /* mel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE991B59EBD600692E5E /* mel.plist */; };
+		3F76BEEF1B59EBD600692E5E /* metapost.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE9A1B59EBD600692E5E /* metapost.plist */; };
+		3F76BEF01B59EBD600692E5E /* metaslang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE9B1B59EBD600692E5E /* metaslang.plist */; };
+		3F76BEF11B59EBD600692E5E /* mysql.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE9C1B59EBD600692E5E /* mysql.plist */; };
+		3F76BEF21B59EBD600692E5E /* nemerle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE9D1B59EBD600692E5E /* nemerle.plist */; };
+		3F76BEF31B59EBD600692E5E /* none.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE9E1B59EBD600692E5E /* none.plist */; };
+		3F76BEF41B59EBD600692E5E /* nrnhoc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE9F1B59EBD600692E5E /* nrnhoc.plist */; };
+		3F76BEF51B59EBD600692E5E /* objectivec.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEA01B59EBD600692E5E /* objectivec.plist */; };
+		3F76BEF61B59EBD600692E5E /* objectivecaml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEA11B59EBD600692E5E /* objectivecaml.plist */; };
+		3F76BEF71B59EBD600692E5E /* ox.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEA21B59EBD600692E5E /* ox.plist */; };
+		3F76BEF81B59EBD600692E5E /* pascal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEA31B59EBD600692E5E /* pascal.plist */; };
+		3F76BEF91B59EBD600692E5E /* pdf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEA41B59EBD600692E5E /* pdf.plist */; };
+		3F76BEFA1B59EBD600692E5E /* perl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEA51B59EBD600692E5E /* perl.plist */; };
+		3F76BEFB1B59EBD600692E5E /* php.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEA61B59EBD600692E5E /* php.plist */; };
+		3F76BEFC1B59EBD600692E5E /* plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEA71B59EBD600692E5E /* plist.plist */; };
+		3F76BEFD1B59EBD600692E5E /* postscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEA81B59EBD600692E5E /* postscript.plist */; };
+		3F76BEFE1B59EBD600692E5E /* prolog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEA91B59EBD600692E5E /* prolog.plist */; };
+		3F76BEFF1B59EBD600692E5E /* python.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEAA1B59EBD600692E5E /* python.plist */; };
+		3F76BF001B59EBD600692E5E /* r.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEAB1B59EBD600692E5E /* r.plist */; };
+		3F76BF011B59EBD600692E5E /* rhtml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEAC1B59EBD600692E5E /* rhtml.plist */; };
+		3F76BF021B59EBD600692E5E /* ruby.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEAD1B59EBD600692E5E /* ruby.plist */; };
+		3F76BF031B59EBD600692E5E /* scala.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEAE1B59EBD600692E5E /* scala.plist */; };
+		3F76BF041B59EBD600692E5E /* sgml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEAF1B59EBD600692E5E /* sgml.plist */; };
+		3F76BF051B59EBD600692E5E /* shell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEB01B59EBD600692E5E /* shell.plist */; };
+		3F76BF061B59EBD600692E5E /* sml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEB11B59EBD600692E5E /* sml.plist */; };
+		3F76BF071B59EBD600692E5E /* sql.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEB21B59EBD600692E5E /* sql.plist */; };
+		3F76BF081B59EBD600692E5E /* standard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEB31B59EBD600692E5E /* standard.plist */; };
+		3F76BF091B59EBD600692E5E /* stata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEB41B59EBD600692E5E /* stata.plist */; };
+		3F76BF0A1B59EBD600692E5E /* supercollider.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEB51B59EBD600692E5E /* supercollider.plist */; };
+		3F76BF0B1B59EBD600692E5E /* tcltk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEB61B59EBD600692E5E /* tcltk.plist */; };
+		3F76BF0C1B59EBD600692E5E /* torquescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEB71B59EBD600692E5E /* torquescript.plist */; };
+		3F76BF0D1B59EBD600692E5E /* udo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEB81B59EBD600692E5E /* udo.plist */; };
+		3F76BF0E1B59EBD600692E5E /* vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEB91B59EBD600692E5E /* vb.plist */; };
+		3F76BF0F1B59EBD600692E5E /* verilog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEBA1B59EBD600692E5E /* verilog.plist */; };
+		3F76BF101B59EBD600692E5E /* vhdl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEBB1B59EBD600692E5E /* vhdl.plist */; };
+		3F76BF111B59EBD600692E5E /* xml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEBC1B59EBD600692E5E /* xml.plist */; };
+		3F76BF141B59EBE600692E5E /* QEDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BF131B59EBE600692E5E /* QEDTextView.m */; };
 		3FBD38331B56DD9100EB9792 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD38321B56DD9100EB9792 /* main.m */; };
 		3FBD38361B56DD9100EB9792 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD38351B56DD9100EB9792 /* AppDelegate.m */; };
 		3FBD38391B56DD9100EB9792 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD38381B56DD9100EB9792 /* ViewController.m */; };
@@ -360,8 +452,6 @@
 		3FBD3B5B1B596B5D00EB9792 /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD3B571B596B5D00EB9792 /* folder@2x.png */; };
 		3FBD3B5E1B597AC500EB9792 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD3B5C1B597AC500EB9792 /* file.png */; };
 		3FBD3B5F1B597AC500EB9792 /* file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD3B5D1B597AC500EB9792 /* file@2x.png */; };
-		3FBD3B741B59A30500EB9792 /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBD3B731B59A30500EB9792 /* ObjectiveGit.framework */; };
-		3FBD3B751B59A30500EB9792 /* ObjectiveGit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBD3B731B59A30500EB9792 /* ObjectiveGit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3FBD3B791B59B0B900EB9792 /* NRepositoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD3B781B59B0B900EB9792 /* NRepositoriesViewController.m */; };
 		3FBD3B7E1B59B93B00EB9792 /* NRepositoryFormTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD3B7C1B59B93B00EB9792 /* NRepositoryFormTableViewCell.m */; };
 		3FBD3B7F1B59B93B00EB9792 /* NRepositoryFormTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD3B7D1B59B93B00EB9792 /* NRepositoryFormTableViewCell.xib */; };
@@ -409,13 +499,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3FBD3B761B59A30500EB9792 /* Embed Frameworks */ = {
+		3F76BE4C1B59E43E00692E5E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3FBD3B751B59A30500EB9792 /* ObjectiveGit.framework in Embed Frameworks */,
+				3F76BE4B1B59E43D00692E5E /* ObjectiveGit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +514,102 @@
 
 /* Begin PBXFileReference section */
 		357B5DE6DCD283BD23927111 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3F76BE491B59E43D00692E5E /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = "builds/nucleus/Build/Products/Debug-iphoneos/ObjectiveGit.framework"; sourceTree = "<group>"; };
+		3F76BE5B1B59EBC100692E5E /* CYRLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRLayoutManager.h; sourceTree = "<group>"; };
+		3F76BE5C1B59EBC100692E5E /* CYRLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRLayoutManager.m; sourceTree = "<group>"; };
+		3F76BE5D1B59EBC100692E5E /* CYRTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRTextStorage.h; sourceTree = "<group>"; };
+		3F76BE5E1B59EBC100692E5E /* CYRTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRTextStorage.m; sourceTree = "<group>"; };
+		3F76BE5F1B59EBC100692E5E /* CYRTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRTextView.h; sourceTree = "<group>"; };
+		3F76BE601B59EBC100692E5E /* CYRTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRTextView.m; sourceTree = "<group>"; };
+		3F76BE611B59EBC100692E5E /* CYRToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRToken.h; sourceTree = "<group>"; };
+		3F76BE621B59EBC100692E5E /* CYRToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRToken.m; sourceTree = "<group>"; };
+		3F76BE681B59EBD600692E5E /* actionscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript.plist; sourceTree = "<group>"; };
+		3F76BE691B59EBD600692E5E /* actionscript3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript3.plist; sourceTree = "<group>"; };
+		3F76BE6A1B59EBD600692E5E /* active4d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = active4d.plist; sourceTree = "<group>"; };
+		3F76BE6B1B59EBD600692E5E /* ada.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ada.plist; sourceTree = "<group>"; };
+		3F76BE6C1B59EBD600692E5E /* ampl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ampl.plist; sourceTree = "<group>"; };
+		3F76BE6D1B59EBD600692E5E /* apache.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apache.plist; sourceTree = "<group>"; };
+		3F76BE6E1B59EBD600692E5E /* applescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = applescript.plist; sourceTree = "<group>"; };
+		3F76BE6F1B59EBD600692E5E /* asm-mips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asm-mips.plist"; sourceTree = "<group>"; };
+		3F76BE701B59EBD600692E5E /* asm-x86.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asm-x86.plist"; sourceTree = "<group>"; };
+		3F76BE711B59EBD600692E5E /* asp-js.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asp-js.plist"; sourceTree = "<group>"; };
+		3F76BE721B59EBD600692E5E /* asp-vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asp-vb.plist"; sourceTree = "<group>"; };
+		3F76BE731B59EBD600692E5E /* aspdotnet-cs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aspdotnet-cs.plist"; sourceTree = "<group>"; };
+		3F76BE741B59EBD600692E5E /* aspdotnet-vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aspdotnet-vb.plist"; sourceTree = "<group>"; };
+		3F76BE751B59EBD600692E5E /* awk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = awk.plist; sourceTree = "<group>"; };
+		3F76BE761B59EBD600692E5E /* batch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = batch.plist; sourceTree = "<group>"; };
+		3F76BE771B59EBD600692E5E /* c.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = c.plist; sourceTree = "<group>"; };
+		3F76BE781B59EBD600692E5E /* cobol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cobol.plist; sourceTree = "<group>"; };
+		3F76BE791B59EBD600692E5E /* coffeescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = coffeescript.plist; sourceTree = "<group>"; };
+		3F76BE7A1B59EBD600692E5E /* coldfusion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = coldfusion.plist; sourceTree = "<group>"; };
+		3F76BE7B1B59EBD600692E5E /* cpp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cpp.plist; sourceTree = "<group>"; };
+		3F76BE7C1B59EBD600692E5E /* csharp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = csharp.plist; sourceTree = "<group>"; };
+		3F76BE7D1B59EBD600692E5E /* csound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = csound.plist; sourceTree = "<group>"; };
+		3F76BE7E1B59EBD600692E5E /* css.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = css.plist; sourceTree = "<group>"; };
+		3F76BE7F1B59EBD600692E5E /* d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = d.plist; sourceTree = "<group>"; };
+		3F76BE801B59EBD600692E5E /* dylan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylan.plist; sourceTree = "<group>"; };
+		3F76BE811B59EBD600692E5E /* eiffel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eiffel.plist; sourceTree = "<group>"; };
+		3F76BE821B59EBD600692E5E /* erl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = erl.plist; sourceTree = "<group>"; };
+		3F76BE831B59EBD600692E5E /* eztpl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eztpl.plist; sourceTree = "<group>"; };
+		3F76BE841B59EBD600692E5E /* f-script.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "f-script.plist"; sourceTree = "<group>"; };
+		3F76BE851B59EBD600692E5E /* fortran.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fortran.plist; sourceTree = "<group>"; };
+		3F76BE861B59EBD600692E5E /* freefem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = freefem.plist; sourceTree = "<group>"; };
+		3F76BE871B59EBD600692E5E /* gedcom.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gedcom.plist; sourceTree = "<group>"; };
+		3F76BE881B59EBD600692E5E /* gnuassembler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gnuassembler.plist; sourceTree = "<group>"; };
+		3F76BE891B59EBD600692E5E /* graphviz.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = graphviz.plist; sourceTree = "<group>"; };
+		3F76BE8A1B59EBD600692E5E /* haskell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = haskell.plist; sourceTree = "<group>"; };
+		3F76BE8B1B59EBD600692E5E /* header.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = header.plist; sourceTree = "<group>"; };
+		3F76BE8C1B59EBD600692E5E /* html.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = html.plist; sourceTree = "<group>"; };
+		3F76BE8D1B59EBD600692E5E /* idl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = idl.plist; sourceTree = "<group>"; };
+		3F76BE8E1B59EBD600692E5E /* java.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = java.plist; sourceTree = "<group>"; };
+		3F76BE8F1B59EBD600692E5E /* javafx.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javafx.plist; sourceTree = "<group>"; };
+		3F76BE901B59EBD600692E5E /* javascript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javascript.plist; sourceTree = "<group>"; };
+		3F76BE911B59EBD600692E5E /* jsp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jsp.plist; sourceTree = "<group>"; };
+		3F76BE921B59EBD600692E5E /* latex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = latex.plist; sourceTree = "<group>"; };
+		3F76BE931B59EBD600692E5E /* lilypond.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lilypond.plist; sourceTree = "<group>"; };
+		3F76BE941B59EBD600692E5E /* lisp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lisp.plist; sourceTree = "<group>"; };
+		3F76BE951B59EBD600692E5E /* logtalk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = logtalk.plist; sourceTree = "<group>"; };
+		3F76BE961B59EBD600692E5E /* lsl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lsl.plist; sourceTree = "<group>"; };
+		3F76BE971B59EBD600692E5E /* lua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lua.plist; sourceTree = "<group>"; };
+		3F76BE981B59EBD600692E5E /* matlab.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = matlab.plist; sourceTree = "<group>"; };
+		3F76BE991B59EBD600692E5E /* mel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mel.plist; sourceTree = "<group>"; };
+		3F76BE9A1B59EBD600692E5E /* metapost.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metapost.plist; sourceTree = "<group>"; };
+		3F76BE9B1B59EBD600692E5E /* metaslang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metaslang.plist; sourceTree = "<group>"; };
+		3F76BE9C1B59EBD600692E5E /* mysql.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mysql.plist; sourceTree = "<group>"; };
+		3F76BE9D1B59EBD600692E5E /* nemerle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nemerle.plist; sourceTree = "<group>"; };
+		3F76BE9E1B59EBD600692E5E /* none.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = none.plist; sourceTree = "<group>"; };
+		3F76BE9F1B59EBD600692E5E /* nrnhoc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nrnhoc.plist; sourceTree = "<group>"; };
+		3F76BEA01B59EBD600692E5E /* objectivec.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objectivec.plist; sourceTree = "<group>"; };
+		3F76BEA11B59EBD600692E5E /* objectivecaml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objectivecaml.plist; sourceTree = "<group>"; };
+		3F76BEA21B59EBD600692E5E /* ox.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ox.plist; sourceTree = "<group>"; };
+		3F76BEA31B59EBD600692E5E /* pascal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pascal.plist; sourceTree = "<group>"; };
+		3F76BEA41B59EBD600692E5E /* pdf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pdf.plist; sourceTree = "<group>"; };
+		3F76BEA51B59EBD600692E5E /* perl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = perl.plist; sourceTree = "<group>"; };
+		3F76BEA61B59EBD600692E5E /* php.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = php.plist; sourceTree = "<group>"; };
+		3F76BEA71B59EBD600692E5E /* plist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = plist.plist; sourceTree = "<group>"; };
+		3F76BEA81B59EBD600692E5E /* postscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = postscript.plist; sourceTree = "<group>"; };
+		3F76BEA91B59EBD600692E5E /* prolog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = prolog.plist; sourceTree = "<group>"; };
+		3F76BEAA1B59EBD600692E5E /* python.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = python.plist; sourceTree = "<group>"; };
+		3F76BEAB1B59EBD600692E5E /* r.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = r.plist; sourceTree = "<group>"; };
+		3F76BEAC1B59EBD600692E5E /* rhtml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rhtml.plist; sourceTree = "<group>"; };
+		3F76BEAD1B59EBD600692E5E /* ruby.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ruby.plist; sourceTree = "<group>"; };
+		3F76BEAE1B59EBD600692E5E /* scala.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scala.plist; sourceTree = "<group>"; };
+		3F76BEAF1B59EBD600692E5E /* sgml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sgml.plist; sourceTree = "<group>"; };
+		3F76BEB01B59EBD600692E5E /* shell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shell.plist; sourceTree = "<group>"; };
+		3F76BEB11B59EBD600692E5E /* sml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sml.plist; sourceTree = "<group>"; };
+		3F76BEB21B59EBD600692E5E /* sql.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sql.plist; sourceTree = "<group>"; };
+		3F76BEB31B59EBD600692E5E /* standard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = standard.plist; sourceTree = "<group>"; };
+		3F76BEB41B59EBD600692E5E /* stata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stata.plist; sourceTree = "<group>"; };
+		3F76BEB51B59EBD600692E5E /* supercollider.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = supercollider.plist; sourceTree = "<group>"; };
+		3F76BEB61B59EBD600692E5E /* tcltk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tcltk.plist; sourceTree = "<group>"; };
+		3F76BEB71B59EBD600692E5E /* torquescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = torquescript.plist; sourceTree = "<group>"; };
+		3F76BEB81B59EBD600692E5E /* udo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = udo.plist; sourceTree = "<group>"; };
+		3F76BEB91B59EBD600692E5E /* vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vb.plist; sourceTree = "<group>"; };
+		3F76BEBA1B59EBD600692E5E /* verilog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = verilog.plist; sourceTree = "<group>"; };
+		3F76BEBB1B59EBD600692E5E /* vhdl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vhdl.plist; sourceTree = "<group>"; };
+		3F76BEBC1B59EBD600692E5E /* xml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = xml.plist; sourceTree = "<group>"; };
+		3F76BF121B59EBE600692E5E /* QEDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QEDTextView.h; sourceTree = "<group>"; };
+		3F76BF131B59EBE600692E5E /* QEDTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QEDTextView.m; sourceTree = "<group>"; };
 		3FBD382D1B56DD9100EB9792 /* nucleus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nucleus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBD38311B56DD9100EB9792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FBD38321B56DD9100EB9792 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -804,7 +990,6 @@
 		3FBD3B571B596B5D00EB9792 /* folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder@2x.png"; sourceTree = "<group>"; };
 		3FBD3B5C1B597AC500EB9792 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
 		3FBD3B5D1B597AC500EB9792 /* file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file@2x.png"; sourceTree = "<group>"; };
-		3FBD3B731B59A30500EB9792 /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = "builds/nucleus/Build/Products/Debug-iphoneos/ObjectiveGit.framework"; sourceTree = "<group>"; };
 		3FBD3B771B59B0B900EB9792 /* NRepositoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRepositoriesViewController.h; sourceTree = "<group>"; };
 		3FBD3B781B59B0B900EB9792 /* NRepositoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRepositoriesViewController.m; sourceTree = "<group>"; };
 		3FBD3B7B1B59B93B00EB9792 /* NRepositoryFormTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRepositoryFormTableViewCell.h; sourceTree = "<group>"; };
@@ -823,7 +1008,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FBD3B011B5703A300EB9792 /* libiconv.dylib in Frameworks */,
-				3FBD3B741B59A30500EB9792 /* ObjectiveGit.framework in Frameworks */,
+				3F76BE4A1B59E43D00692E5E /* ObjectiveGit.framework in Frameworks */,
 				3FBD3AFF1B57038F00EB9792 /* libz.dylib in Frameworks */,
 				608746A438DE6C83B611C7E8 /* libPods.a in Frameworks */,
 			);
@@ -839,10 +1024,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F76BE5A1B59EBC100692E5E /* CYRTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3F76BE5B1B59EBC100692E5E /* CYRLayoutManager.h */,
+				3F76BE5C1B59EBC100692E5E /* CYRLayoutManager.m */,
+				3F76BE5D1B59EBC100692E5E /* CYRTextStorage.h */,
+				3F76BE5E1B59EBC100692E5E /* CYRTextStorage.m */,
+				3F76BE5F1B59EBC100692E5E /* CYRTextView.h */,
+				3F76BE601B59EBC100692E5E /* CYRTextView.m */,
+				3F76BE611B59EBC100692E5E /* CYRToken.h */,
+				3F76BE621B59EBC100692E5E /* CYRToken.m */,
+			);
+			path = CYRTextView;
+			sourceTree = "<group>";
+		};
+		3F76BE671B59EBD600692E5E /* Syntax Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				3F76BE681B59EBD600692E5E /* actionscript.plist */,
+				3F76BE691B59EBD600692E5E /* actionscript3.plist */,
+				3F76BE6A1B59EBD600692E5E /* active4d.plist */,
+				3F76BE6B1B59EBD600692E5E /* ada.plist */,
+				3F76BE6C1B59EBD600692E5E /* ampl.plist */,
+				3F76BE6D1B59EBD600692E5E /* apache.plist */,
+				3F76BE6E1B59EBD600692E5E /* applescript.plist */,
+				3F76BE6F1B59EBD600692E5E /* asm-mips.plist */,
+				3F76BE701B59EBD600692E5E /* asm-x86.plist */,
+				3F76BE711B59EBD600692E5E /* asp-js.plist */,
+				3F76BE721B59EBD600692E5E /* asp-vb.plist */,
+				3F76BE731B59EBD600692E5E /* aspdotnet-cs.plist */,
+				3F76BE741B59EBD600692E5E /* aspdotnet-vb.plist */,
+				3F76BE751B59EBD600692E5E /* awk.plist */,
+				3F76BE761B59EBD600692E5E /* batch.plist */,
+				3F76BE771B59EBD600692E5E /* c.plist */,
+				3F76BE781B59EBD600692E5E /* cobol.plist */,
+				3F76BE791B59EBD600692E5E /* coffeescript.plist */,
+				3F76BE7A1B59EBD600692E5E /* coldfusion.plist */,
+				3F76BE7B1B59EBD600692E5E /* cpp.plist */,
+				3F76BE7C1B59EBD600692E5E /* csharp.plist */,
+				3F76BE7D1B59EBD600692E5E /* csound.plist */,
+				3F76BE7E1B59EBD600692E5E /* css.plist */,
+				3F76BE7F1B59EBD600692E5E /* d.plist */,
+				3F76BE801B59EBD600692E5E /* dylan.plist */,
+				3F76BE811B59EBD600692E5E /* eiffel.plist */,
+				3F76BE821B59EBD600692E5E /* erl.plist */,
+				3F76BE831B59EBD600692E5E /* eztpl.plist */,
+				3F76BE841B59EBD600692E5E /* f-script.plist */,
+				3F76BE851B59EBD600692E5E /* fortran.plist */,
+				3F76BE861B59EBD600692E5E /* freefem.plist */,
+				3F76BE871B59EBD600692E5E /* gedcom.plist */,
+				3F76BE881B59EBD600692E5E /* gnuassembler.plist */,
+				3F76BE891B59EBD600692E5E /* graphviz.plist */,
+				3F76BE8A1B59EBD600692E5E /* haskell.plist */,
+				3F76BE8B1B59EBD600692E5E /* header.plist */,
+				3F76BE8C1B59EBD600692E5E /* html.plist */,
+				3F76BE8D1B59EBD600692E5E /* idl.plist */,
+				3F76BE8E1B59EBD600692E5E /* java.plist */,
+				3F76BE8F1B59EBD600692E5E /* javafx.plist */,
+				3F76BE901B59EBD600692E5E /* javascript.plist */,
+				3F76BE911B59EBD600692E5E /* jsp.plist */,
+				3F76BE921B59EBD600692E5E /* latex.plist */,
+				3F76BE931B59EBD600692E5E /* lilypond.plist */,
+				3F76BE941B59EBD600692E5E /* lisp.plist */,
+				3F76BE951B59EBD600692E5E /* logtalk.plist */,
+				3F76BE961B59EBD600692E5E /* lsl.plist */,
+				3F76BE971B59EBD600692E5E /* lua.plist */,
+				3F76BE981B59EBD600692E5E /* matlab.plist */,
+				3F76BE991B59EBD600692E5E /* mel.plist */,
+				3F76BE9A1B59EBD600692E5E /* metapost.plist */,
+				3F76BE9B1B59EBD600692E5E /* metaslang.plist */,
+				3F76BE9C1B59EBD600692E5E /* mysql.plist */,
+				3F76BE9D1B59EBD600692E5E /* nemerle.plist */,
+				3F76BE9E1B59EBD600692E5E /* none.plist */,
+				3F76BE9F1B59EBD600692E5E /* nrnhoc.plist */,
+				3F76BEA01B59EBD600692E5E /* objectivec.plist */,
+				3F76BEA11B59EBD600692E5E /* objectivecaml.plist */,
+				3F76BEA21B59EBD600692E5E /* ox.plist */,
+				3F76BEA31B59EBD600692E5E /* pascal.plist */,
+				3F76BEA41B59EBD600692E5E /* pdf.plist */,
+				3F76BEA51B59EBD600692E5E /* perl.plist */,
+				3F76BEA61B59EBD600692E5E /* php.plist */,
+				3F76BEA71B59EBD600692E5E /* plist.plist */,
+				3F76BEA81B59EBD600692E5E /* postscript.plist */,
+				3F76BEA91B59EBD600692E5E /* prolog.plist */,
+				3F76BEAA1B59EBD600692E5E /* python.plist */,
+				3F76BEAB1B59EBD600692E5E /* r.plist */,
+				3F76BEAC1B59EBD600692E5E /* rhtml.plist */,
+				3F76BEAD1B59EBD600692E5E /* ruby.plist */,
+				3F76BEAE1B59EBD600692E5E /* scala.plist */,
+				3F76BEAF1B59EBD600692E5E /* sgml.plist */,
+				3F76BEB01B59EBD600692E5E /* shell.plist */,
+				3F76BEB11B59EBD600692E5E /* sml.plist */,
+				3F76BEB21B59EBD600692E5E /* sql.plist */,
+				3F76BEB31B59EBD600692E5E /* standard.plist */,
+				3F76BEB41B59EBD600692E5E /* stata.plist */,
+				3F76BEB51B59EBD600692E5E /* supercollider.plist */,
+				3F76BEB61B59EBD600692E5E /* tcltk.plist */,
+				3F76BEB71B59EBD600692E5E /* torquescript.plist */,
+				3F76BEB81B59EBD600692E5E /* udo.plist */,
+				3F76BEB91B59EBD600692E5E /* vb.plist */,
+				3F76BEBA1B59EBD600692E5E /* verilog.plist */,
+				3F76BEBB1B59EBD600692E5E /* vhdl.plist */,
+				3F76BEBC1B59EBD600692E5E /* xml.plist */,
+			);
+			path = "Syntax Definitions";
+			sourceTree = "<group>";
+		};
+		3F76BF151B59EBE900692E5E /* SyntaxHighlighter */ = {
+			isa = PBXGroup;
+			children = (
+				3F76BF121B59EBE600692E5E /* QEDTextView.h */,
+				3F76BF131B59EBE600692E5E /* QEDTextView.m */,
+				3F76BE671B59EBD600692E5E /* Syntax Definitions */,
+				3F76BE5A1B59EBC100692E5E /* CYRTextView */,
+			);
+			name = SyntaxHighlighter;
+			sourceTree = "<group>";
+		};
 		3FBD38241B56DD9100EB9792 = {
 			isa = PBXGroup;
 			children = (
-				3FBD3B731B59A30500EB9792 /* ObjectiveGit.framework */,
+				3F76BE491B59E43D00692E5E /* ObjectiveGit.framework */,
 				3FBD3B001B5703A300EB9792 /* libiconv.dylib */,
 				3FBD3AFE1B57038F00EB9792 /* libz.dylib */,
 				3FBD3AEC1B57033C00EB9792 /* ObjectiveGitFramework.xcodeproj */,
@@ -866,6 +1169,7 @@
 		3FBD382F1B56DD9100EB9792 /* nucleus */ = {
 			isa = PBXGroup;
 			children = (
+				3F76BF151B59EBE900692E5E /* SyntaxHighlighter */,
 				3FBD3B7A1B59B0EA00EB9792 /* repositories */,
 				3FBD3B0D1B5780B500EB9792 /* tree */,
 				3FBD3AE81B56F87F00EB9792 /* editor-wrapper */,
@@ -1387,7 +1691,7 @@
 				3FBD382A1B56DD9100EB9792 /* Frameworks */,
 				3FBD382B1B56DD9100EB9792 /* Resources */,
 				7F75C095ACA92CE31F609F25 /* Copy Pods Resources */,
-				3FBD3B761B59A30500EB9792 /* Embed Frameworks */,
+				3F76BE4C1B59E43E00692E5E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1493,10 +1797,13 @@
 				3FBD39DF1B56F7A300EB9792 /* mode-gherkin.js in Resources */,
 				3FBD3A2E1B56F7A300EB9792 /* mode-tex.js in Resources */,
 				3FBD3A551B56F7A300EB9792 /* dot.js in Resources */,
+				3F76BEE61B59EBD600692E5E /* jsp.plist in Resources */,
+				3F76BEFE1B59EBD600692E5E /* prolog.plist in Resources */,
 				3FBD3A001B56F7A300EB9792 /* mode-lucene.js in Resources */,
 				3FBD3A791B56F7A300EB9792 /* live_script.js in Resources */,
 				3FBD39DE1B56F7A300EB9792 /* mode-gcode.js in Resources */,
 				3FBD39BB1B56F7A300EB9792 /* keybinding-emacs.js in Resources */,
+				3F76BEF51B59EBD600692E5E /* objectivec.plist in Resources */,
 				3FBD39C21B56F7A300EB9792 /* mode-applescript.js in Resources */,
 				3FBD3A521B56F7A300EB9792 /* diff.js in Resources */,
 				3FBD3A9D1B56F7A300EB9792 /* sass.js in Resources */,
@@ -1513,6 +1820,8 @@
 				3FBD39EC1B56F7A300EB9792 /* mode-jack.js in Resources */,
 				3FBD3A671B56F7A300EB9792 /* html.js in Resources */,
 				3FBD3A5B1B56F7A300EB9792 /* forth.js in Resources */,
+				3F76BEEC1B59EBD600692E5E /* lua.plist in Resources */,
+				3F76BECC1B59EBD600692E5E /* c.plist in Resources */,
 				3FBD3A071B56F7A300EB9792 /* mode-mips_assembler.js in Resources */,
 				3FBD3AD11B56F7A300EB9792 /* theme-solarized_light.js in Resources */,
 				3FBD3AB71B56F7A300EB9792 /* vhdl.js in Resources */,
@@ -1530,12 +1839,17 @@
 				3FBD39D01B56F7A300EB9792 /* mode-curly.js in Resources */,
 				3FBD3AB41B56F7A300EB9792 /* vbscript.js in Resources */,
 				3FBD3A321B56F7A300EB9792 /* mode-twig.js in Resources */,
+				3F76BEFC1B59EBD600692E5E /* plist.plist in Resources */,
+				3F76BED91B59EBD600692E5E /* f-script.plist in Resources */,
 				3FBD3A511B56F7A300EB9792 /* dart.js in Resources */,
 				3FBD3AC01B56F7A300EB9792 /* theme-cobalt.js in Resources */,
 				3FBD3AC11B56F7A300EB9792 /* theme-crimson_editor.js in Resources */,
+				3F76BF041B59EBD600692E5E /* sgml.plist in Resources */,
 				3FBD3A8E1B56F7A300EB9792 /* perl.js in Resources */,
 				3FBD3A371B56F7A300EB9792 /* mode-verilog.js in Resources */,
+				3F76BEC21B59EBD600692E5E /* apache.plist in Resources */,
 				3FBD39EE1B56F7A300EB9792 /* mode-java.js in Resources */,
+				3F76BEE41B59EBD600692E5E /* javafx.plist in Resources */,
 				3FBD3A911B56F7A300EB9792 /* plain_text.js in Resources */,
 				3FBD3A641B56F7A300EB9792 /* handlebars.js in Resources */,
 				3FBD3A701B56F7A300EB9792 /* jsoniq.js in Resources */,
@@ -1556,6 +1870,8 @@
 				3FBD3A5C1B56F7A300EB9792 /* ftl.js in Resources */,
 				3FBD39D61B56F7A300EB9792 /* mode-dot.js in Resources */,
 				3FBD39C51B56F7A300EB9792 /* mode-autohotkey.js in Resources */,
+				3F76BECF1B59EBD600692E5E /* coldfusion.plist in Resources */,
+				3F76BEF41B59EBD600692E5E /* nrnhoc.plist in Resources */,
 				3FBD3A3E1B56F7A300EB9792 /* actionscript.js in Resources */,
 				3FBD3A5F1B56F7A300EB9792 /* gitignore.js in Resources */,
 				3FBD3A9B1B56F7A300EB9792 /* ruby.js in Resources */,
@@ -1565,9 +1881,11 @@
 				3FBD3A031B56F7A300EB9792 /* mode-mask.js in Resources */,
 				3FBD3ABF1B56F7A300EB9792 /* theme-clouds_midnight.js in Resources */,
 				3FBD3A7E1B56F7A300EB9792 /* luapage.js in Resources */,
+				3F76BED31B59EBD600692E5E /* css.plist in Resources */,
 				3FBD3AC41B56F7A300EB9792 /* theme-eclipse.js in Resources */,
 				3FBD3A951B56F7A300EB9792 /* properties.js in Resources */,
 				3FBD39B41B56F7A300EB9792 /* ext-spellcheck.js in Resources */,
+				3F76BEF21B59EBD600692E5E /* nemerle.plist in Resources */,
 				3FBD3A151B56F7A300EB9792 /* mode-prolog.js in Resources */,
 				3FBD39DC1B56F7A300EB9792 /* mode-forth.js in Resources */,
 				3FBD3A3F1B56F7A300EB9792 /* ada.js in Resources */,
@@ -1578,6 +1896,7 @@
 				3FBD3A1A1B56F7A300EB9792 /* mode-rdoc.js in Resources */,
 				3FBD3A1B1B56F7A300EB9792 /* mode-rhtml.js in Resources */,
 				3FBD3B591B596B5D00EB9792 /* folder-open@2x.png in Resources */,
+				3F76BEC01B59EBD600692E5E /* ada.plist in Resources */,
 				3FBD39EA1B56F7A300EB9792 /* mode-ini.js in Resources */,
 				3FBD39BE1B56F7A300EB9792 /* mode-abc.js in Resources */,
 				3FBD3AD51B56F7A300EB9792 /* theme-tomorrow.js in Resources */,
@@ -1589,11 +1908,14 @@
 				3FBD3A9A1B56F7A300EB9792 /* rhtml.js in Resources */,
 				3FBD3AA91B56F7A300EB9792 /* sqlserver.js in Resources */,
 				3FBD39BA1B56F7A300EB9792 /* ext-whitespace.js in Resources */,
+				3F76BECD1B59EBD600692E5E /* cobol.plist in Resources */,
+				3F76BF001B59EBD600692E5E /* r.plist in Resources */,
 				3FBD3A281B56F7A300EB9792 /* mode-space.js in Resources */,
 				3FBD39C11B56F7A300EB9792 /* mode-apache_conf.js in Resources */,
 				3FBD3A6D1B56F7A300EB9792 /* java.js in Resources */,
 				3FBD39E51B56F7A300EB9792 /* mode-handlebars.js in Resources */,
 				3FBD3A491B56F7A300EB9792 /* clojure.js in Resources */,
+				3F76BEFB1B59EBD600692E5E /* php.plist in Resources */,
 				3FBD3A401B56F7A300EB9792 /* apache_conf.js in Resources */,
 				3FBD3A221B56F7A300EB9792 /* mode-scss.js in Resources */,
 				3FBD3AA21B56F7A300EB9792 /* sh.js in Resources */,
@@ -1602,13 +1924,17 @@
 				3FBD39EF1B56F7A300EB9792 /* mode-javascript.js in Resources */,
 				3FBD3A501B56F7A300EB9792 /* d.js in Resources */,
 				3FBD3A2F1B56F7A300EB9792 /* mode-text.js in Resources */,
+				3F76BEEE1B59EBD600692E5E /* mel.plist in Resources */,
 				3FBD3A591B56F7A300EB9792 /* elm.js in Resources */,
 				3FBD3A961B56F7A300EB9792 /* protobuf.js in Resources */,
 				3FBD3A3C1B56F7A300EB9792 /* abap.js in Resources */,
 				3FBD3ACB1B56F7A300EB9792 /* theme-merbivore.js in Resources */,
 				3FBD3AD61B56F7A300EB9792 /* theme-tomorrow_night.js in Resources */,
+				3F76BED81B59EBD600692E5E /* eztpl.plist in Resources */,
 				3FBD3A4B1B56F7A300EB9792 /* coffee.js in Resources */,
+				3F76BEEA1B59EBD600692E5E /* logtalk.plist in Resources */,
 				3FBD3AAF1B56F7A300EB9792 /* textile.js in Resources */,
+				3F76BF051B59EBD600692E5E /* shell.plist in Resources */,
 				3FBD3A1F1B56F7A300EB9792 /* mode-scad.js in Resources */,
 				3FBD3ADA1B56F7A300EB9792 /* theme-twilight.js in Resources */,
 				3FBD3A1D1B56F7A300EB9792 /* mode-rust.js in Resources */,
@@ -1617,18 +1943,24 @@
 				3FBD3A451B56F7A300EB9792 /* batchfile.js in Resources */,
 				3FBD3A2D1B56F7A300EB9792 /* mode-tcl.js in Resources */,
 				3FBD3A381B56F7A300EB9792 /* mode-vhdl.js in Resources */,
+				3F76BF0E1B59EBD600692E5E /* vb.plist in Resources */,
 				3FBD39F71B56F7A300EB9792 /* mode-less.js in Resources */,
+				3F76BF111B59EBD600692E5E /* xml.plist in Resources */,
+				3F76BEF61B59EBD600692E5E /* objectivecaml.plist in Resources */,
 				3FBD3A691B56F7A300EB9792 /* ini.js in Resources */,
 				3FBD39CC1B56F7A300EB9792 /* mode-coffee.js in Resources */,
 				3FBD3A731B56F7A300EB9792 /* julia.js in Resources */,
 				3FBD3A0F1B56F7A300EB9792 /* mode-perl.js in Resources */,
+				3F76BEC41B59EBD600692E5E /* asm-mips.plist in Resources */,
 				3FBD39C31B56F7A300EB9792 /* mode-asciidoc.js in Resources */,
+				3F76BEF91B59EBD600692E5E /* pdf.plist in Resources */,
 				3FBD39F61B56F7A300EB9792 /* mode-lean.js in Resources */,
 				3FBD3A771B56F7A300EB9792 /* liquid.js in Resources */,
 				3FBD3A601B56F7A300EB9792 /* glsl.js in Resources */,
 				3FBD39FB1B56F7A300EB9792 /* mode-livescript.js in Resources */,
 				3FBD3A341B56F7A300EB9792 /* mode-vala.js in Resources */,
 				3FBD3B5A1B596B5D00EB9792 /* folder.png in Resources */,
+				3F76BED71B59EBD600692E5E /* erl.plist in Resources */,
 				3FBD39D51B56F7A300EB9792 /* mode-dockerfile.js in Resources */,
 				3FBD3A081B56F7A300EB9792 /* mode-mipsassembler.js in Resources */,
 				3FBD39F81B56F7A300EB9792 /* mode-liquid.js in Resources */,
@@ -1645,8 +1977,11 @@
 				3FBD39D81B56F7A300EB9792 /* mode-ejs.js in Resources */,
 				3FBD3A941B56F7A300EB9792 /* prolog.js in Resources */,
 				3FBD39B91B56F7A300EB9792 /* ext-themelist.js in Resources */,
+				3F76BEE51B59EBD600692E5E /* javascript.plist in Resources */,
 				3FBD3A891B56F7A300EB9792 /* mysql.js in Resources */,
+				3F76BEC61B59EBD600692E5E /* asp-js.plist in Resources */,
 				3FBD3ACE1B56F7A300EB9792 /* theme-monokai.js in Resources */,
+				3F76BEF71B59EBD600692E5E /* ox.plist in Resources */,
 				3FBD39BC1B56F7A300EB9792 /* keybinding-vim.js in Resources */,
 				3FBD3A971B56F7A300EB9792 /* python.js in Resources */,
 				3FBD3A751B56F7A300EB9792 /* lean.js in Resources */,
@@ -1660,29 +1995,48 @@
 				3FBD3ADE1B56F7A300EB9792 /* worker-css.js in Resources */,
 				3FBD3A7F1B56F7A300EB9792 /* lucene.js in Resources */,
 				3FBD3ACA1B56F7A300EB9792 /* theme-kuroir.js in Resources */,
+				3F76BED61B59EBD600692E5E /* eiffel.plist in Resources */,
+				3F76BEFF1B59EBD600692E5E /* python.plist in Resources */,
 				3FBD3A6F1B56F7A300EB9792 /* json.js in Resources */,
 				3FBD3AB81B56F7A300EB9792 /* xml.js in Resources */,
+				3F76BEED1B59EBD600692E5E /* matlab.plist in Resources */,
 				3FBD3A171B56F7A300EB9792 /* mode-protobuf.js in Resources */,
 				3FBD3A881B56F7A300EB9792 /* mushcode.js in Resources */,
+				3F76BEDF1B59EBD600692E5E /* haskell.plist in Resources */,
+				3F76BF011B59EBD600692E5E /* rhtml.plist in Resources */,
+				3F76BF101B59EBD600692E5E /* vhdl.plist in Resources */,
 				3FBD3AC91B56F7A300EB9792 /* theme-kr_theme.js in Resources */,
+				3F76BF0F1B59EBD600692E5E /* verilog.plist in Resources */,
 				3FBD3A011B56F7A300EB9792 /* mode-makefile.js in Resources */,
 				3FBD3A361B56F7A300EB9792 /* mode-velocity.js in Resources */,
 				3FBD3A621B56F7A300EB9792 /* groovy.js in Resources */,
 				3FBD39AD1B56F7A300EB9792 /* ext-keybinding_menu.js in Resources */,
 				3FBD3A271B56F7A300EB9792 /* mode-soy_template.js in Resources */,
+				3F76BED11B59EBD600692E5E /* csharp.plist in Resources */,
 				3FBD3A3A1B56F7A300EB9792 /* mode-xquery.js in Resources */,
+				3F76BF081B59EBD600692E5E /* standard.plist in Resources */,
+				3F76BF071B59EBD600692E5E /* sql.plist in Resources */,
+				3F76BEF11B59EBD600692E5E /* mysql.plist in Resources */,
+				3F76BEEB1B59EBD600692E5E /* lsl.plist in Resources */,
 				3FBD3A541B56F7A300EB9792 /* dockerfile.js in Resources */,
 				3FBD39F31B56F7A300EB9792 /* mode-jsx.js in Resources */,
 				3FBD39E91B56F7A300EB9792 /* mode-html_ruby.js in Resources */,
 				3FBD3A9C1B56F7A300EB9792 /* rust.js in Resources */,
+				3F76BF061B59EBD600692E5E /* sml.plist in Resources */,
 				3FBD3A841B56F7A300EB9792 /* maze.js in Resources */,
 				3FBD39DA1B56F7A300EB9792 /* mode-elm.js in Resources */,
+				3F76BEE31B59EBD600692E5E /* java.plist in Resources */,
+				3F76BF021B59EBD600692E5E /* ruby.plist in Resources */,
+				3F76BED41B59EBD600692E5E /* d.plist in Resources */,
 				3FBD3A461B56F7A300EB9792 /* c9search.js in Resources */,
 				3FBD3AB51B56F7A300EB9792 /* velocity.js in Resources */,
 				3FBD3AE21B56F7A300EB9792 /* worker-lua.js in Resources */,
 				3FBD3A161B56F7A300EB9792 /* mode-properties.js in Resources */,
+				3F76BEE01B59EBD600692E5E /* header.plist in Resources */,
 				3FBD3AAB1B56F7A300EB9792 /* svg.js in Resources */,
 				3FBD3A801B56F7A300EB9792 /* makefile.js in Resources */,
+				3F76BEEF1B59EBD600692E5E /* metapost.plist in Resources */,
+				3F76BEC91B59EBD600692E5E /* aspdotnet-vb.plist in Resources */,
 				3FBD3A9F1B56F7A300EB9792 /* scala.js in Resources */,
 				3FBD39D91B56F7A300EB9792 /* mode-elixir.js in Resources */,
 				3FBD39BD1B56F7A300EB9792 /* mode-abap.js in Resources */,
@@ -1696,11 +2050,16 @@
 				3FBD3AA31B56F7A300EB9792 /* sjs.js in Resources */,
 				3FBD39D41B56F7A300EB9792 /* mode-django.js in Resources */,
 				3FBD39AA1B56F7A300EB9792 /* ext-elastic_tabstops_lite.js in Resources */,
+				3F76BF031B59EBD600692E5E /* scala.plist in Resources */,
+				3F76BEBF1B59EBD600692E5E /* active4d.plist in Resources */,
+				3F76BEDB1B59EBD600692E5E /* freefem.plist in Resources */,
 				3FBD39CE1B56F7A300EB9792 /* mode-csharp.js in Resources */,
+				3F76BEDE1B59EBD600692E5E /* graphviz.plist in Resources */,
 				3FBD3A041B56F7A300EB9792 /* mode-matlab.js in Resources */,
 				3FBD3A5A1B56F7A300EB9792 /* erlang.js in Resources */,
 				3FBD3AC71B56F7A300EB9792 /* theme-iplastic.js in Resources */,
 				3FBD3AC21B56F7A300EB9792 /* theme-dawn.js in Resources */,
+				3F76BEC81B59EBD600692E5E /* aspdotnet-cs.plist in Resources */,
 				3FBD39A91B56F7A300EB9792 /* ext-chromevox.js in Resources */,
 				3FBD3AB21B56F7A300EB9792 /* typescript.js in Resources */,
 				3FBD3B851B59C29C00EB9792 /* NRepositoryTableViewCell.xib in Resources */,
@@ -1708,39 +2067,57 @@
 				3FBD39CF1B56F7A300EB9792 /* mode-css.js in Resources */,
 				3FBD39AF1B56F7A300EB9792 /* ext-linking.js in Resources */,
 				3FBD3AE01B56F7A300EB9792 /* worker-javascript.js in Resources */,
+				3F76BEDC1B59EBD600692E5E /* gedcom.plist in Resources */,
 				3FBD3A7C1B56F7A300EB9792 /* lsl.js in Resources */,
+				3F76BF091B59EBD600692E5E /* stata.plist in Resources */,
+				3F76BEC51B59EBD600692E5E /* asm-x86.plist in Resources */,
 				3FBD39B81B56F7A300EB9792 /* ext-textarea.js in Resources */,
 				3FBD39F41B56F7A300EB9792 /* mode-julia.js in Resources */,
 				3FBD3ABA1B56F7A300EB9792 /* yaml.js in Resources */,
 				3FBD39FA1B56F7A300EB9792 /* mode-live_script.js in Resources */,
+				3F76BEDD1B59EBD600692E5E /* gnuassembler.plist in Resources */,
 				3FBD3AC81B56F7A300EB9792 /* theme-katzenmilch.js in Resources */,
 				3FBD3A4C1B56F7A300EB9792 /* coldfusion.js in Resources */,
+				3F76BECB1B59EBD600692E5E /* batch.plist in Resources */,
 				3FBD3A7B1B56F7A300EB9792 /* logiql.js in Resources */,
 				3FBD3A741B56F7A300EB9792 /* latex.js in Resources */,
 				3FBD39D31B56F7A300EB9792 /* mode-diff.js in Resources */,
 				3FBD3AAD1B56F7A300EB9792 /* tex.js in Resources */,
+				3F76BECA1B59EBD600692E5E /* awk.plist in Resources */,
 				3FBD3A471B56F7A300EB9792 /* c_cpp.js in Resources */,
 				3FBD3A7D1B56F7A300EB9792 /* lua.js in Resources */,
+				3F76BF0C1B59EBD600692E5E /* torquescript.plist in Resources */,
 				3FBD3A121B56F7A300EB9792 /* mode-plain_text.js in Resources */,
+				3F76BEE11B59EBD600692E5E /* html.plist in Resources */,
 				3FBD39C71B56F7A300EB9792 /* mode-c9search.js in Resources */,
 				3FBD3B5F1B597AC500EB9792 /* file@2x.png in Resources */,
 				3FBD3A1C1B56F7A300EB9792 /* mode-ruby.js in Resources */,
 				3FBD39F21B56F7A300EB9792 /* mode-jsp.js in Resources */,
+				3F76BF0B1B59EBD600692E5E /* tcltk.plist in Resources */,
 				3FBD39CD1B56F7A300EB9792 /* mode-coldfusion.js in Resources */,
 				3FBD39A71B56F7A300EB9792 /* ace.js in Resources */,
 				3FBD39D11B56F7A300EB9792 /* mode-d.js in Resources */,
 				3FBD3AE31B56F7A300EB9792 /* worker-php.js in Resources */,
+				3F76BEFA1B59EBD600692E5E /* perl.plist in Resources */,
 				3FBD3A991B56F7A300EB9792 /* rdoc.js in Resources */,
 				3FBD3AA41B56F7A300EB9792 /* smarty.js in Resources */,
 				3FBD39C81B56F7A300EB9792 /* mode-c_cpp.js in Resources */,
 				3FBD3AA11B56F7A300EB9792 /* scss.js in Resources */,
 				3FBD39FF1B56F7A300EB9792 /* mode-luapage.js in Resources */,
 				3FBD39F01B56F7A300EB9792 /* mode-json.js in Resources */,
+				3F76BEBD1B59EBD600692E5E /* actionscript.plist in Resources */,
 				3FBD39AB1B56F7A300EB9792 /* ext-emmet.js in Resources */,
+				3F76BEDA1B59EBD600692E5E /* fortran.plist in Resources */,
+				3F76BED51B59EBD600692E5E /* dylan.plist in Resources */,
+				3F76BED01B59EBD600692E5E /* cpp.plist in Resources */,
 				3FBD3AC51B56F7A300EB9792 /* theme-github.js in Resources */,
+				3F76BEE21B59EBD600692E5E /* idl.plist in Resources */,
 				3FBD3A7A1B56F7A300EB9792 /* livescript.js in Resources */,
+				3F76BED21B59EBD600692E5E /* csound.plist in Resources */,
+				3F76BEF01B59EBD600692E5E /* metaslang.plist in Resources */,
 				3FBD39A81B56F7A300EB9792 /* ext-beautify.js in Resources */,
 				3FBD3AAA1B56F7A300EB9792 /* stylus.js in Resources */,
+				3F76BEBE1B59EBD600692E5E /* actionscript3.plist in Resources */,
 				3FBD39DD1B56F7A300EB9792 /* mode-ftl.js in Resources */,
 				3FBD3AD31B56F7A300EB9792 /* theme-terminal.js in Resources */,
 				3FBD39F91B56F7A300EB9792 /* mode-lisp.js in Resources */,
@@ -1752,9 +2129,11 @@
 				3FBD39C91B56F7A300EB9792 /* mode-cirru.js in Resources */,
 				3FBD39F51B56F7A300EB9792 /* mode-latex.js in Resources */,
 				3FBD3ADC1B56F7A300EB9792 /* theme-xcode.js in Resources */,
+				3F76BEF81B59EBD600692E5E /* pascal.plist in Resources */,
 				3FBD383E1B56DD9100EB9792 /* Images.xcassets in Resources */,
 				3FBD3A251B56F7A300EB9792 /* mode-smarty.js in Resources */,
 				3FBD3A141B56F7A300EB9792 /* mode-praat.js in Resources */,
+				3F76BF0D1B59EBD600692E5E /* udo.plist in Resources */,
 				3FBD3AC61B56F7A300EB9792 /* theme-idle_fingers.js in Resources */,
 				3FBD3AA51B56F7A300EB9792 /* snippets.js in Resources */,
 				3FBD3A811B56F7A300EB9792 /* markdown.js in Resources */,
@@ -1771,12 +2150,17 @@
 				3FBD3AC31B56F7A300EB9792 /* theme-dreamweaver.js in Resources */,
 				3FBD3A9E1B56F7A300EB9792 /* scad.js in Resources */,
 				3FBD3A091B56F7A300EB9792 /* mode-mushcode.js in Resources */,
+				3F76BEFD1B59EBD600692E5E /* postscript.plist in Resources */,
 				3FBD39B71B56F7A300EB9792 /* ext-statusbar.js in Resources */,
 				3FBD3A721B56F7A300EB9792 /* jsx.js in Resources */,
+				3F76BEE91B59EBD600692E5E /* lisp.plist in Resources */,
 				3FBD3ADD1B56F7A300EB9792 /* worker-coffee.js in Resources */,
+				3F76BEE81B59EBD600692E5E /* lilypond.plist in Resources */,
 				3FBD39B51B56F7A300EB9792 /* ext-split.js in Resources */,
+				3F76BEC31B59EBD600692E5E /* applescript.plist in Resources */,
 				3FBD3ADF1B56F7A300EB9792 /* worker-html.js in Resources */,
 				3FBD3AE71B56F7E100EB9792 /* editor.html in Resources */,
+				3F76BEC71B59EBD600692E5E /* asp-vb.plist in Resources */,
 				3FBD3AE41B56F7A300EB9792 /* worker-xml.js in Resources */,
 				3FBD3A421B56F7A300EB9792 /* asciidoc.js in Resources */,
 				3FBD3A3B1B56F7A300EB9792 /* mode-yaml.js in Resources */,
@@ -1786,13 +2170,16 @@
 				3FBD3A481B56F7A300EB9792 /* cirru.js in Resources */,
 				3FBD39FD1B56F7A300EB9792 /* mode-lsl.js in Resources */,
 				3FBD3A061B56F7A300EB9792 /* mode-mel.js in Resources */,
+				3F76BEF31B59EBD600692E5E /* none.plist in Resources */,
 				3FBD39C41B56F7A300EB9792 /* mode-assembly_x86.js in Resources */,
 				3FBD3A2C1B56F7A300EB9792 /* mode-svg.js in Resources */,
 				3FBD3A2B1B56F7A300EB9792 /* mode-stylus.js in Resources */,
 				3FBD3AB11B56F7A300EB9792 /* twig.js in Resources */,
+				3F76BEC11B59EBD600692E5E /* ampl.plist in Resources */,
 				3FBD3A331B56F7A300EB9792 /* mode-typescript.js in Resources */,
 				3FBD3A351B56F7A300EB9792 /* mode-vbscript.js in Resources */,
 				3FBD3A181B56F7A300EB9792 /* mode-python.js in Resources */,
+				3F76BECE1B59EBD600692E5E /* coffeescript.plist in Resources */,
 				3FBD3A8B1B56F7A300EB9792 /* objectivec.js in Resources */,
 				3FBD3A0D1B56F7A300EB9792 /* mode-ocaml.js in Resources */,
 				3FBD3A8F1B56F7A300EB9792 /* pgsql.js in Resources */,
@@ -1809,6 +2196,7 @@
 				3FBD3A4A1B56F7A300EB9792 /* cobol.js in Resources */,
 				3FBD3AA71B56F7A300EB9792 /* space.js in Resources */,
 				3FBD3AAC1B56F7A300EB9792 /* tcl.js in Resources */,
+				3F76BF0A1B59EBD600692E5E /* supercollider.plist in Resources */,
 				3FBD3A571B56F7A300EB9792 /* ejs.js in Resources */,
 				3FBD3A111B56F7A300EB9792 /* mode-php.js in Resources */,
 				3FBD3A0B1B56F7A300EB9792 /* mode-nix.js in Resources */,
@@ -1818,6 +2206,7 @@
 				3FBD3ABD1B56F7A300EB9792 /* theme-chrome.js in Resources */,
 				3FBD3A8C1B56F7A300EB9792 /* ocaml.js in Resources */,
 				3FBD3A861B56F7A300EB9792 /* mips_assembler.js in Resources */,
+				3F76BEE71B59EBD600692E5E /* latex.plist in Resources */,
 				3FBD3ADB1B56F7A300EB9792 /* theme-vibrant_ink.js in Resources */,
 				3FBD3B5B1B596B5D00EB9792 /* folder@2x.png in Resources */,
 				3FBD3A851B56F7A300EB9792 /* mel.js in Resources */,
@@ -1872,6 +2261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FBD3B441B582B1C00EB9792 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */,
+				3F76BE641B59EBC100692E5E /* CYRTextStorage.m in Sources */,
 				3FBD3B3F1B582B1C00EB9792 /* RATreeNodeController.m in Sources */,
 				3FBD3B401B582B1C00EB9792 /* RATreeNodeItem+Private.m in Sources */,
 				3FBD3B471B582B1C00EB9792 /* RATreeView+UIScrollView.m in Sources */,
@@ -1883,15 +2273,19 @@
 				3FBD3B4C1B59657D00EB9792 /* NTreeTableViewCell.m in Sources */,
 				3FBD3B481B582B1C00EB9792 /* RATreeView.m in Sources */,
 				3FBD3B101B5780E800EB9792 /* NTreeViewController.m in Sources */,
+				3F76BE631B59EBC100692E5E /* CYRLayoutManager.m in Sources */,
+				3F76BF141B59EBE600692E5E /* QEDTextView.m in Sources */,
 				3FBD3B791B59B0B900EB9792 /* NRepositoriesViewController.m in Sources */,
 				3FBD3B421B582B1C00EB9792 /* RATreeView+Enums.m in Sources */,
 				3FBD3B461B582B1C00EB9792 /* RATreeView+TableViewDelegate.m in Sources */,
 				3FBD38361B56DD9100EB9792 /* AppDelegate.m in Sources */,
 				3FBD3B3C1B582B1C00EB9792 /* RABatchChanges.m in Sources */,
 				3FBD3AEB1B56F8B300EB9792 /* NEditorViewController.m in Sources */,
+				3F76BE651B59EBC100692E5E /* CYRTextView.m in Sources */,
 				3FBD38331B56DD9100EB9792 /* main.m in Sources */,
 				3FBD3B3E1B582B1C00EB9792 /* RATreeNodeCollectionController.m in Sources */,
 				3FBD3B841B59C29C00EB9792 /* NRepositoryTableViewCell.m in Sources */,
+				3F76BE661B59EBC100692E5E /* CYRToken.m in Sources */,
 				3FBD3B161B581CDB00EB9792 /* NTreeItem.m in Sources */,
 				3FBD3B431B582B1C00EB9792 /* RATreeView+Private.m in Sources */,
 			);
