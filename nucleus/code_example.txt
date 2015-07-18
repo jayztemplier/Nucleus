@@ -1,0 +1,30 @@
+//
+//  ViewController.m
+//  nucleus
+//
+//  Created by Jeremy Templier on 15/07/15.
+//  Copyright (c) 2015 Jeremy Templier. All rights reserved.
+//
+
+#import "ViewController.h"
+#import "NEditorViewController.h"
+
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NEditorViewController *controller = [[NEditorViewController alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end
