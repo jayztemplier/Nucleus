@@ -7,23 +7,28 @@
 //
 
 #import "NEditorViewController.h"
-#import "QEDTextView.h"
+#import "RPSyntaxHighlighter.h"
+#import "RPLanguages.h"
+
+#define USE_NATIVE_EDITOR YES
 
 @interface NEditorViewController ()
 @property (nonatomic, strong) UIWebView *editorWebView;
-@property (nonatomic, strong) QEDTextView *textView;
+@property (nonatomic, strong) UITextView *textView;
 @end
 
 @implementation NEditorViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _textView = [[QEDTextView alloc] initWithFrame:self.view.bounds];
-    _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
-//    _textView.delegate = self;
-    [self.view addSubview:_textView];
-    
-//    [self.view addSubview:self.editorWebView];
+    if (USE_NATIVE_EDITOR) {
+        _textView = [[UITextView alloc] initWithFrame:self.view.bounds];
+        _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
+        _textView.backgroundColor = [UIColor blackColor];
+        [self.view addSubview:_textView];
+    } else {
+        [self.view addSubview:self.editorWebView];
+    }
     [self.view setBackgroundColor:[UIColor blackColor]];
     [self loadFile:_filePath];
 }
@@ -37,16 +42,21 @@
     NSString* htmlFilePath = [[NSBundle mainBundle] pathForResource:@"editor" ofType:@"html"];
     NSString *htmlString = [NSString stringWithContentsOfFile:htmlFilePath encoding:NSUTF8StringEncoding error:nil];
     NSString *code = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
-    if (code) {
-        _textView.text = code;
-        return;
-
-        htmlString = [htmlString stringByReplacingOccurrencesOfString:@"{{CODE}}" withString:code];
+    if (USE_NATIVE_EDITOR) {
+        if (code) {
+            NSString *extension = [[filePath componentsSeparatedByString:@"."] lastObject];
+            _textView.attributedText = [RPSyntaxHighlighter highlightCode:code withLanguage:[RPLanguages languageForFileExtension:extension]];
+        } else {
+            _textView.text = @"";
+        }
     } else {
-        return;
-        htmlString = [htmlString stringByReplacingOccurrencesOfString:@"{{CODE}}" withString:@""];
+        if (code) {
+            htmlString = [htmlString stringByReplacingOccurrencesOfString:@"{{CODE}}" withString:code];
+        } else {
+            htmlString = [htmlString stringByReplacingOccurrencesOfString:@"{{CODE}}" withString:@""];
+        }
+        [self.editorWebView loadHTMLString:htmlString baseURL:[NSURL URLWithString:@""]];
     }
-    [self.editorWebView loadHTMLString:htmlString baseURL:[NSURL URLWithString:@""]];
 }
 
 - (void)setFilePath:(NSString *)filePath {

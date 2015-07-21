@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		3F76BE4A1B59E43D00692E5E /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F76BE491B59E43D00692E5E /* ObjectiveGit.framework */; };
 		3F76BE4B1B59E43D00692E5E /* ObjectiveGit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F76BE491B59E43D00692E5E /* ObjectiveGit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3F76BE631B59EBC100692E5E /* CYRLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BE5C1B59EBC100692E5E /* CYRLayoutManager.m */; };
-		3F76BE641B59EBC100692E5E /* CYRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BE5E1B59EBC100692E5E /* CYRTextStorage.m */; };
-		3F76BE651B59EBC100692E5E /* CYRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BE601B59EBC100692E5E /* CYRTextView.m */; };
-		3F76BE661B59EBC100692E5E /* CYRToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BE621B59EBC100692E5E /* CYRToken.m */; };
 		3F76BEBD1B59EBD600692E5E /* actionscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE681B59EBD600692E5E /* actionscript.plist */; };
 		3F76BEBE1B59EBD600692E5E /* actionscript3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE691B59EBD600692E5E /* actionscript3.plist */; };
 		3F76BEBF1B59EBD600692E5E /* active4d.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE6A1B59EBD600692E5E /* active4d.plist */; };
@@ -98,7 +94,14 @@
 		3F76BF0F1B59EBD600692E5E /* verilog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEBA1B59EBD600692E5E /* verilog.plist */; };
 		3F76BF101B59EBD600692E5E /* vhdl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEBB1B59EBD600692E5E /* vhdl.plist */; };
 		3F76BF111B59EBD600692E5E /* xml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BEBC1B59EBD600692E5E /* xml.plist */; };
-		3F76BF141B59EBE600692E5E /* QEDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BF131B59EBE600692E5E /* QEDTextView.m */; };
+		3F76BF2A1B5DB9AA00692E5E /* RPScopedMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BF1F1B5DB9AA00692E5E /* RPScopedMatch.m */; };
+		3F76BF2B1B5DB9AA00692E5E /* RPSyntaxHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BF211B5DB9AA00692E5E /* RPSyntaxHighlighter.m */; };
+		3F76BF2C1B5DB9AA00692E5E /* RPSyntaxMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BF231B5DB9AA00692E5E /* RPSyntaxMatcher.m */; };
+		3F76BF2D1B5DB9AA00692E5E /* RPSyntaxTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BF251B5DB9AA00692E5E /* RPSyntaxTheme.m */; };
+		3F76BF2E1B5DB9AA00692E5E /* tomorrow-night.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BF271B5DB9AA00692E5E /* tomorrow-night.json */; };
+		3F76BF2F1B5DB9AA00692E5E /* UIColor+RPSyntaxAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BF291B5DB9AA00692E5E /* UIColor+RPSyntaxAdditions.m */; };
+		3F76BF311B5DBAB400692E5E /* generic.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BF301B5DBAB400692E5E /* generic.json */; };
+		3F76BF341B5E0C2900692E5E /* RPLanguages.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F76BF331B5E0C2900692E5E /* RPLanguages.m */; };
 		3FBD38331B56DD9100EB9792 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD38321B56DD9100EB9792 /* main.m */; };
 		3FBD38361B56DD9100EB9792 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD38351B56DD9100EB9792 /* AppDelegate.m */; };
 		3FBD38391B56DD9100EB9792 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD38381B56DD9100EB9792 /* ViewController.m */; };
@@ -515,14 +518,6 @@
 /* Begin PBXFileReference section */
 		357B5DE6DCD283BD23927111 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3F76BE491B59E43D00692E5E /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = "builds/nucleus/Build/Products/Debug-iphoneos/ObjectiveGit.framework"; sourceTree = "<group>"; };
-		3F76BE5B1B59EBC100692E5E /* CYRLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRLayoutManager.h; sourceTree = "<group>"; };
-		3F76BE5C1B59EBC100692E5E /* CYRLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRLayoutManager.m; sourceTree = "<group>"; };
-		3F76BE5D1B59EBC100692E5E /* CYRTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRTextStorage.h; sourceTree = "<group>"; };
-		3F76BE5E1B59EBC100692E5E /* CYRTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRTextStorage.m; sourceTree = "<group>"; };
-		3F76BE5F1B59EBC100692E5E /* CYRTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRTextView.h; sourceTree = "<group>"; };
-		3F76BE601B59EBC100692E5E /* CYRTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRTextView.m; sourceTree = "<group>"; };
-		3F76BE611B59EBC100692E5E /* CYRToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRToken.h; sourceTree = "<group>"; };
-		3F76BE621B59EBC100692E5E /* CYRToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRToken.m; sourceTree = "<group>"; };
 		3F76BE681B59EBD600692E5E /* actionscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript.plist; sourceTree = "<group>"; };
 		3F76BE691B59EBD600692E5E /* actionscript3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript3.plist; sourceTree = "<group>"; };
 		3F76BE6A1B59EBD600692E5E /* active4d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = active4d.plist; sourceTree = "<group>"; };
@@ -608,8 +603,20 @@
 		3F76BEBA1B59EBD600692E5E /* verilog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = verilog.plist; sourceTree = "<group>"; };
 		3F76BEBB1B59EBD600692E5E /* vhdl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vhdl.plist; sourceTree = "<group>"; };
 		3F76BEBC1B59EBD600692E5E /* xml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = xml.plist; sourceTree = "<group>"; };
-		3F76BF121B59EBE600692E5E /* QEDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QEDTextView.h; sourceTree = "<group>"; };
-		3F76BF131B59EBE600692E5E /* QEDTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QEDTextView.m; sourceTree = "<group>"; };
+		3F76BF1E1B5DB9AA00692E5E /* RPScopedMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPScopedMatch.h; sourceTree = "<group>"; };
+		3F76BF1F1B5DB9AA00692E5E /* RPScopedMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPScopedMatch.m; sourceTree = "<group>"; };
+		3F76BF201B5DB9AA00692E5E /* RPSyntaxHighlighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSyntaxHighlighter.h; sourceTree = "<group>"; };
+		3F76BF211B5DB9AA00692E5E /* RPSyntaxHighlighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSyntaxHighlighter.m; sourceTree = "<group>"; };
+		3F76BF221B5DB9AA00692E5E /* RPSyntaxMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSyntaxMatcher.h; sourceTree = "<group>"; };
+		3F76BF231B5DB9AA00692E5E /* RPSyntaxMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSyntaxMatcher.m; sourceTree = "<group>"; };
+		3F76BF241B5DB9AA00692E5E /* RPSyntaxTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSyntaxTheme.h; sourceTree = "<group>"; };
+		3F76BF251B5DB9AA00692E5E /* RPSyntaxTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSyntaxTheme.m; sourceTree = "<group>"; };
+		3F76BF271B5DB9AA00692E5E /* tomorrow-night.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "tomorrow-night.json"; sourceTree = "<group>"; };
+		3F76BF281B5DB9AA00692E5E /* UIColor+RPSyntaxAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RPSyntaxAdditions.h"; sourceTree = "<group>"; };
+		3F76BF291B5DB9AA00692E5E /* UIColor+RPSyntaxAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RPSyntaxAdditions.m"; sourceTree = "<group>"; };
+		3F76BF301B5DBAB400692E5E /* generic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = generic.json; sourceTree = "<group>"; };
+		3F76BF321B5E0C2900692E5E /* RPLanguages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLanguages.h; sourceTree = "<group>"; };
+		3F76BF331B5E0C2900692E5E /* RPLanguages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLanguages.m; sourceTree = "<group>"; };
 		3FBD382D1B56DD9100EB9792 /* nucleus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nucleus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBD38311B56DD9100EB9792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FBD38321B56DD9100EB9792 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1024,21 +1031,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F76BE5A1B59EBC100692E5E /* CYRTextView */ = {
-			isa = PBXGroup;
-			children = (
-				3F76BE5B1B59EBC100692E5E /* CYRLayoutManager.h */,
-				3F76BE5C1B59EBC100692E5E /* CYRLayoutManager.m */,
-				3F76BE5D1B59EBC100692E5E /* CYRTextStorage.h */,
-				3F76BE5E1B59EBC100692E5E /* CYRTextStorage.m */,
-				3F76BE5F1B59EBC100692E5E /* CYRTextView.h */,
-				3F76BE601B59EBC100692E5E /* CYRTextView.m */,
-				3F76BE611B59EBC100692E5E /* CYRToken.h */,
-				3F76BE621B59EBC100692E5E /* CYRToken.m */,
-			);
-			path = CYRTextView;
-			sourceTree = "<group>";
-		};
 		3F76BE671B59EBD600692E5E /* Syntax Definitions */ = {
 			isa = PBXGroup;
 			children = (
@@ -1134,12 +1126,39 @@
 		3F76BF151B59EBE900692E5E /* SyntaxHighlighter */ = {
 			isa = PBXGroup;
 			children = (
-				3F76BF121B59EBE600692E5E /* QEDTextView.h */,
-				3F76BF131B59EBE600692E5E /* QEDTextView.m */,
+				3F76BF1D1B5DB9AA00692E5E /* RPSyntaxHighlighter */,
 				3F76BE671B59EBD600692E5E /* Syntax Definitions */,
-				3F76BE5A1B59EBC100692E5E /* CYRTextView */,
 			);
 			name = SyntaxHighlighter;
+			sourceTree = "<group>";
+		};
+		3F76BF1D1B5DB9AA00692E5E /* RPSyntaxHighlighter */ = {
+			isa = PBXGroup;
+			children = (
+				3F76BF301B5DBAB400692E5E /* generic.json */,
+				3F76BF1E1B5DB9AA00692E5E /* RPScopedMatch.h */,
+				3F76BF1F1B5DB9AA00692E5E /* RPScopedMatch.m */,
+				3F76BF201B5DB9AA00692E5E /* RPSyntaxHighlighter.h */,
+				3F76BF211B5DB9AA00692E5E /* RPSyntaxHighlighter.m */,
+				3F76BF221B5DB9AA00692E5E /* RPSyntaxMatcher.h */,
+				3F76BF231B5DB9AA00692E5E /* RPSyntaxMatcher.m */,
+				3F76BF241B5DB9AA00692E5E /* RPSyntaxTheme.h */,
+				3F76BF251B5DB9AA00692E5E /* RPSyntaxTheme.m */,
+				3F76BF321B5E0C2900692E5E /* RPLanguages.h */,
+				3F76BF331B5E0C2900692E5E /* RPLanguages.m */,
+				3F76BF261B5DB9AA00692E5E /* Themes */,
+				3F76BF281B5DB9AA00692E5E /* UIColor+RPSyntaxAdditions.h */,
+				3F76BF291B5DB9AA00692E5E /* UIColor+RPSyntaxAdditions.m */,
+			);
+			path = RPSyntaxHighlighter;
+			sourceTree = "<group>";
+		};
+		3F76BF261B5DB9AA00692E5E /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				3F76BF271B5DB9AA00692E5E /* tomorrow-night.json */,
+			);
+			path = Themes;
 			sourceTree = "<group>";
 		};
 		3FBD38241B56DD9100EB9792 = {
@@ -1966,6 +1985,7 @@
 				3FBD39F81B56F7A300EB9792 /* mode-liquid.js in Resources */,
 				3FBD3AD81B56F7A300EB9792 /* theme-tomorrow_night_bright.js in Resources */,
 				3FBD3A831B56F7A300EB9792 /* matlab.js in Resources */,
+				3F76BF2E1B5DB9AA00692E5E /* tomorrow-night.json in Resources */,
 				3FBD3A781B56F7A300EB9792 /* lisp.js in Resources */,
 				3FBD3A561B56F7A300EB9792 /* eiffel.js in Resources */,
 				3FBD39B21B56F7A300EB9792 /* ext-searchbox.js in Resources */,
@@ -2063,6 +2083,7 @@
 				3FBD39A91B56F7A300EB9792 /* ext-chromevox.js in Resources */,
 				3FBD3AB21B56F7A300EB9792 /* typescript.js in Resources */,
 				3FBD3B851B59C29C00EB9792 /* NRepositoryTableViewCell.xib in Resources */,
+				3F76BF311B5DBAB400692E5E /* generic.json in Resources */,
 				3FBD3A6B1B56F7A300EB9792 /* jack.js in Resources */,
 				3FBD39CF1B56F7A300EB9792 /* mode-css.js in Resources */,
 				3FBD39AF1B56F7A300EB9792 /* ext-linking.js in Resources */,
@@ -2261,9 +2282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FBD3B441B582B1C00EB9792 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */,
-				3F76BE641B59EBC100692E5E /* CYRTextStorage.m in Sources */,
 				3FBD3B3F1B582B1C00EB9792 /* RATreeNodeController.m in Sources */,
 				3FBD3B401B582B1C00EB9792 /* RATreeNodeItem+Private.m in Sources */,
+				3F76BF2B1B5DB9AA00692E5E /* RPSyntaxHighlighter.m in Sources */,
 				3FBD3B471B582B1C00EB9792 /* RATreeView+UIScrollView.m in Sources */,
 				3FBD3B3D1B582B1C00EB9792 /* RATreeNode.m in Sources */,
 				3FBD3B451B582B1C00EB9792 /* RATreeView+TableViewDataSource.m in Sources */,
@@ -2271,21 +2292,22 @@
 				3FBD3B411B582B1C00EB9792 /* RATreeNodeItem.m in Sources */,
 				3FBD38391B56DD9100EB9792 /* ViewController.m in Sources */,
 				3FBD3B4C1B59657D00EB9792 /* NTreeTableViewCell.m in Sources */,
+				3F76BF341B5E0C2900692E5E /* RPLanguages.m in Sources */,
 				3FBD3B481B582B1C00EB9792 /* RATreeView.m in Sources */,
 				3FBD3B101B5780E800EB9792 /* NTreeViewController.m in Sources */,
-				3F76BE631B59EBC100692E5E /* CYRLayoutManager.m in Sources */,
-				3F76BF141B59EBE600692E5E /* QEDTextView.m in Sources */,
 				3FBD3B791B59B0B900EB9792 /* NRepositoriesViewController.m in Sources */,
+				3F76BF2F1B5DB9AA00692E5E /* UIColor+RPSyntaxAdditions.m in Sources */,
 				3FBD3B421B582B1C00EB9792 /* RATreeView+Enums.m in Sources */,
 				3FBD3B461B582B1C00EB9792 /* RATreeView+TableViewDelegate.m in Sources */,
+				3F76BF2A1B5DB9AA00692E5E /* RPScopedMatch.m in Sources */,
 				3FBD38361B56DD9100EB9792 /* AppDelegate.m in Sources */,
 				3FBD3B3C1B582B1C00EB9792 /* RABatchChanges.m in Sources */,
+				3F76BF2C1B5DB9AA00692E5E /* RPSyntaxMatcher.m in Sources */,
+				3F76BF2D1B5DB9AA00692E5E /* RPSyntaxTheme.m in Sources */,
 				3FBD3AEB1B56F8B300EB9792 /* NEditorViewController.m in Sources */,
-				3F76BE651B59EBC100692E5E /* CYRTextView.m in Sources */,
 				3FBD38331B56DD9100EB9792 /* main.m in Sources */,
 				3FBD3B3E1B582B1C00EB9792 /* RATreeNodeCollectionController.m in Sources */,
 				3FBD3B841B59C29C00EB9792 /* NRepositoryTableViewCell.m in Sources */,
-				3F76BE661B59EBC100692E5E /* CYRToken.m in Sources */,
 				3FBD3B161B581CDB00EB9792 /* NTreeItem.m in Sources */,
 				3FBD3B431B582B1C00EB9792 /* RATreeView+Private.m in Sources */,
 			);

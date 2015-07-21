@@ -23,9 +23,9 @@
 	<key>secondSingleLineComment</key>
 	<string></string>
 	<key>beginFirstMultiLineComment</key>
-	<string>/*</string>
+	<string>/\*</string>
 	<key>endFirstMultiLineComment</key>
-	<string>*/</string>
+	<string>\*/</string>
 	<key>beginSecondMultiLineComment</key>
 	<string></string>
 	<key>endSecondMultiLineComment</key>
