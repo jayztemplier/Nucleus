@@ -49,7 +49,6 @@
     NSMutableArray *matchers = [[NSMutableArray alloc] init];
     NSString *pattern;
 
-//    </?\w+\s+[^>]*>
     NSString *beginCommand = syntaxDefinition[@"beginCommand"], *endCommand = syntaxDefinition[@"endCommand"];
     if (beginCommand.length && endCommand.length) {
         pattern = [NSString stringWithFormat:@"(%@/?\\w+[^%@]*%@)", beginCommand, endCommand, endCommand];
@@ -109,6 +108,10 @@
     
     BOOL caseSensitive = [syntaxDefinition[@"keywordsCaseSensitive"] boolValue];
     NSArray *keywords = syntaxDefinition[@"keywords"];
+    NSArray *autocomplete = syntaxDefinition[@"autocompleteWords"];
+    if (autocomplete && autocomplete.count) {
+        keywords = [[keywords mutableCopy] arrayByAddingObjectsFromArray:autocomplete];
+    }
     if (keywords && keywords.count) {
         NSMutableString *pattern = [[NSMutableString alloc] initWithString:@"\\b("];
         for (int i = 0; i < keywords.count; i++) {
@@ -123,6 +126,16 @@
         matcher.pattern = [NSRegularExpression regularExpressionWithPattern:pattern options:caseSensitive ? NSRegularExpressionCaseInsensitive : 0 error:nil];
         matcher.scopes = @[@"keyword"];
         [matchers addObject:matcher];
+    }
+    
+    NSArray *customPatterns = syntaxDefinition[@"customPatterns"];
+    if (customPatterns && customPatterns.count) {
+        for (NSDictionary *pattern in customPatterns) {
+            RPSyntaxMatcher *matcher = [[RPSyntaxMatcher alloc] init];
+            matcher.pattern = [NSRegularExpression regularExpressionWithPattern:pattern[@"regexp"] options:caseSensitive ? NSRegularExpressionCaseInsensitive : 0 error:nil];
+            matcher.scopes = @[pattern[@"scope"]];
+            [matchers addObject:matcher];
+        }
     }
     return matchers;
 }

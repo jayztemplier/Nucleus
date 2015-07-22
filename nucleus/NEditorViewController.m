@@ -12,9 +12,10 @@
 
 #define USE_NATIVE_EDITOR YES
 
-@interface NEditorViewController ()
+@interface NEditorViewController () <UITextViewDelegate>
 @property (nonatomic, strong) UIWebView *editorWebView;
 @property (nonatomic, strong) UITextView *textView;
+@property (nonatomic, strong) NSString *language;
 @end
 
 @implementation NEditorViewController
@@ -23,8 +24,18 @@
     [super viewDidLoad];
     if (USE_NATIVE_EDITOR) {
         _textView = [[UITextView alloc] initWithFrame:self.view.bounds];
+
+//        NSTextStorage *textStorage = [[NSTextStorage alloc] initWithAttributedString:textString];
+//        NSLayoutManager *textLayout = [[NSLayoutManager alloc] init];
+//        [textStorage addLayoutManager:textLayout];
+//        NSTextContainer *textContainer = [[NSTextContainer alloc] initWithSize:self.view.bounds.size];
+//        [textLayout addTextContainer:textContainer];
+//        UITextView *textView = [[UITextView alloc] initWithFrame:CGRectMake(20,20,self.view.bounds.size.width-20,self.view.bounds.size.height-20)
+//                                                   textContainer:textContainer];
+        
         _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
         _textView.backgroundColor = [UIColor blackColor];
+        _textView.delegate = self;
         [self.view addSubview:_textView];
     } else {
         [self.view addSubview:self.editorWebView];
@@ -35,7 +46,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)loadFile:(NSString *)filePath {
@@ -43,9 +53,17 @@
     NSString *htmlString = [NSString stringWithContentsOfFile:htmlFilePath encoding:NSUTF8StringEncoding error:nil];
     NSString *code = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
     if (USE_NATIVE_EDITOR) {
+        NSString *extension = [[filePath componentsSeparatedByString:@"."] lastObject];
+        _language = [RPLanguages languageForFileExtension:extension];
         if (code) {
-            NSString *extension = [[filePath componentsSeparatedByString:@"."] lastObject];
-            _textView.attributedText = [RPSyntaxHighlighter highlightCode:code withLanguage:[RPLanguages languageForFileExtension:extension]];
+            __weak __typeof__(self) weakSelf = self;
+            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+                NSAttributedString *attrString = [RPSyntaxHighlighter highlightCode:code withLanguage:weakSelf.language];
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    weakSelf.textView.attributedText = attrString;
+                });
+            });
+
         } else {
             _textView.text = @"";
         }
@@ -80,5 +98,22 @@
         _editorWebView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     }
     return _editorWebView;
+}
+
+#pragma mark - Text View Delegate 
+- (void)textViewDidChange:(UITextView *)textView {
+    __weak __typeof__(self) weakSelf = self;
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSAttributedString *attrString = [RPSyntaxHighlighter highlightCode:textView.text withLanguage:weakSelf.language];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if ([weakSelf.textView.attributedText.string isEqualToString:attrString.string]) {
+                NSRange selectedRange = weakSelf.textView.selectedRange;
+                weakSelf.textView.scrollEnabled = NO;
+                weakSelf.textView.attributedText = attrString;
+                weakSelf.textView.selectedRange = selectedRange;
+                weakSelf.textView.scrollEnabled = YES;
+            }
+        });
+    });
 }
 @end

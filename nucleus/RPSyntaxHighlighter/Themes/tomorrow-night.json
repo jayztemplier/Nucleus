@@ -1,30 +1,63 @@
 {
-  "default" : {
-    "color" : "CDD1CF",
-    "background" : "1C1F21",
-    "font" : "Courier",
-    "fontSize" : 14.0
-  },
-  "keyword" : {
-    "color" : "B193BA"
-  },
-  "constant" : {
-    "color" : "DD935E"
-  },
-  "string" : {
-    "color" : "B5BC67"
-  },
-  "function" : {
-    "color" : "80A1BD"
-  },
-  "method" : {
-    "color" : "80A1BD"
-  },
-  "operator" : {
-    "color" : "89BDB6"
-  },
-  "comment" : {
-    "color" : "959795",
-    "italic" : true
-  }
+    "default" : {
+        "color" : "c5c8c6",
+        "background" : "1d1d21",
+        "font" : "HelveticaNeue",
+        "fontSize" : 14.0
+    },
+    "variable" : {
+        "color" : "C6C5FE"
+    },
+    "constant" : {
+        "color" : "99CC99"
+    },
+    "property" : {
+        "color" : "EDEDED"
+    },
+    "value" : {
+        "color" : "F9EE98"
+    },
+    "function" : {
+        "color" : "DAD085"
+    },
+    "method" : {
+        "color" : "DAD085"
+    },
+    "class" : {
+        "color" : "62B1FE"
+    },
+    "keyword" : {
+        "color" : "96CBFE"
+    },
+    "tag" : {
+        "color" : "96CBFE"
+    },
+    "attribute" : {
+        "color" : "C6C5FE"
+    },
+    "string" : {
+        "color" : "A8FF60"
+    },
+    "operator" : {
+        "color" : "89BDB6"
+    },
+    "numeric" : {
+        "color" : "89BDB6"
+    },
+    "comment" : {
+        "color" : "959795",
+        "italic" : true
+    },
+    "deleted" : {
+        "color" : "CC6666"
+    },
+    "renamed" : {
+        "color" : "96CBFE"
+    },
+    "added" : {
+        "color" : "A8FF60"
+    },
+    "modified" : {
+        "color" : "E9C062"
+    }
 }

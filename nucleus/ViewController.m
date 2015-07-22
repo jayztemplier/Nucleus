@@ -12,6 +12,8 @@
 #import "NTreeItem.h"
 #import "NRepositoriesViewController.h"
 
+#define IS_IPHONE ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+
 @interface ViewController ()
 @property (nonatomic, strong) NTreeViewController *treeViewController;
 @property (nonatomic, strong) NEditorViewController *editorViewController;
@@ -22,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _treeViewController = [[NTreeViewController alloc] initWithTreeItem:nil];
-    _treeViewController.view.frame = CGRectMake(0, 0, 280, CGRectGetHeight(self.view.bounds));
+    _treeViewController.view.frame = CGRectMake(0, 0, IS_IPHONE ? 150 : 280, CGRectGetHeight(self.view.bounds));
     _treeViewController.view.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleRightMargin;
     [self addChildViewController:_treeViewController];
     [self.view addSubview:_treeViewController.view];

@@ -807,5 +807,14 @@
 	</array>
 	<key>autocompleteWords</key>
 	<array/>
+	<key>customPatterns</key>
+	<array>
+		<dict>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>regexp</key>
+			<string>@[a-z0-9-_]+</string>
+		</dict>
+	</array>
 </dict>
 </plist>

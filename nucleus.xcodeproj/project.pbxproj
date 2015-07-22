@@ -109,325 +109,6 @@
 		3FBD383E1B56DD9100EB9792 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD383D1B56DD9100EB9792 /* Images.xcassets */; };
 		3FBD38411B56DD9100EB9792 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD383F1B56DD9100EB9792 /* LaunchScreen.xib */; };
 		3FBD384D1B56DD9100EB9792 /* nucleusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD384C1B56DD9100EB9792 /* nucleusTests.m */; };
-		3FBD39A71B56F7A300EB9792 /* ace.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38671B56F7A300EB9792 /* ace.js */; };
-		3FBD39A81B56F7A300EB9792 /* ext-beautify.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38681B56F7A300EB9792 /* ext-beautify.js */; };
-		3FBD39A91B56F7A300EB9792 /* ext-chromevox.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38691B56F7A300EB9792 /* ext-chromevox.js */; };
-		3FBD39AA1B56F7A300EB9792 /* ext-elastic_tabstops_lite.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD386A1B56F7A300EB9792 /* ext-elastic_tabstops_lite.js */; };
-		3FBD39AB1B56F7A300EB9792 /* ext-emmet.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD386B1B56F7A300EB9792 /* ext-emmet.js */; };
-		3FBD39AC1B56F7A300EB9792 /* ext-error_marker.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD386C1B56F7A300EB9792 /* ext-error_marker.js */; };
-		3FBD39AD1B56F7A300EB9792 /* ext-keybinding_menu.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD386D1B56F7A300EB9792 /* ext-keybinding_menu.js */; };
-		3FBD39AE1B56F7A300EB9792 /* ext-language_tools.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD386E1B56F7A300EB9792 /* ext-language_tools.js */; };
-		3FBD39AF1B56F7A300EB9792 /* ext-linking.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD386F1B56F7A300EB9792 /* ext-linking.js */; };
-		3FBD39B01B56F7A300EB9792 /* ext-modelist.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38701B56F7A300EB9792 /* ext-modelist.js */; };
-		3FBD39B11B56F7A300EB9792 /* ext-old_ie.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38711B56F7A300EB9792 /* ext-old_ie.js */; };
-		3FBD39B21B56F7A300EB9792 /* ext-searchbox.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38721B56F7A300EB9792 /* ext-searchbox.js */; };
-		3FBD39B31B56F7A300EB9792 /* ext-settings_menu.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38731B56F7A300EB9792 /* ext-settings_menu.js */; };
-		3FBD39B41B56F7A300EB9792 /* ext-spellcheck.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38741B56F7A300EB9792 /* ext-spellcheck.js */; };
-		3FBD39B51B56F7A300EB9792 /* ext-split.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38751B56F7A300EB9792 /* ext-split.js */; };
-		3FBD39B61B56F7A300EB9792 /* ext-static_highlight.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38761B56F7A300EB9792 /* ext-static_highlight.js */; };
-		3FBD39B71B56F7A300EB9792 /* ext-statusbar.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38771B56F7A300EB9792 /* ext-statusbar.js */; };
-		3FBD39B81B56F7A300EB9792 /* ext-textarea.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38781B56F7A300EB9792 /* ext-textarea.js */; };
-		3FBD39B91B56F7A300EB9792 /* ext-themelist.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38791B56F7A300EB9792 /* ext-themelist.js */; };
-		3FBD39BA1B56F7A300EB9792 /* ext-whitespace.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD387A1B56F7A300EB9792 /* ext-whitespace.js */; };
-		3FBD39BB1B56F7A300EB9792 /* keybinding-emacs.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD387B1B56F7A300EB9792 /* keybinding-emacs.js */; };
-		3FBD39BC1B56F7A300EB9792 /* keybinding-vim.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD387C1B56F7A300EB9792 /* keybinding-vim.js */; };
-		3FBD39BD1B56F7A300EB9792 /* mode-abap.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD387D1B56F7A300EB9792 /* mode-abap.js */; };
-		3FBD39BE1B56F7A300EB9792 /* mode-abc.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD387E1B56F7A300EB9792 /* mode-abc.js */; };
-		3FBD39BF1B56F7A300EB9792 /* mode-actionscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD387F1B56F7A300EB9792 /* mode-actionscript.js */; };
-		3FBD39C01B56F7A300EB9792 /* mode-ada.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38801B56F7A300EB9792 /* mode-ada.js */; };
-		3FBD39C11B56F7A300EB9792 /* mode-apache_conf.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38811B56F7A300EB9792 /* mode-apache_conf.js */; };
-		3FBD39C21B56F7A300EB9792 /* mode-applescript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38821B56F7A300EB9792 /* mode-applescript.js */; };
-		3FBD39C31B56F7A300EB9792 /* mode-asciidoc.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38831B56F7A300EB9792 /* mode-asciidoc.js */; };
-		3FBD39C41B56F7A300EB9792 /* mode-assembly_x86.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38841B56F7A300EB9792 /* mode-assembly_x86.js */; };
-		3FBD39C51B56F7A300EB9792 /* mode-autohotkey.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38851B56F7A300EB9792 /* mode-autohotkey.js */; };
-		3FBD39C61B56F7A300EB9792 /* mode-batchfile.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38861B56F7A300EB9792 /* mode-batchfile.js */; };
-		3FBD39C71B56F7A300EB9792 /* mode-c9search.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38871B56F7A300EB9792 /* mode-c9search.js */; };
-		3FBD39C81B56F7A300EB9792 /* mode-c_cpp.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38881B56F7A300EB9792 /* mode-c_cpp.js */; };
-		3FBD39C91B56F7A300EB9792 /* mode-cirru.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38891B56F7A300EB9792 /* mode-cirru.js */; };
-		3FBD39CA1B56F7A300EB9792 /* mode-clojure.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD388A1B56F7A300EB9792 /* mode-clojure.js */; };
-		3FBD39CB1B56F7A300EB9792 /* mode-cobol.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD388B1B56F7A300EB9792 /* mode-cobol.js */; };
-		3FBD39CC1B56F7A300EB9792 /* mode-coffee.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD388C1B56F7A300EB9792 /* mode-coffee.js */; };
-		3FBD39CD1B56F7A300EB9792 /* mode-coldfusion.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD388D1B56F7A300EB9792 /* mode-coldfusion.js */; };
-		3FBD39CE1B56F7A300EB9792 /* mode-csharp.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD388E1B56F7A300EB9792 /* mode-csharp.js */; };
-		3FBD39CF1B56F7A300EB9792 /* mode-css.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD388F1B56F7A300EB9792 /* mode-css.js */; };
-		3FBD39D01B56F7A300EB9792 /* mode-curly.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38901B56F7A300EB9792 /* mode-curly.js */; };
-		3FBD39D11B56F7A300EB9792 /* mode-d.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38911B56F7A300EB9792 /* mode-d.js */; };
-		3FBD39D21B56F7A300EB9792 /* mode-dart.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38921B56F7A300EB9792 /* mode-dart.js */; };
-		3FBD39D31B56F7A300EB9792 /* mode-diff.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38931B56F7A300EB9792 /* mode-diff.js */; };
-		3FBD39D41B56F7A300EB9792 /* mode-django.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38941B56F7A300EB9792 /* mode-django.js */; };
-		3FBD39D51B56F7A300EB9792 /* mode-dockerfile.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38951B56F7A300EB9792 /* mode-dockerfile.js */; };
-		3FBD39D61B56F7A300EB9792 /* mode-dot.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38961B56F7A300EB9792 /* mode-dot.js */; };
-		3FBD39D71B56F7A300EB9792 /* mode-eiffel.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38971B56F7A300EB9792 /* mode-eiffel.js */; };
-		3FBD39D81B56F7A300EB9792 /* mode-ejs.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38981B56F7A300EB9792 /* mode-ejs.js */; };
-		3FBD39D91B56F7A300EB9792 /* mode-elixir.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38991B56F7A300EB9792 /* mode-elixir.js */; };
-		3FBD39DA1B56F7A300EB9792 /* mode-elm.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD389A1B56F7A300EB9792 /* mode-elm.js */; };
-		3FBD39DB1B56F7A300EB9792 /* mode-erlang.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD389B1B56F7A300EB9792 /* mode-erlang.js */; };
-		3FBD39DC1B56F7A300EB9792 /* mode-forth.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD389C1B56F7A300EB9792 /* mode-forth.js */; };
-		3FBD39DD1B56F7A300EB9792 /* mode-ftl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD389D1B56F7A300EB9792 /* mode-ftl.js */; };
-		3FBD39DE1B56F7A300EB9792 /* mode-gcode.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD389E1B56F7A300EB9792 /* mode-gcode.js */; };
-		3FBD39DF1B56F7A300EB9792 /* mode-gherkin.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD389F1B56F7A300EB9792 /* mode-gherkin.js */; };
-		3FBD39E01B56F7A300EB9792 /* mode-gitignore.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38A01B56F7A300EB9792 /* mode-gitignore.js */; };
-		3FBD39E11B56F7A300EB9792 /* mode-glsl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38A11B56F7A300EB9792 /* mode-glsl.js */; };
-		3FBD39E21B56F7A300EB9792 /* mode-golang.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38A21B56F7A300EB9792 /* mode-golang.js */; };
-		3FBD39E31B56F7A300EB9792 /* mode-groovy.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38A31B56F7A300EB9792 /* mode-groovy.js */; };
-		3FBD39E41B56F7A300EB9792 /* mode-haml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38A41B56F7A300EB9792 /* mode-haml.js */; };
-		3FBD39E51B56F7A300EB9792 /* mode-handlebars.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38A51B56F7A300EB9792 /* mode-handlebars.js */; };
-		3FBD39E61B56F7A300EB9792 /* mode-haskell.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38A61B56F7A300EB9792 /* mode-haskell.js */; };
-		3FBD39E71B56F7A300EB9792 /* mode-haxe.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38A71B56F7A300EB9792 /* mode-haxe.js */; };
-		3FBD39E81B56F7A300EB9792 /* mode-html.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38A81B56F7A300EB9792 /* mode-html.js */; };
-		3FBD39E91B56F7A300EB9792 /* mode-html_ruby.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38A91B56F7A300EB9792 /* mode-html_ruby.js */; };
-		3FBD39EA1B56F7A300EB9792 /* mode-ini.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38AA1B56F7A300EB9792 /* mode-ini.js */; };
-		3FBD39EB1B56F7A300EB9792 /* mode-io.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38AB1B56F7A300EB9792 /* mode-io.js */; };
-		3FBD39EC1B56F7A300EB9792 /* mode-jack.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38AC1B56F7A300EB9792 /* mode-jack.js */; };
-		3FBD39ED1B56F7A300EB9792 /* mode-jade.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38AD1B56F7A300EB9792 /* mode-jade.js */; };
-		3FBD39EE1B56F7A300EB9792 /* mode-java.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38AE1B56F7A300EB9792 /* mode-java.js */; };
-		3FBD39EF1B56F7A300EB9792 /* mode-javascript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38AF1B56F7A300EB9792 /* mode-javascript.js */; };
-		3FBD39F01B56F7A300EB9792 /* mode-json.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38B01B56F7A300EB9792 /* mode-json.js */; };
-		3FBD39F11B56F7A300EB9792 /* mode-jsoniq.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38B11B56F7A300EB9792 /* mode-jsoniq.js */; };
-		3FBD39F21B56F7A300EB9792 /* mode-jsp.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38B21B56F7A300EB9792 /* mode-jsp.js */; };
-		3FBD39F31B56F7A300EB9792 /* mode-jsx.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38B31B56F7A300EB9792 /* mode-jsx.js */; };
-		3FBD39F41B56F7A300EB9792 /* mode-julia.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38B41B56F7A300EB9792 /* mode-julia.js */; };
-		3FBD39F51B56F7A300EB9792 /* mode-latex.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38B51B56F7A300EB9792 /* mode-latex.js */; };
-		3FBD39F61B56F7A300EB9792 /* mode-lean.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38B61B56F7A300EB9792 /* mode-lean.js */; };
-		3FBD39F71B56F7A300EB9792 /* mode-less.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38B71B56F7A300EB9792 /* mode-less.js */; };
-		3FBD39F81B56F7A300EB9792 /* mode-liquid.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38B81B56F7A300EB9792 /* mode-liquid.js */; };
-		3FBD39F91B56F7A300EB9792 /* mode-lisp.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38B91B56F7A300EB9792 /* mode-lisp.js */; };
-		3FBD39FA1B56F7A300EB9792 /* mode-live_script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38BA1B56F7A300EB9792 /* mode-live_script.js */; };
-		3FBD39FB1B56F7A300EB9792 /* mode-livescript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38BB1B56F7A300EB9792 /* mode-livescript.js */; };
-		3FBD39FC1B56F7A300EB9792 /* mode-logiql.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38BC1B56F7A300EB9792 /* mode-logiql.js */; };
-		3FBD39FD1B56F7A300EB9792 /* mode-lsl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38BD1B56F7A300EB9792 /* mode-lsl.js */; };
-		3FBD39FE1B56F7A300EB9792 /* mode-lua.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38BE1B56F7A300EB9792 /* mode-lua.js */; };
-		3FBD39FF1B56F7A300EB9792 /* mode-luapage.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38BF1B56F7A300EB9792 /* mode-luapage.js */; };
-		3FBD3A001B56F7A300EB9792 /* mode-lucene.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38C01B56F7A300EB9792 /* mode-lucene.js */; };
-		3FBD3A011B56F7A300EB9792 /* mode-makefile.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38C11B56F7A300EB9792 /* mode-makefile.js */; };
-		3FBD3A021B56F7A300EB9792 /* mode-markdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38C21B56F7A300EB9792 /* mode-markdown.js */; };
-		3FBD3A031B56F7A300EB9792 /* mode-mask.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38C31B56F7A300EB9792 /* mode-mask.js */; };
-		3FBD3A041B56F7A300EB9792 /* mode-matlab.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38C41B56F7A300EB9792 /* mode-matlab.js */; };
-		3FBD3A051B56F7A300EB9792 /* mode-maze.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38C51B56F7A300EB9792 /* mode-maze.js */; };
-		3FBD3A061B56F7A300EB9792 /* mode-mel.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38C61B56F7A300EB9792 /* mode-mel.js */; };
-		3FBD3A071B56F7A300EB9792 /* mode-mips_assembler.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38C71B56F7A300EB9792 /* mode-mips_assembler.js */; };
-		3FBD3A081B56F7A300EB9792 /* mode-mipsassembler.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38C81B56F7A300EB9792 /* mode-mipsassembler.js */; };
-		3FBD3A091B56F7A300EB9792 /* mode-mushcode.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38C91B56F7A300EB9792 /* mode-mushcode.js */; };
-		3FBD3A0A1B56F7A300EB9792 /* mode-mysql.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38CA1B56F7A300EB9792 /* mode-mysql.js */; };
-		3FBD3A0B1B56F7A300EB9792 /* mode-nix.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38CB1B56F7A300EB9792 /* mode-nix.js */; };
-		3FBD3A0C1B56F7A300EB9792 /* mode-objectivec.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38CC1B56F7A300EB9792 /* mode-objectivec.js */; };
-		3FBD3A0D1B56F7A300EB9792 /* mode-ocaml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38CD1B56F7A300EB9792 /* mode-ocaml.js */; };
-		3FBD3A0E1B56F7A300EB9792 /* mode-pascal.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38CE1B56F7A300EB9792 /* mode-pascal.js */; };
-		3FBD3A0F1B56F7A300EB9792 /* mode-perl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38CF1B56F7A300EB9792 /* mode-perl.js */; };
-		3FBD3A101B56F7A300EB9792 /* mode-pgsql.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38D01B56F7A300EB9792 /* mode-pgsql.js */; };
-		3FBD3A111B56F7A300EB9792 /* mode-php.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38D11B56F7A300EB9792 /* mode-php.js */; };
-		3FBD3A121B56F7A300EB9792 /* mode-plain_text.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38D21B56F7A300EB9792 /* mode-plain_text.js */; };
-		3FBD3A131B56F7A300EB9792 /* mode-powershell.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38D31B56F7A300EB9792 /* mode-powershell.js */; };
-		3FBD3A141B56F7A300EB9792 /* mode-praat.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38D41B56F7A300EB9792 /* mode-praat.js */; };
-		3FBD3A151B56F7A300EB9792 /* mode-prolog.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38D51B56F7A300EB9792 /* mode-prolog.js */; };
-		3FBD3A161B56F7A300EB9792 /* mode-properties.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38D61B56F7A300EB9792 /* mode-properties.js */; };
-		3FBD3A171B56F7A300EB9792 /* mode-protobuf.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38D71B56F7A300EB9792 /* mode-protobuf.js */; };
-		3FBD3A181B56F7A300EB9792 /* mode-python.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38D81B56F7A300EB9792 /* mode-python.js */; };
-		3FBD3A191B56F7A300EB9792 /* mode-r.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38D91B56F7A300EB9792 /* mode-r.js */; };
-		3FBD3A1A1B56F7A300EB9792 /* mode-rdoc.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38DA1B56F7A300EB9792 /* mode-rdoc.js */; };
-		3FBD3A1B1B56F7A300EB9792 /* mode-rhtml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38DB1B56F7A300EB9792 /* mode-rhtml.js */; };
-		3FBD3A1C1B56F7A300EB9792 /* mode-ruby.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38DC1B56F7A300EB9792 /* mode-ruby.js */; };
-		3FBD3A1D1B56F7A300EB9792 /* mode-rust.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38DD1B56F7A300EB9792 /* mode-rust.js */; };
-		3FBD3A1E1B56F7A300EB9792 /* mode-sass.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38DE1B56F7A300EB9792 /* mode-sass.js */; };
-		3FBD3A1F1B56F7A300EB9792 /* mode-scad.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38DF1B56F7A300EB9792 /* mode-scad.js */; };
-		3FBD3A201B56F7A300EB9792 /* mode-scala.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38E01B56F7A300EB9792 /* mode-scala.js */; };
-		3FBD3A211B56F7A300EB9792 /* mode-scheme.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38E11B56F7A300EB9792 /* mode-scheme.js */; };
-		3FBD3A221B56F7A300EB9792 /* mode-scss.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38E21B56F7A300EB9792 /* mode-scss.js */; };
-		3FBD3A231B56F7A300EB9792 /* mode-sh.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38E31B56F7A300EB9792 /* mode-sh.js */; };
-		3FBD3A241B56F7A300EB9792 /* mode-sjs.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38E41B56F7A300EB9792 /* mode-sjs.js */; };
-		3FBD3A251B56F7A300EB9792 /* mode-smarty.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38E51B56F7A300EB9792 /* mode-smarty.js */; };
-		3FBD3A261B56F7A300EB9792 /* mode-snippets.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38E61B56F7A300EB9792 /* mode-snippets.js */; };
-		3FBD3A271B56F7A300EB9792 /* mode-soy_template.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38E71B56F7A300EB9792 /* mode-soy_template.js */; };
-		3FBD3A281B56F7A300EB9792 /* mode-space.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38E81B56F7A300EB9792 /* mode-space.js */; };
-		3FBD3A291B56F7A300EB9792 /* mode-sql.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38E91B56F7A300EB9792 /* mode-sql.js */; };
-		3FBD3A2A1B56F7A300EB9792 /* mode-sqlserver.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38EA1B56F7A300EB9792 /* mode-sqlserver.js */; };
-		3FBD3A2B1B56F7A300EB9792 /* mode-stylus.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38EB1B56F7A300EB9792 /* mode-stylus.js */; };
-		3FBD3A2C1B56F7A300EB9792 /* mode-svg.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38EC1B56F7A300EB9792 /* mode-svg.js */; };
-		3FBD3A2D1B56F7A300EB9792 /* mode-tcl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38ED1B56F7A300EB9792 /* mode-tcl.js */; };
-		3FBD3A2E1B56F7A300EB9792 /* mode-tex.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38EE1B56F7A300EB9792 /* mode-tex.js */; };
-		3FBD3A2F1B56F7A300EB9792 /* mode-text.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38EF1B56F7A300EB9792 /* mode-text.js */; };
-		3FBD3A301B56F7A300EB9792 /* mode-textile.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38F01B56F7A300EB9792 /* mode-textile.js */; };
-		3FBD3A311B56F7A300EB9792 /* mode-toml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38F11B56F7A300EB9792 /* mode-toml.js */; };
-		3FBD3A321B56F7A300EB9792 /* mode-twig.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38F21B56F7A300EB9792 /* mode-twig.js */; };
-		3FBD3A331B56F7A300EB9792 /* mode-typescript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38F31B56F7A300EB9792 /* mode-typescript.js */; };
-		3FBD3A341B56F7A300EB9792 /* mode-vala.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38F41B56F7A300EB9792 /* mode-vala.js */; };
-		3FBD3A351B56F7A300EB9792 /* mode-vbscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38F51B56F7A300EB9792 /* mode-vbscript.js */; };
-		3FBD3A361B56F7A300EB9792 /* mode-velocity.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38F61B56F7A300EB9792 /* mode-velocity.js */; };
-		3FBD3A371B56F7A300EB9792 /* mode-verilog.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38F71B56F7A300EB9792 /* mode-verilog.js */; };
-		3FBD3A381B56F7A300EB9792 /* mode-vhdl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38F81B56F7A300EB9792 /* mode-vhdl.js */; };
-		3FBD3A391B56F7A300EB9792 /* mode-xml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38F91B56F7A300EB9792 /* mode-xml.js */; };
-		3FBD3A3A1B56F7A300EB9792 /* mode-xquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38FA1B56F7A300EB9792 /* mode-xquery.js */; };
-		3FBD3A3B1B56F7A300EB9792 /* mode-yaml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38FB1B56F7A300EB9792 /* mode-yaml.js */; };
-		3FBD3A3C1B56F7A300EB9792 /* abap.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38FD1B56F7A300EB9792 /* abap.js */; };
-		3FBD3A3D1B56F7A300EB9792 /* abc.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38FE1B56F7A300EB9792 /* abc.js */; };
-		3FBD3A3E1B56F7A300EB9792 /* actionscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD38FF1B56F7A300EB9792 /* actionscript.js */; };
-		3FBD3A3F1B56F7A300EB9792 /* ada.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39001B56F7A300EB9792 /* ada.js */; };
-		3FBD3A401B56F7A300EB9792 /* apache_conf.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39011B56F7A300EB9792 /* apache_conf.js */; };
-		3FBD3A411B56F7A300EB9792 /* applescript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39021B56F7A300EB9792 /* applescript.js */; };
-		3FBD3A421B56F7A300EB9792 /* asciidoc.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39031B56F7A300EB9792 /* asciidoc.js */; };
-		3FBD3A431B56F7A300EB9792 /* assembly_x86.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39041B56F7A300EB9792 /* assembly_x86.js */; };
-		3FBD3A441B56F7A300EB9792 /* autohotkey.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39051B56F7A300EB9792 /* autohotkey.js */; };
-		3FBD3A451B56F7A300EB9792 /* batchfile.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39061B56F7A300EB9792 /* batchfile.js */; };
-		3FBD3A461B56F7A300EB9792 /* c9search.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39071B56F7A300EB9792 /* c9search.js */; };
-		3FBD3A471B56F7A300EB9792 /* c_cpp.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39081B56F7A300EB9792 /* c_cpp.js */; };
-		3FBD3A481B56F7A300EB9792 /* cirru.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39091B56F7A300EB9792 /* cirru.js */; };
-		3FBD3A491B56F7A300EB9792 /* clojure.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD390A1B56F7A300EB9792 /* clojure.js */; };
-		3FBD3A4A1B56F7A300EB9792 /* cobol.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD390B1B56F7A300EB9792 /* cobol.js */; };
-		3FBD3A4B1B56F7A300EB9792 /* coffee.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD390C1B56F7A300EB9792 /* coffee.js */; };
-		3FBD3A4C1B56F7A300EB9792 /* coldfusion.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD390D1B56F7A300EB9792 /* coldfusion.js */; };
-		3FBD3A4D1B56F7A300EB9792 /* csharp.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD390E1B56F7A300EB9792 /* csharp.js */; };
-		3FBD3A4E1B56F7A300EB9792 /* css.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD390F1B56F7A300EB9792 /* css.js */; };
-		3FBD3A4F1B56F7A300EB9792 /* curly.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39101B56F7A300EB9792 /* curly.js */; };
-		3FBD3A501B56F7A300EB9792 /* d.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39111B56F7A300EB9792 /* d.js */; };
-		3FBD3A511B56F7A300EB9792 /* dart.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39121B56F7A300EB9792 /* dart.js */; };
-		3FBD3A521B56F7A300EB9792 /* diff.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39131B56F7A300EB9792 /* diff.js */; };
-		3FBD3A531B56F7A300EB9792 /* django.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39141B56F7A300EB9792 /* django.js */; };
-		3FBD3A541B56F7A300EB9792 /* dockerfile.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39151B56F7A300EB9792 /* dockerfile.js */; };
-		3FBD3A551B56F7A300EB9792 /* dot.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39161B56F7A300EB9792 /* dot.js */; };
-		3FBD3A561B56F7A300EB9792 /* eiffel.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39171B56F7A300EB9792 /* eiffel.js */; };
-		3FBD3A571B56F7A300EB9792 /* ejs.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39181B56F7A300EB9792 /* ejs.js */; };
-		3FBD3A581B56F7A300EB9792 /* elixir.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39191B56F7A300EB9792 /* elixir.js */; };
-		3FBD3A591B56F7A300EB9792 /* elm.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD391A1B56F7A300EB9792 /* elm.js */; };
-		3FBD3A5A1B56F7A300EB9792 /* erlang.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD391B1B56F7A300EB9792 /* erlang.js */; };
-		3FBD3A5B1B56F7A300EB9792 /* forth.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD391C1B56F7A300EB9792 /* forth.js */; };
-		3FBD3A5C1B56F7A300EB9792 /* ftl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD391D1B56F7A300EB9792 /* ftl.js */; };
-		3FBD3A5D1B56F7A300EB9792 /* gcode.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD391E1B56F7A300EB9792 /* gcode.js */; };
-		3FBD3A5E1B56F7A300EB9792 /* gherkin.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD391F1B56F7A300EB9792 /* gherkin.js */; };
-		3FBD3A5F1B56F7A300EB9792 /* gitignore.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39201B56F7A300EB9792 /* gitignore.js */; };
-		3FBD3A601B56F7A300EB9792 /* glsl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39211B56F7A300EB9792 /* glsl.js */; };
-		3FBD3A611B56F7A300EB9792 /* golang.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39221B56F7A300EB9792 /* golang.js */; };
-		3FBD3A621B56F7A300EB9792 /* groovy.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39231B56F7A300EB9792 /* groovy.js */; };
-		3FBD3A631B56F7A300EB9792 /* haml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39241B56F7A300EB9792 /* haml.js */; };
-		3FBD3A641B56F7A300EB9792 /* handlebars.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39251B56F7A300EB9792 /* handlebars.js */; };
-		3FBD3A651B56F7A300EB9792 /* haskell.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39261B56F7A300EB9792 /* haskell.js */; };
-		3FBD3A661B56F7A300EB9792 /* haxe.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39271B56F7A300EB9792 /* haxe.js */; };
-		3FBD3A671B56F7A300EB9792 /* html.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39281B56F7A300EB9792 /* html.js */; };
-		3FBD3A681B56F7A300EB9792 /* html_ruby.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39291B56F7A300EB9792 /* html_ruby.js */; };
-		3FBD3A691B56F7A300EB9792 /* ini.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD392A1B56F7A300EB9792 /* ini.js */; };
-		3FBD3A6A1B56F7A300EB9792 /* io.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD392B1B56F7A300EB9792 /* io.js */; };
-		3FBD3A6B1B56F7A300EB9792 /* jack.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD392C1B56F7A300EB9792 /* jack.js */; };
-		3FBD3A6C1B56F7A300EB9792 /* jade.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD392D1B56F7A300EB9792 /* jade.js */; };
-		3FBD3A6D1B56F7A300EB9792 /* java.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD392E1B56F7A300EB9792 /* java.js */; };
-		3FBD3A6E1B56F7A300EB9792 /* javascript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD392F1B56F7A300EB9792 /* javascript.js */; };
-		3FBD3A6F1B56F7A300EB9792 /* json.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39301B56F7A300EB9792 /* json.js */; };
-		3FBD3A701B56F7A300EB9792 /* jsoniq.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39311B56F7A300EB9792 /* jsoniq.js */; };
-		3FBD3A711B56F7A300EB9792 /* jsp.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39321B56F7A300EB9792 /* jsp.js */; };
-		3FBD3A721B56F7A300EB9792 /* jsx.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39331B56F7A300EB9792 /* jsx.js */; };
-		3FBD3A731B56F7A300EB9792 /* julia.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39341B56F7A300EB9792 /* julia.js */; };
-		3FBD3A741B56F7A300EB9792 /* latex.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39351B56F7A300EB9792 /* latex.js */; };
-		3FBD3A751B56F7A300EB9792 /* lean.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39361B56F7A300EB9792 /* lean.js */; };
-		3FBD3A761B56F7A300EB9792 /* less.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39371B56F7A300EB9792 /* less.js */; };
-		3FBD3A771B56F7A300EB9792 /* liquid.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39381B56F7A300EB9792 /* liquid.js */; };
-		3FBD3A781B56F7A300EB9792 /* lisp.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39391B56F7A300EB9792 /* lisp.js */; };
-		3FBD3A791B56F7A300EB9792 /* live_script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD393A1B56F7A300EB9792 /* live_script.js */; };
-		3FBD3A7A1B56F7A300EB9792 /* livescript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD393B1B56F7A300EB9792 /* livescript.js */; };
-		3FBD3A7B1B56F7A300EB9792 /* logiql.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD393C1B56F7A300EB9792 /* logiql.js */; };
-		3FBD3A7C1B56F7A300EB9792 /* lsl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD393D1B56F7A300EB9792 /* lsl.js */; };
-		3FBD3A7D1B56F7A300EB9792 /* lua.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD393E1B56F7A300EB9792 /* lua.js */; };
-		3FBD3A7E1B56F7A300EB9792 /* luapage.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD393F1B56F7A300EB9792 /* luapage.js */; };
-		3FBD3A7F1B56F7A300EB9792 /* lucene.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39401B56F7A300EB9792 /* lucene.js */; };
-		3FBD3A801B56F7A300EB9792 /* makefile.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39411B56F7A300EB9792 /* makefile.js */; };
-		3FBD3A811B56F7A300EB9792 /* markdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39421B56F7A300EB9792 /* markdown.js */; };
-		3FBD3A821B56F7A300EB9792 /* mask.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39431B56F7A300EB9792 /* mask.js */; };
-		3FBD3A831B56F7A300EB9792 /* matlab.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39441B56F7A300EB9792 /* matlab.js */; };
-		3FBD3A841B56F7A300EB9792 /* maze.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39451B56F7A300EB9792 /* maze.js */; };
-		3FBD3A851B56F7A300EB9792 /* mel.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39461B56F7A300EB9792 /* mel.js */; };
-		3FBD3A861B56F7A300EB9792 /* mips_assembler.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39471B56F7A300EB9792 /* mips_assembler.js */; };
-		3FBD3A871B56F7A300EB9792 /* mipsassembler.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39481B56F7A300EB9792 /* mipsassembler.js */; };
-		3FBD3A881B56F7A300EB9792 /* mushcode.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39491B56F7A300EB9792 /* mushcode.js */; };
-		3FBD3A891B56F7A300EB9792 /* mysql.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD394A1B56F7A300EB9792 /* mysql.js */; };
-		3FBD3A8A1B56F7A300EB9792 /* nix.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD394B1B56F7A300EB9792 /* nix.js */; };
-		3FBD3A8B1B56F7A300EB9792 /* objectivec.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD394C1B56F7A300EB9792 /* objectivec.js */; };
-		3FBD3A8C1B56F7A300EB9792 /* ocaml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD394D1B56F7A300EB9792 /* ocaml.js */; };
-		3FBD3A8D1B56F7A300EB9792 /* pascal.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD394E1B56F7A300EB9792 /* pascal.js */; };
-		3FBD3A8E1B56F7A300EB9792 /* perl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD394F1B56F7A300EB9792 /* perl.js */; };
-		3FBD3A8F1B56F7A300EB9792 /* pgsql.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39501B56F7A300EB9792 /* pgsql.js */; };
-		3FBD3A901B56F7A300EB9792 /* php.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39511B56F7A300EB9792 /* php.js */; };
-		3FBD3A911B56F7A300EB9792 /* plain_text.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39521B56F7A300EB9792 /* plain_text.js */; };
-		3FBD3A921B56F7A300EB9792 /* powershell.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39531B56F7A300EB9792 /* powershell.js */; };
-		3FBD3A931B56F7A300EB9792 /* praat.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39541B56F7A300EB9792 /* praat.js */; };
-		3FBD3A941B56F7A300EB9792 /* prolog.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39551B56F7A300EB9792 /* prolog.js */; };
-		3FBD3A951B56F7A300EB9792 /* properties.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39561B56F7A300EB9792 /* properties.js */; };
-		3FBD3A961B56F7A300EB9792 /* protobuf.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39571B56F7A300EB9792 /* protobuf.js */; };
-		3FBD3A971B56F7A300EB9792 /* python.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39581B56F7A300EB9792 /* python.js */; };
-		3FBD3A981B56F7A300EB9792 /* r.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39591B56F7A300EB9792 /* r.js */; };
-		3FBD3A991B56F7A300EB9792 /* rdoc.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD395A1B56F7A300EB9792 /* rdoc.js */; };
-		3FBD3A9A1B56F7A300EB9792 /* rhtml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD395B1B56F7A300EB9792 /* rhtml.js */; };
-		3FBD3A9B1B56F7A300EB9792 /* ruby.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD395C1B56F7A300EB9792 /* ruby.js */; };
-		3FBD3A9C1B56F7A300EB9792 /* rust.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD395D1B56F7A300EB9792 /* rust.js */; };
-		3FBD3A9D1B56F7A300EB9792 /* sass.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD395E1B56F7A300EB9792 /* sass.js */; };
-		3FBD3A9E1B56F7A300EB9792 /* scad.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD395F1B56F7A300EB9792 /* scad.js */; };
-		3FBD3A9F1B56F7A300EB9792 /* scala.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39601B56F7A300EB9792 /* scala.js */; };
-		3FBD3AA01B56F7A300EB9792 /* scheme.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39611B56F7A300EB9792 /* scheme.js */; };
-		3FBD3AA11B56F7A300EB9792 /* scss.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39621B56F7A300EB9792 /* scss.js */; };
-		3FBD3AA21B56F7A300EB9792 /* sh.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39631B56F7A300EB9792 /* sh.js */; };
-		3FBD3AA31B56F7A300EB9792 /* sjs.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39641B56F7A300EB9792 /* sjs.js */; };
-		3FBD3AA41B56F7A300EB9792 /* smarty.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39651B56F7A300EB9792 /* smarty.js */; };
-		3FBD3AA51B56F7A300EB9792 /* snippets.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39661B56F7A300EB9792 /* snippets.js */; };
-		3FBD3AA61B56F7A300EB9792 /* soy_template.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39671B56F7A300EB9792 /* soy_template.js */; };
-		3FBD3AA71B56F7A300EB9792 /* space.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39681B56F7A300EB9792 /* space.js */; };
-		3FBD3AA81B56F7A300EB9792 /* sql.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39691B56F7A300EB9792 /* sql.js */; };
-		3FBD3AA91B56F7A300EB9792 /* sqlserver.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD396A1B56F7A300EB9792 /* sqlserver.js */; };
-		3FBD3AAA1B56F7A300EB9792 /* stylus.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD396B1B56F7A300EB9792 /* stylus.js */; };
-		3FBD3AAB1B56F7A300EB9792 /* svg.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD396C1B56F7A300EB9792 /* svg.js */; };
-		3FBD3AAC1B56F7A300EB9792 /* tcl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD396D1B56F7A300EB9792 /* tcl.js */; };
-		3FBD3AAD1B56F7A300EB9792 /* tex.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD396E1B56F7A300EB9792 /* tex.js */; };
-		3FBD3AAE1B56F7A300EB9792 /* text.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD396F1B56F7A300EB9792 /* text.js */; };
-		3FBD3AAF1B56F7A300EB9792 /* textile.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39701B56F7A300EB9792 /* textile.js */; };
-		3FBD3AB01B56F7A300EB9792 /* toml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39711B56F7A300EB9792 /* toml.js */; };
-		3FBD3AB11B56F7A300EB9792 /* twig.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39721B56F7A300EB9792 /* twig.js */; };
-		3FBD3AB21B56F7A300EB9792 /* typescript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39731B56F7A300EB9792 /* typescript.js */; };
-		3FBD3AB31B56F7A300EB9792 /* vala.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39741B56F7A300EB9792 /* vala.js */; };
-		3FBD3AB41B56F7A300EB9792 /* vbscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39751B56F7A300EB9792 /* vbscript.js */; };
-		3FBD3AB51B56F7A300EB9792 /* velocity.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39761B56F7A300EB9792 /* velocity.js */; };
-		3FBD3AB61B56F7A300EB9792 /* verilog.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39771B56F7A300EB9792 /* verilog.js */; };
-		3FBD3AB71B56F7A300EB9792 /* vhdl.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39781B56F7A300EB9792 /* vhdl.js */; };
-		3FBD3AB81B56F7A300EB9792 /* xml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39791B56F7A300EB9792 /* xml.js */; };
-		3FBD3AB91B56F7A300EB9792 /* xquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD397A1B56F7A300EB9792 /* xquery.js */; };
-		3FBD3ABA1B56F7A300EB9792 /* yaml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD397B1B56F7A300EB9792 /* yaml.js */; };
-		3FBD3ABB1B56F7A300EB9792 /* theme-ambiance.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD397C1B56F7A300EB9792 /* theme-ambiance.js */; };
-		3FBD3ABC1B56F7A300EB9792 /* theme-chaos.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD397D1B56F7A300EB9792 /* theme-chaos.js */; };
-		3FBD3ABD1B56F7A300EB9792 /* theme-chrome.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD397E1B56F7A300EB9792 /* theme-chrome.js */; };
-		3FBD3ABE1B56F7A300EB9792 /* theme-clouds.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD397F1B56F7A300EB9792 /* theme-clouds.js */; };
-		3FBD3ABF1B56F7A300EB9792 /* theme-clouds_midnight.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39801B56F7A300EB9792 /* theme-clouds_midnight.js */; };
-		3FBD3AC01B56F7A300EB9792 /* theme-cobalt.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39811B56F7A300EB9792 /* theme-cobalt.js */; };
-		3FBD3AC11B56F7A300EB9792 /* theme-crimson_editor.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39821B56F7A300EB9792 /* theme-crimson_editor.js */; };
-		3FBD3AC21B56F7A300EB9792 /* theme-dawn.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39831B56F7A300EB9792 /* theme-dawn.js */; };
-		3FBD3AC31B56F7A300EB9792 /* theme-dreamweaver.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39841B56F7A300EB9792 /* theme-dreamweaver.js */; };
-		3FBD3AC41B56F7A300EB9792 /* theme-eclipse.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39851B56F7A300EB9792 /* theme-eclipse.js */; };
-		3FBD3AC51B56F7A300EB9792 /* theme-github.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39861B56F7A300EB9792 /* theme-github.js */; };
-		3FBD3AC61B56F7A300EB9792 /* theme-idle_fingers.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39871B56F7A300EB9792 /* theme-idle_fingers.js */; };
-		3FBD3AC71B56F7A300EB9792 /* theme-iplastic.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39881B56F7A300EB9792 /* theme-iplastic.js */; };
-		3FBD3AC81B56F7A300EB9792 /* theme-katzenmilch.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39891B56F7A300EB9792 /* theme-katzenmilch.js */; };
-		3FBD3AC91B56F7A300EB9792 /* theme-kr_theme.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD398A1B56F7A300EB9792 /* theme-kr_theme.js */; };
-		3FBD3ACA1B56F7A300EB9792 /* theme-kuroir.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD398B1B56F7A300EB9792 /* theme-kuroir.js */; };
-		3FBD3ACB1B56F7A300EB9792 /* theme-merbivore.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD398C1B56F7A300EB9792 /* theme-merbivore.js */; };
-		3FBD3ACC1B56F7A300EB9792 /* theme-merbivore_soft.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD398D1B56F7A300EB9792 /* theme-merbivore_soft.js */; };
-		3FBD3ACD1B56F7A300EB9792 /* theme-mono_industrial.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD398E1B56F7A300EB9792 /* theme-mono_industrial.js */; };
-		3FBD3ACE1B56F7A300EB9792 /* theme-monokai.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD398F1B56F7A300EB9792 /* theme-monokai.js */; };
-		3FBD3ACF1B56F7A300EB9792 /* theme-pastel_on_dark.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39901B56F7A300EB9792 /* theme-pastel_on_dark.js */; };
-		3FBD3AD01B56F7A300EB9792 /* theme-solarized_dark.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39911B56F7A300EB9792 /* theme-solarized_dark.js */; };
-		3FBD3AD11B56F7A300EB9792 /* theme-solarized_light.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39921B56F7A300EB9792 /* theme-solarized_light.js */; };
-		3FBD3AD21B56F7A300EB9792 /* theme-sqlserver.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39931B56F7A300EB9792 /* theme-sqlserver.js */; };
-		3FBD3AD31B56F7A300EB9792 /* theme-terminal.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39941B56F7A300EB9792 /* theme-terminal.js */; };
-		3FBD3AD41B56F7A300EB9792 /* theme-textmate.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39951B56F7A300EB9792 /* theme-textmate.js */; };
-		3FBD3AD51B56F7A300EB9792 /* theme-tomorrow.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39961B56F7A300EB9792 /* theme-tomorrow.js */; };
-		3FBD3AD61B56F7A300EB9792 /* theme-tomorrow_night.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39971B56F7A300EB9792 /* theme-tomorrow_night.js */; };
-		3FBD3AD71B56F7A300EB9792 /* theme-tomorrow_night_blue.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39981B56F7A300EB9792 /* theme-tomorrow_night_blue.js */; };
-		3FBD3AD81B56F7A300EB9792 /* theme-tomorrow_night_bright.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39991B56F7A300EB9792 /* theme-tomorrow_night_bright.js */; };
-		3FBD3AD91B56F7A300EB9792 /* theme-tomorrow_night_eighties.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD399A1B56F7A300EB9792 /* theme-tomorrow_night_eighties.js */; };
-		3FBD3ADA1B56F7A300EB9792 /* theme-twilight.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD399B1B56F7A300EB9792 /* theme-twilight.js */; };
-		3FBD3ADB1B56F7A300EB9792 /* theme-vibrant_ink.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD399C1B56F7A300EB9792 /* theme-vibrant_ink.js */; };
-		3FBD3ADC1B56F7A300EB9792 /* theme-xcode.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD399D1B56F7A300EB9792 /* theme-xcode.js */; };
-		3FBD3ADD1B56F7A300EB9792 /* worker-coffee.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD399E1B56F7A300EB9792 /* worker-coffee.js */; };
-		3FBD3ADE1B56F7A300EB9792 /* worker-css.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD399F1B56F7A300EB9792 /* worker-css.js */; };
-		3FBD3ADF1B56F7A300EB9792 /* worker-html.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39A01B56F7A300EB9792 /* worker-html.js */; };
-		3FBD3AE01B56F7A300EB9792 /* worker-javascript.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39A11B56F7A300EB9792 /* worker-javascript.js */; };
-		3FBD3AE11B56F7A300EB9792 /* worker-json.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39A21B56F7A300EB9792 /* worker-json.js */; };
-		3FBD3AE21B56F7A300EB9792 /* worker-lua.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39A31B56F7A300EB9792 /* worker-lua.js */; };
-		3FBD3AE31B56F7A300EB9792 /* worker-php.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39A41B56F7A300EB9792 /* worker-php.js */; };
-		3FBD3AE41B56F7A300EB9792 /* worker-xml.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39A51B56F7A300EB9792 /* worker-xml.js */; };
-		3FBD3AE51B56F7A300EB9792 /* worker-xquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD39A61B56F7A300EB9792 /* worker-xquery.js */; };
 		3FBD3AE71B56F7E100EB9792 /* editor.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD3AE61B56F7E100EB9792 /* editor.html */; };
 		3FBD3AEB1B56F8B300EB9792 /* NEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD3AEA1B56F8B300EB9792 /* NEditorViewController.m */; };
 		3FBD3AFF1B57038F00EB9792 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBD3AFE1B57038F00EB9792 /* libz.dylib */; };
@@ -460,6 +141,7 @@
 		3FBD3B7F1B59B93B00EB9792 /* NRepositoryFormTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD3B7D1B59B93B00EB9792 /* NRepositoryFormTableViewCell.xib */; };
 		3FBD3B841B59C29C00EB9792 /* NRepositoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD3B821B59C29C00EB9792 /* NRepositoryTableViewCell.m */; };
 		3FBD3B851B59C29C00EB9792 /* NRepositoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD3B831B59C29C00EB9792 /* NRepositoryTableViewCell.xib */; };
+		3FFE0FE61B5F451200609AE1 /* NSyntaxHighlightTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0FE51B5F451200609AE1 /* NSyntaxHighlightTextStorage.m */; };
 		608746A438DE6C83B611C7E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D5F381F7BCDD1E6DEF4569 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -630,325 +312,6 @@
 		3FBD38461B56DD9100EB9792 /* nucleusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nucleusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBD384B1B56DD9100EB9792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FBD384C1B56DD9100EB9792 /* nucleusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nucleusTests.m; sourceTree = "<group>"; };
-		3FBD38671B56F7A300EB9792 /* ace.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ace.js; sourceTree = "<group>"; };
-		3FBD38681B56F7A300EB9792 /* ext-beautify.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-beautify.js"; sourceTree = "<group>"; };
-		3FBD38691B56F7A300EB9792 /* ext-chromevox.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-chromevox.js"; sourceTree = "<group>"; };
-		3FBD386A1B56F7A300EB9792 /* ext-elastic_tabstops_lite.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-elastic_tabstops_lite.js"; sourceTree = "<group>"; };
-		3FBD386B1B56F7A300EB9792 /* ext-emmet.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-emmet.js"; sourceTree = "<group>"; };
-		3FBD386C1B56F7A300EB9792 /* ext-error_marker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-error_marker.js"; sourceTree = "<group>"; };
-		3FBD386D1B56F7A300EB9792 /* ext-keybinding_menu.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-keybinding_menu.js"; sourceTree = "<group>"; };
-		3FBD386E1B56F7A300EB9792 /* ext-language_tools.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-language_tools.js"; sourceTree = "<group>"; };
-		3FBD386F1B56F7A300EB9792 /* ext-linking.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-linking.js"; sourceTree = "<group>"; };
-		3FBD38701B56F7A300EB9792 /* ext-modelist.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-modelist.js"; sourceTree = "<group>"; };
-		3FBD38711B56F7A300EB9792 /* ext-old_ie.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-old_ie.js"; sourceTree = "<group>"; };
-		3FBD38721B56F7A300EB9792 /* ext-searchbox.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-searchbox.js"; sourceTree = "<group>"; };
-		3FBD38731B56F7A300EB9792 /* ext-settings_menu.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-settings_menu.js"; sourceTree = "<group>"; };
-		3FBD38741B56F7A300EB9792 /* ext-spellcheck.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-spellcheck.js"; sourceTree = "<group>"; };
-		3FBD38751B56F7A300EB9792 /* ext-split.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-split.js"; sourceTree = "<group>"; };
-		3FBD38761B56F7A300EB9792 /* ext-static_highlight.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-static_highlight.js"; sourceTree = "<group>"; };
-		3FBD38771B56F7A300EB9792 /* ext-statusbar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-statusbar.js"; sourceTree = "<group>"; };
-		3FBD38781B56F7A300EB9792 /* ext-textarea.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-textarea.js"; sourceTree = "<group>"; };
-		3FBD38791B56F7A300EB9792 /* ext-themelist.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-themelist.js"; sourceTree = "<group>"; };
-		3FBD387A1B56F7A300EB9792 /* ext-whitespace.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ext-whitespace.js"; sourceTree = "<group>"; };
-		3FBD387B1B56F7A300EB9792 /* keybinding-emacs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "keybinding-emacs.js"; sourceTree = "<group>"; };
-		3FBD387C1B56F7A300EB9792 /* keybinding-vim.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "keybinding-vim.js"; sourceTree = "<group>"; };
-		3FBD387D1B56F7A300EB9792 /* mode-abap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-abap.js"; sourceTree = "<group>"; };
-		3FBD387E1B56F7A300EB9792 /* mode-abc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-abc.js"; sourceTree = "<group>"; };
-		3FBD387F1B56F7A300EB9792 /* mode-actionscript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-actionscript.js"; sourceTree = "<group>"; };
-		3FBD38801B56F7A300EB9792 /* mode-ada.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-ada.js"; sourceTree = "<group>"; };
-		3FBD38811B56F7A300EB9792 /* mode-apache_conf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-apache_conf.js"; sourceTree = "<group>"; };
-		3FBD38821B56F7A300EB9792 /* mode-applescript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-applescript.js"; sourceTree = "<group>"; };
-		3FBD38831B56F7A300EB9792 /* mode-asciidoc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-asciidoc.js"; sourceTree = "<group>"; };
-		3FBD38841B56F7A300EB9792 /* mode-assembly_x86.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-assembly_x86.js"; sourceTree = "<group>"; };
-		3FBD38851B56F7A300EB9792 /* mode-autohotkey.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-autohotkey.js"; sourceTree = "<group>"; };
-		3FBD38861B56F7A300EB9792 /* mode-batchfile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-batchfile.js"; sourceTree = "<group>"; };
-		3FBD38871B56F7A300EB9792 /* mode-c9search.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-c9search.js"; sourceTree = "<group>"; };
-		3FBD38881B56F7A300EB9792 /* mode-c_cpp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-c_cpp.js"; sourceTree = "<group>"; };
-		3FBD38891B56F7A300EB9792 /* mode-cirru.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-cirru.js"; sourceTree = "<group>"; };
-		3FBD388A1B56F7A300EB9792 /* mode-clojure.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-clojure.js"; sourceTree = "<group>"; };
-		3FBD388B1B56F7A300EB9792 /* mode-cobol.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-cobol.js"; sourceTree = "<group>"; };
-		3FBD388C1B56F7A300EB9792 /* mode-coffee.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-coffee.js"; sourceTree = "<group>"; };
-		3FBD388D1B56F7A300EB9792 /* mode-coldfusion.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-coldfusion.js"; sourceTree = "<group>"; };
-		3FBD388E1B56F7A300EB9792 /* mode-csharp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-csharp.js"; sourceTree = "<group>"; };
-		3FBD388F1B56F7A300EB9792 /* mode-css.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-css.js"; sourceTree = "<group>"; };
-		3FBD38901B56F7A300EB9792 /* mode-curly.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-curly.js"; sourceTree = "<group>"; };
-		3FBD38911B56F7A300EB9792 /* mode-d.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-d.js"; sourceTree = "<group>"; };
-		3FBD38921B56F7A300EB9792 /* mode-dart.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-dart.js"; sourceTree = "<group>"; };
-		3FBD38931B56F7A300EB9792 /* mode-diff.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-diff.js"; sourceTree = "<group>"; };
-		3FBD38941B56F7A300EB9792 /* mode-django.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-django.js"; sourceTree = "<group>"; };
-		3FBD38951B56F7A300EB9792 /* mode-dockerfile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-dockerfile.js"; sourceTree = "<group>"; };
-		3FBD38961B56F7A300EB9792 /* mode-dot.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-dot.js"; sourceTree = "<group>"; };
-		3FBD38971B56F7A300EB9792 /* mode-eiffel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-eiffel.js"; sourceTree = "<group>"; };
-		3FBD38981B56F7A300EB9792 /* mode-ejs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-ejs.js"; sourceTree = "<group>"; };
-		3FBD38991B56F7A300EB9792 /* mode-elixir.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-elixir.js"; sourceTree = "<group>"; };
-		3FBD389A1B56F7A300EB9792 /* mode-elm.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-elm.js"; sourceTree = "<group>"; };
-		3FBD389B1B56F7A300EB9792 /* mode-erlang.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-erlang.js"; sourceTree = "<group>"; };
-		3FBD389C1B56F7A300EB9792 /* mode-forth.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-forth.js"; sourceTree = "<group>"; };
-		3FBD389D1B56F7A300EB9792 /* mode-ftl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-ftl.js"; sourceTree = "<group>"; };
-		3FBD389E1B56F7A300EB9792 /* mode-gcode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-gcode.js"; sourceTree = "<group>"; };
-		3FBD389F1B56F7A300EB9792 /* mode-gherkin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-gherkin.js"; sourceTree = "<group>"; };
-		3FBD38A01B56F7A300EB9792 /* mode-gitignore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-gitignore.js"; sourceTree = "<group>"; };
-		3FBD38A11B56F7A300EB9792 /* mode-glsl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-glsl.js"; sourceTree = "<group>"; };
-		3FBD38A21B56F7A300EB9792 /* mode-golang.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-golang.js"; sourceTree = "<group>"; };
-		3FBD38A31B56F7A300EB9792 /* mode-groovy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-groovy.js"; sourceTree = "<group>"; };
-		3FBD38A41B56F7A300EB9792 /* mode-haml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-haml.js"; sourceTree = "<group>"; };
-		3FBD38A51B56F7A300EB9792 /* mode-handlebars.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-handlebars.js"; sourceTree = "<group>"; };
-		3FBD38A61B56F7A300EB9792 /* mode-haskell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-haskell.js"; sourceTree = "<group>"; };
-		3FBD38A71B56F7A300EB9792 /* mode-haxe.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-haxe.js"; sourceTree = "<group>"; };
-		3FBD38A81B56F7A300EB9792 /* mode-html.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-html.js"; sourceTree = "<group>"; };
-		3FBD38A91B56F7A300EB9792 /* mode-html_ruby.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-html_ruby.js"; sourceTree = "<group>"; };
-		3FBD38AA1B56F7A300EB9792 /* mode-ini.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-ini.js"; sourceTree = "<group>"; };
-		3FBD38AB1B56F7A300EB9792 /* mode-io.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-io.js"; sourceTree = "<group>"; };
-		3FBD38AC1B56F7A300EB9792 /* mode-jack.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-jack.js"; sourceTree = "<group>"; };
-		3FBD38AD1B56F7A300EB9792 /* mode-jade.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-jade.js"; sourceTree = "<group>"; };
-		3FBD38AE1B56F7A300EB9792 /* mode-java.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-java.js"; sourceTree = "<group>"; };
-		3FBD38AF1B56F7A300EB9792 /* mode-javascript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-javascript.js"; sourceTree = "<group>"; };
-		3FBD38B01B56F7A300EB9792 /* mode-json.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-json.js"; sourceTree = "<group>"; };
-		3FBD38B11B56F7A300EB9792 /* mode-jsoniq.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-jsoniq.js"; sourceTree = "<group>"; };
-		3FBD38B21B56F7A300EB9792 /* mode-jsp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-jsp.js"; sourceTree = "<group>"; };
-		3FBD38B31B56F7A300EB9792 /* mode-jsx.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-jsx.js"; sourceTree = "<group>"; };
-		3FBD38B41B56F7A300EB9792 /* mode-julia.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-julia.js"; sourceTree = "<group>"; };
-		3FBD38B51B56F7A300EB9792 /* mode-latex.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-latex.js"; sourceTree = "<group>"; };
-		3FBD38B61B56F7A300EB9792 /* mode-lean.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-lean.js"; sourceTree = "<group>"; };
-		3FBD38B71B56F7A300EB9792 /* mode-less.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-less.js"; sourceTree = "<group>"; };
-		3FBD38B81B56F7A300EB9792 /* mode-liquid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-liquid.js"; sourceTree = "<group>"; };
-		3FBD38B91B56F7A300EB9792 /* mode-lisp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-lisp.js"; sourceTree = "<group>"; };
-		3FBD38BA1B56F7A300EB9792 /* mode-live_script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-live_script.js"; sourceTree = "<group>"; };
-		3FBD38BB1B56F7A300EB9792 /* mode-livescript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-livescript.js"; sourceTree = "<group>"; };
-		3FBD38BC1B56F7A300EB9792 /* mode-logiql.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-logiql.js"; sourceTree = "<group>"; };
-		3FBD38BD1B56F7A300EB9792 /* mode-lsl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-lsl.js"; sourceTree = "<group>"; };
-		3FBD38BE1B56F7A300EB9792 /* mode-lua.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-lua.js"; sourceTree = "<group>"; };
-		3FBD38BF1B56F7A300EB9792 /* mode-luapage.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-luapage.js"; sourceTree = "<group>"; };
-		3FBD38C01B56F7A300EB9792 /* mode-lucene.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-lucene.js"; sourceTree = "<group>"; };
-		3FBD38C11B56F7A300EB9792 /* mode-makefile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-makefile.js"; sourceTree = "<group>"; };
-		3FBD38C21B56F7A300EB9792 /* mode-markdown.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-markdown.js"; sourceTree = "<group>"; };
-		3FBD38C31B56F7A300EB9792 /* mode-mask.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-mask.js"; sourceTree = "<group>"; };
-		3FBD38C41B56F7A300EB9792 /* mode-matlab.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-matlab.js"; sourceTree = "<group>"; };
-		3FBD38C51B56F7A300EB9792 /* mode-maze.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-maze.js"; sourceTree = "<group>"; };
-		3FBD38C61B56F7A300EB9792 /* mode-mel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-mel.js"; sourceTree = "<group>"; };
-		3FBD38C71B56F7A300EB9792 /* mode-mips_assembler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-mips_assembler.js"; sourceTree = "<group>"; };
-		3FBD38C81B56F7A300EB9792 /* mode-mipsassembler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-mipsassembler.js"; sourceTree = "<group>"; };
-		3FBD38C91B56F7A300EB9792 /* mode-mushcode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-mushcode.js"; sourceTree = "<group>"; };
-		3FBD38CA1B56F7A300EB9792 /* mode-mysql.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-mysql.js"; sourceTree = "<group>"; };
-		3FBD38CB1B56F7A300EB9792 /* mode-nix.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-nix.js"; sourceTree = "<group>"; };
-		3FBD38CC1B56F7A300EB9792 /* mode-objectivec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-objectivec.js"; sourceTree = "<group>"; };
-		3FBD38CD1B56F7A300EB9792 /* mode-ocaml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-ocaml.js"; sourceTree = "<group>"; };
-		3FBD38CE1B56F7A300EB9792 /* mode-pascal.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-pascal.js"; sourceTree = "<group>"; };
-		3FBD38CF1B56F7A300EB9792 /* mode-perl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-perl.js"; sourceTree = "<group>"; };
-		3FBD38D01B56F7A300EB9792 /* mode-pgsql.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-pgsql.js"; sourceTree = "<group>"; };
-		3FBD38D11B56F7A300EB9792 /* mode-php.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-php.js"; sourceTree = "<group>"; };
-		3FBD38D21B56F7A300EB9792 /* mode-plain_text.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-plain_text.js"; sourceTree = "<group>"; };
-		3FBD38D31B56F7A300EB9792 /* mode-powershell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-powershell.js"; sourceTree = "<group>"; };
-		3FBD38D41B56F7A300EB9792 /* mode-praat.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-praat.js"; sourceTree = "<group>"; };
-		3FBD38D51B56F7A300EB9792 /* mode-prolog.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-prolog.js"; sourceTree = "<group>"; };
-		3FBD38D61B56F7A300EB9792 /* mode-properties.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-properties.js"; sourceTree = "<group>"; };
-		3FBD38D71B56F7A300EB9792 /* mode-protobuf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-protobuf.js"; sourceTree = "<group>"; };
-		3FBD38D81B56F7A300EB9792 /* mode-python.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-python.js"; sourceTree = "<group>"; };
-		3FBD38D91B56F7A300EB9792 /* mode-r.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-r.js"; sourceTree = "<group>"; };
-		3FBD38DA1B56F7A300EB9792 /* mode-rdoc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-rdoc.js"; sourceTree = "<group>"; };
-		3FBD38DB1B56F7A300EB9792 /* mode-rhtml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-rhtml.js"; sourceTree = "<group>"; };
-		3FBD38DC1B56F7A300EB9792 /* mode-ruby.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-ruby.js"; sourceTree = "<group>"; };
-		3FBD38DD1B56F7A300EB9792 /* mode-rust.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-rust.js"; sourceTree = "<group>"; };
-		3FBD38DE1B56F7A300EB9792 /* mode-sass.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-sass.js"; sourceTree = "<group>"; };
-		3FBD38DF1B56F7A300EB9792 /* mode-scad.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-scad.js"; sourceTree = "<group>"; };
-		3FBD38E01B56F7A300EB9792 /* mode-scala.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-scala.js"; sourceTree = "<group>"; };
-		3FBD38E11B56F7A300EB9792 /* mode-scheme.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-scheme.js"; sourceTree = "<group>"; };
-		3FBD38E21B56F7A300EB9792 /* mode-scss.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-scss.js"; sourceTree = "<group>"; };
-		3FBD38E31B56F7A300EB9792 /* mode-sh.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-sh.js"; sourceTree = "<group>"; };
-		3FBD38E41B56F7A300EB9792 /* mode-sjs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-sjs.js"; sourceTree = "<group>"; };
-		3FBD38E51B56F7A300EB9792 /* mode-smarty.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-smarty.js"; sourceTree = "<group>"; };
-		3FBD38E61B56F7A300EB9792 /* mode-snippets.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-snippets.js"; sourceTree = "<group>"; };
-		3FBD38E71B56F7A300EB9792 /* mode-soy_template.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-soy_template.js"; sourceTree = "<group>"; };
-		3FBD38E81B56F7A300EB9792 /* mode-space.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-space.js"; sourceTree = "<group>"; };
-		3FBD38E91B56F7A300EB9792 /* mode-sql.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-sql.js"; sourceTree = "<group>"; };
-		3FBD38EA1B56F7A300EB9792 /* mode-sqlserver.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-sqlserver.js"; sourceTree = "<group>"; };
-		3FBD38EB1B56F7A300EB9792 /* mode-stylus.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-stylus.js"; sourceTree = "<group>"; };
-		3FBD38EC1B56F7A300EB9792 /* mode-svg.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-svg.js"; sourceTree = "<group>"; };
-		3FBD38ED1B56F7A300EB9792 /* mode-tcl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-tcl.js"; sourceTree = "<group>"; };
-		3FBD38EE1B56F7A300EB9792 /* mode-tex.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-tex.js"; sourceTree = "<group>"; };
-		3FBD38EF1B56F7A300EB9792 /* mode-text.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-text.js"; sourceTree = "<group>"; };
-		3FBD38F01B56F7A300EB9792 /* mode-textile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-textile.js"; sourceTree = "<group>"; };
-		3FBD38F11B56F7A300EB9792 /* mode-toml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-toml.js"; sourceTree = "<group>"; };
-		3FBD38F21B56F7A300EB9792 /* mode-twig.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-twig.js"; sourceTree = "<group>"; };
-		3FBD38F31B56F7A300EB9792 /* mode-typescript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-typescript.js"; sourceTree = "<group>"; };
-		3FBD38F41B56F7A300EB9792 /* mode-vala.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-vala.js"; sourceTree = "<group>"; };
-		3FBD38F51B56F7A300EB9792 /* mode-vbscript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-vbscript.js"; sourceTree = "<group>"; };
-		3FBD38F61B56F7A300EB9792 /* mode-velocity.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-velocity.js"; sourceTree = "<group>"; };
-		3FBD38F71B56F7A300EB9792 /* mode-verilog.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-verilog.js"; sourceTree = "<group>"; };
-		3FBD38F81B56F7A300EB9792 /* mode-vhdl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-vhdl.js"; sourceTree = "<group>"; };
-		3FBD38F91B56F7A300EB9792 /* mode-xml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-xml.js"; sourceTree = "<group>"; };
-		3FBD38FA1B56F7A300EB9792 /* mode-xquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-xquery.js"; sourceTree = "<group>"; };
-		3FBD38FB1B56F7A300EB9792 /* mode-yaml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-yaml.js"; sourceTree = "<group>"; };
-		3FBD38FD1B56F7A300EB9792 /* abap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = abap.js; sourceTree = "<group>"; };
-		3FBD38FE1B56F7A300EB9792 /* abc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = abc.js; sourceTree = "<group>"; };
-		3FBD38FF1B56F7A300EB9792 /* actionscript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = actionscript.js; sourceTree = "<group>"; };
-		3FBD39001B56F7A300EB9792 /* ada.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ada.js; sourceTree = "<group>"; };
-		3FBD39011B56F7A300EB9792 /* apache_conf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = apache_conf.js; sourceTree = "<group>"; };
-		3FBD39021B56F7A300EB9792 /* applescript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = applescript.js; sourceTree = "<group>"; };
-		3FBD39031B56F7A300EB9792 /* asciidoc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = asciidoc.js; sourceTree = "<group>"; };
-		3FBD39041B56F7A300EB9792 /* assembly_x86.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = assembly_x86.js; sourceTree = "<group>"; };
-		3FBD39051B56F7A300EB9792 /* autohotkey.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = autohotkey.js; sourceTree = "<group>"; };
-		3FBD39061B56F7A300EB9792 /* batchfile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = batchfile.js; sourceTree = "<group>"; };
-		3FBD39071B56F7A300EB9792 /* c9search.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = c9search.js; sourceTree = "<group>"; };
-		3FBD39081B56F7A300EB9792 /* c_cpp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = c_cpp.js; sourceTree = "<group>"; };
-		3FBD39091B56F7A300EB9792 /* cirru.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cirru.js; sourceTree = "<group>"; };
-		3FBD390A1B56F7A300EB9792 /* clojure.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = clojure.js; sourceTree = "<group>"; };
-		3FBD390B1B56F7A300EB9792 /* cobol.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cobol.js; sourceTree = "<group>"; };
-		3FBD390C1B56F7A300EB9792 /* coffee.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = coffee.js; sourceTree = "<group>"; };
-		3FBD390D1B56F7A300EB9792 /* coldfusion.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = coldfusion.js; sourceTree = "<group>"; };
-		3FBD390E1B56F7A300EB9792 /* csharp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = csharp.js; sourceTree = "<group>"; };
-		3FBD390F1B56F7A300EB9792 /* css.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = css.js; sourceTree = "<group>"; };
-		3FBD39101B56F7A300EB9792 /* curly.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = curly.js; sourceTree = "<group>"; };
-		3FBD39111B56F7A300EB9792 /* d.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = d.js; sourceTree = "<group>"; };
-		3FBD39121B56F7A300EB9792 /* dart.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dart.js; sourceTree = "<group>"; };
-		3FBD39131B56F7A300EB9792 /* diff.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = diff.js; sourceTree = "<group>"; };
-		3FBD39141B56F7A300EB9792 /* django.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = django.js; sourceTree = "<group>"; };
-		3FBD39151B56F7A300EB9792 /* dockerfile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dockerfile.js; sourceTree = "<group>"; };
-		3FBD39161B56F7A300EB9792 /* dot.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dot.js; sourceTree = "<group>"; };
-		3FBD39171B56F7A300EB9792 /* eiffel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = eiffel.js; sourceTree = "<group>"; };
-		3FBD39181B56F7A300EB9792 /* ejs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ejs.js; sourceTree = "<group>"; };
-		3FBD39191B56F7A300EB9792 /* elixir.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = elixir.js; sourceTree = "<group>"; };
-		3FBD391A1B56F7A300EB9792 /* elm.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = elm.js; sourceTree = "<group>"; };
-		3FBD391B1B56F7A300EB9792 /* erlang.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = erlang.js; sourceTree = "<group>"; };
-		3FBD391C1B56F7A300EB9792 /* forth.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = forth.js; sourceTree = "<group>"; };
-		3FBD391D1B56F7A300EB9792 /* ftl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ftl.js; sourceTree = "<group>"; };
-		3FBD391E1B56F7A300EB9792 /* gcode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gcode.js; sourceTree = "<group>"; };
-		3FBD391F1B56F7A300EB9792 /* gherkin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gherkin.js; sourceTree = "<group>"; };
-		3FBD39201B56F7A300EB9792 /* gitignore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gitignore.js; sourceTree = "<group>"; };
-		3FBD39211B56F7A300EB9792 /* glsl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = glsl.js; sourceTree = "<group>"; };
-		3FBD39221B56F7A300EB9792 /* golang.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = golang.js; sourceTree = "<group>"; };
-		3FBD39231B56F7A300EB9792 /* groovy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = groovy.js; sourceTree = "<group>"; };
-		3FBD39241B56F7A300EB9792 /* haml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haml.js; sourceTree = "<group>"; };
-		3FBD39251B56F7A300EB9792 /* handlebars.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = handlebars.js; sourceTree = "<group>"; };
-		3FBD39261B56F7A300EB9792 /* haskell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haskell.js; sourceTree = "<group>"; };
-		3FBD39271B56F7A300EB9792 /* haxe.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haxe.js; sourceTree = "<group>"; };
-		3FBD39281B56F7A300EB9792 /* html.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = html.js; sourceTree = "<group>"; };
-		3FBD39291B56F7A300EB9792 /* html_ruby.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = html_ruby.js; sourceTree = "<group>"; };
-		3FBD392A1B56F7A300EB9792 /* ini.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ini.js; sourceTree = "<group>"; };
-		3FBD392B1B56F7A300EB9792 /* io.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = io.js; sourceTree = "<group>"; };
-		3FBD392C1B56F7A300EB9792 /* jack.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jack.js; sourceTree = "<group>"; };
-		3FBD392D1B56F7A300EB9792 /* jade.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jade.js; sourceTree = "<group>"; };
-		3FBD392E1B56F7A300EB9792 /* java.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = java.js; sourceTree = "<group>"; };
-		3FBD392F1B56F7A300EB9792 /* javascript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = javascript.js; sourceTree = "<group>"; };
-		3FBD39301B56F7A300EB9792 /* json.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = json.js; sourceTree = "<group>"; };
-		3FBD39311B56F7A300EB9792 /* jsoniq.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsoniq.js; sourceTree = "<group>"; };
-		3FBD39321B56F7A300EB9792 /* jsp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsp.js; sourceTree = "<group>"; };
-		3FBD39331B56F7A300EB9792 /* jsx.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsx.js; sourceTree = "<group>"; };
-		3FBD39341B56F7A300EB9792 /* julia.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = julia.js; sourceTree = "<group>"; };
-		3FBD39351B56F7A300EB9792 /* latex.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = latex.js; sourceTree = "<group>"; };
-		3FBD39361B56F7A300EB9792 /* lean.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lean.js; sourceTree = "<group>"; };
-		3FBD39371B56F7A300EB9792 /* less.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = less.js; sourceTree = "<group>"; };
-		3FBD39381B56F7A300EB9792 /* liquid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = liquid.js; sourceTree = "<group>"; };
-		3FBD39391B56F7A300EB9792 /* lisp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lisp.js; sourceTree = "<group>"; };
-		3FBD393A1B56F7A300EB9792 /* live_script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = live_script.js; sourceTree = "<group>"; };
-		3FBD393B1B56F7A300EB9792 /* livescript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = livescript.js; sourceTree = "<group>"; };
-		3FBD393C1B56F7A300EB9792 /* logiql.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = logiql.js; sourceTree = "<group>"; };
-		3FBD393D1B56F7A300EB9792 /* lsl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lsl.js; sourceTree = "<group>"; };
-		3FBD393E1B56F7A300EB9792 /* lua.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lua.js; sourceTree = "<group>"; };
-		3FBD393F1B56F7A300EB9792 /* luapage.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = luapage.js; sourceTree = "<group>"; };
-		3FBD39401B56F7A300EB9792 /* lucene.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lucene.js; sourceTree = "<group>"; };
-		3FBD39411B56F7A300EB9792 /* makefile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = makefile.js; sourceTree = "<group>"; };
-		3FBD39421B56F7A300EB9792 /* markdown.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = markdown.js; sourceTree = "<group>"; };
-		3FBD39431B56F7A300EB9792 /* mask.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mask.js; sourceTree = "<group>"; };
-		3FBD39441B56F7A300EB9792 /* matlab.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = matlab.js; sourceTree = "<group>"; };
-		3FBD39451B56F7A300EB9792 /* maze.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = maze.js; sourceTree = "<group>"; };
-		3FBD39461B56F7A300EB9792 /* mel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mel.js; sourceTree = "<group>"; };
-		3FBD39471B56F7A300EB9792 /* mips_assembler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mips_assembler.js; sourceTree = "<group>"; };
-		3FBD39481B56F7A300EB9792 /* mipsassembler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mipsassembler.js; sourceTree = "<group>"; };
-		3FBD39491B56F7A300EB9792 /* mushcode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mushcode.js; sourceTree = "<group>"; };
-		3FBD394A1B56F7A300EB9792 /* mysql.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mysql.js; sourceTree = "<group>"; };
-		3FBD394B1B56F7A300EB9792 /* nix.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nix.js; sourceTree = "<group>"; };
-		3FBD394C1B56F7A300EB9792 /* objectivec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = objectivec.js; sourceTree = "<group>"; };
-		3FBD394D1B56F7A300EB9792 /* ocaml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ocaml.js; sourceTree = "<group>"; };
-		3FBD394E1B56F7A300EB9792 /* pascal.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pascal.js; sourceTree = "<group>"; };
-		3FBD394F1B56F7A300EB9792 /* perl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = perl.js; sourceTree = "<group>"; };
-		3FBD39501B56F7A300EB9792 /* pgsql.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pgsql.js; sourceTree = "<group>"; };
-		3FBD39511B56F7A300EB9792 /* php.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = php.js; sourceTree = "<group>"; };
-		3FBD39521B56F7A300EB9792 /* plain_text.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = plain_text.js; sourceTree = "<group>"; };
-		3FBD39531B56F7A300EB9792 /* powershell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = powershell.js; sourceTree = "<group>"; };
-		3FBD39541B56F7A300EB9792 /* praat.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = praat.js; sourceTree = "<group>"; };
-		3FBD39551B56F7A300EB9792 /* prolog.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = prolog.js; sourceTree = "<group>"; };
-		3FBD39561B56F7A300EB9792 /* properties.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = properties.js; sourceTree = "<group>"; };
-		3FBD39571B56F7A300EB9792 /* protobuf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = protobuf.js; sourceTree = "<group>"; };
-		3FBD39581B56F7A300EB9792 /* python.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = python.js; sourceTree = "<group>"; };
-		3FBD39591B56F7A300EB9792 /* r.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = r.js; sourceTree = "<group>"; };
-		3FBD395A1B56F7A300EB9792 /* rdoc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rdoc.js; sourceTree = "<group>"; };
-		3FBD395B1B56F7A300EB9792 /* rhtml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rhtml.js; sourceTree = "<group>"; };
-		3FBD395C1B56F7A300EB9792 /* ruby.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ruby.js; sourceTree = "<group>"; };
-		3FBD395D1B56F7A300EB9792 /* rust.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rust.js; sourceTree = "<group>"; };
-		3FBD395E1B56F7A300EB9792 /* sass.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sass.js; sourceTree = "<group>"; };
-		3FBD395F1B56F7A300EB9792 /* scad.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scad.js; sourceTree = "<group>"; };
-		3FBD39601B56F7A300EB9792 /* scala.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scala.js; sourceTree = "<group>"; };
-		3FBD39611B56F7A300EB9792 /* scheme.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scheme.js; sourceTree = "<group>"; };
-		3FBD39621B56F7A300EB9792 /* scss.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scss.js; sourceTree = "<group>"; };
-		3FBD39631B56F7A300EB9792 /* sh.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sh.js; sourceTree = "<group>"; };
-		3FBD39641B56F7A300EB9792 /* sjs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sjs.js; sourceTree = "<group>"; };
-		3FBD39651B56F7A300EB9792 /* smarty.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = smarty.js; sourceTree = "<group>"; };
-		3FBD39661B56F7A300EB9792 /* snippets.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = snippets.js; sourceTree = "<group>"; };
-		3FBD39671B56F7A300EB9792 /* soy_template.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = soy_template.js; sourceTree = "<group>"; };
-		3FBD39681B56F7A300EB9792 /* space.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = space.js; sourceTree = "<group>"; };
-		3FBD39691B56F7A300EB9792 /* sql.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sql.js; sourceTree = "<group>"; };
-		3FBD396A1B56F7A300EB9792 /* sqlserver.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sqlserver.js; sourceTree = "<group>"; };
-		3FBD396B1B56F7A300EB9792 /* stylus.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stylus.js; sourceTree = "<group>"; };
-		3FBD396C1B56F7A300EB9792 /* svg.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = svg.js; sourceTree = "<group>"; };
-		3FBD396D1B56F7A300EB9792 /* tcl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tcl.js; sourceTree = "<group>"; };
-		3FBD396E1B56F7A300EB9792 /* tex.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tex.js; sourceTree = "<group>"; };
-		3FBD396F1B56F7A300EB9792 /* text.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = text.js; sourceTree = "<group>"; };
-		3FBD39701B56F7A300EB9792 /* textile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = textile.js; sourceTree = "<group>"; };
-		3FBD39711B56F7A300EB9792 /* toml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = toml.js; sourceTree = "<group>"; };
-		3FBD39721B56F7A300EB9792 /* twig.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = twig.js; sourceTree = "<group>"; };
-		3FBD39731B56F7A300EB9792 /* typescript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typescript.js; sourceTree = "<group>"; };
-		3FBD39741B56F7A300EB9792 /* vala.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vala.js; sourceTree = "<group>"; };
-		3FBD39751B56F7A300EB9792 /* vbscript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vbscript.js; sourceTree = "<group>"; };
-		3FBD39761B56F7A300EB9792 /* velocity.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = velocity.js; sourceTree = "<group>"; };
-		3FBD39771B56F7A300EB9792 /* verilog.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = verilog.js; sourceTree = "<group>"; };
-		3FBD39781B56F7A300EB9792 /* vhdl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vhdl.js; sourceTree = "<group>"; };
-		3FBD39791B56F7A300EB9792 /* xml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xml.js; sourceTree = "<group>"; };
-		3FBD397A1B56F7A300EB9792 /* xquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xquery.js; sourceTree = "<group>"; };
-		3FBD397B1B56F7A300EB9792 /* yaml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = yaml.js; sourceTree = "<group>"; };
-		3FBD397C1B56F7A300EB9792 /* theme-ambiance.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-ambiance.js"; sourceTree = "<group>"; };
-		3FBD397D1B56F7A300EB9792 /* theme-chaos.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-chaos.js"; sourceTree = "<group>"; };
-		3FBD397E1B56F7A300EB9792 /* theme-chrome.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-chrome.js"; sourceTree = "<group>"; };
-		3FBD397F1B56F7A300EB9792 /* theme-clouds.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-clouds.js"; sourceTree = "<group>"; };
-		3FBD39801B56F7A300EB9792 /* theme-clouds_midnight.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-clouds_midnight.js"; sourceTree = "<group>"; };
-		3FBD39811B56F7A300EB9792 /* theme-cobalt.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-cobalt.js"; sourceTree = "<group>"; };
-		3FBD39821B56F7A300EB9792 /* theme-crimson_editor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-crimson_editor.js"; sourceTree = "<group>"; };
-		3FBD39831B56F7A300EB9792 /* theme-dawn.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-dawn.js"; sourceTree = "<group>"; };
-		3FBD39841B56F7A300EB9792 /* theme-dreamweaver.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-dreamweaver.js"; sourceTree = "<group>"; };
-		3FBD39851B56F7A300EB9792 /* theme-eclipse.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-eclipse.js"; sourceTree = "<group>"; };
-		3FBD39861B56F7A300EB9792 /* theme-github.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-github.js"; sourceTree = "<group>"; };
-		3FBD39871B56F7A300EB9792 /* theme-idle_fingers.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-idle_fingers.js"; sourceTree = "<group>"; };
-		3FBD39881B56F7A300EB9792 /* theme-iplastic.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-iplastic.js"; sourceTree = "<group>"; };
-		3FBD39891B56F7A300EB9792 /* theme-katzenmilch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-katzenmilch.js"; sourceTree = "<group>"; };
-		3FBD398A1B56F7A300EB9792 /* theme-kr_theme.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-kr_theme.js"; sourceTree = "<group>"; };
-		3FBD398B1B56F7A300EB9792 /* theme-kuroir.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-kuroir.js"; sourceTree = "<group>"; };
-		3FBD398C1B56F7A300EB9792 /* theme-merbivore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-merbivore.js"; sourceTree = "<group>"; };
-		3FBD398D1B56F7A300EB9792 /* theme-merbivore_soft.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-merbivore_soft.js"; sourceTree = "<group>"; };
-		3FBD398E1B56F7A300EB9792 /* theme-mono_industrial.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-mono_industrial.js"; sourceTree = "<group>"; };
-		3FBD398F1B56F7A300EB9792 /* theme-monokai.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-monokai.js"; sourceTree = "<group>"; };
-		3FBD39901B56F7A300EB9792 /* theme-pastel_on_dark.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-pastel_on_dark.js"; sourceTree = "<group>"; };
-		3FBD39911B56F7A300EB9792 /* theme-solarized_dark.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-solarized_dark.js"; sourceTree = "<group>"; };
-		3FBD39921B56F7A300EB9792 /* theme-solarized_light.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-solarized_light.js"; sourceTree = "<group>"; };
-		3FBD39931B56F7A300EB9792 /* theme-sqlserver.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-sqlserver.js"; sourceTree = "<group>"; };
-		3FBD39941B56F7A300EB9792 /* theme-terminal.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-terminal.js"; sourceTree = "<group>"; };
-		3FBD39951B56F7A300EB9792 /* theme-textmate.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-textmate.js"; sourceTree = "<group>"; };
-		3FBD39961B56F7A300EB9792 /* theme-tomorrow.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-tomorrow.js"; sourceTree = "<group>"; };
-		3FBD39971B56F7A300EB9792 /* theme-tomorrow_night.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-tomorrow_night.js"; sourceTree = "<group>"; };
-		3FBD39981B56F7A300EB9792 /* theme-tomorrow_night_blue.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-tomorrow_night_blue.js"; sourceTree = "<group>"; };
-		3FBD39991B56F7A300EB9792 /* theme-tomorrow_night_bright.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-tomorrow_night_bright.js"; sourceTree = "<group>"; };
-		3FBD399A1B56F7A300EB9792 /* theme-tomorrow_night_eighties.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-tomorrow_night_eighties.js"; sourceTree = "<group>"; };
-		3FBD399B1B56F7A300EB9792 /* theme-twilight.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-twilight.js"; sourceTree = "<group>"; };
-		3FBD399C1B56F7A300EB9792 /* theme-vibrant_ink.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-vibrant_ink.js"; sourceTree = "<group>"; };
-		3FBD399D1B56F7A300EB9792 /* theme-xcode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "theme-xcode.js"; sourceTree = "<group>"; };
-		3FBD399E1B56F7A300EB9792 /* worker-coffee.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "worker-coffee.js"; sourceTree = "<group>"; };
-		3FBD399F1B56F7A300EB9792 /* worker-css.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "worker-css.js"; sourceTree = "<group>"; };
-		3FBD39A01B56F7A300EB9792 /* worker-html.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "worker-html.js"; sourceTree = "<group>"; };
-		3FBD39A11B56F7A300EB9792 /* worker-javascript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "worker-javascript.js"; sourceTree = "<group>"; };
-		3FBD39A21B56F7A300EB9792 /* worker-json.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "worker-json.js"; sourceTree = "<group>"; };
-		3FBD39A31B56F7A300EB9792 /* worker-lua.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "worker-lua.js"; sourceTree = "<group>"; };
-		3FBD39A41B56F7A300EB9792 /* worker-php.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "worker-php.js"; sourceTree = "<group>"; };
-		3FBD39A51B56F7A300EB9792 /* worker-xml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "worker-xml.js"; sourceTree = "<group>"; };
-		3FBD39A61B56F7A300EB9792 /* worker-xquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "worker-xquery.js"; sourceTree = "<group>"; };
 		3FBD3AE61B56F7E100EB9792 /* editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = editor.html; sourceTree = "<group>"; };
 		3FBD3AE91B56F8B300EB9792 /* NEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEditorViewController.h; sourceTree = "<group>"; };
 		3FBD3AEA1B56F8B300EB9792 /* NEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEditorViewController.m; sourceTree = "<group>"; };
@@ -1005,6 +368,8 @@
 		3FBD3B811B59C29C00EB9792 /* NRepositoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRepositoryTableViewCell.h; sourceTree = "<group>"; };
 		3FBD3B821B59C29C00EB9792 /* NRepositoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRepositoryTableViewCell.m; sourceTree = "<group>"; };
 		3FBD3B831B59C29C00EB9792 /* NRepositoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NRepositoryTableViewCell.xib; sourceTree = "<group>"; };
+		3FFE0FE41B5F451200609AE1 /* NSyntaxHighlightTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSyntaxHighlightTextStorage.h; sourceTree = "<group>"; };
+		3FFE0FE51B5F451200609AE1 /* NSyntaxHighlightTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSyntaxHighlightTextStorage.m; sourceTree = "<group>"; };
 		C0D5F381F7BCDD1E6DEF4569 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69BF4E44BDDA12D4A043769 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1135,6 +500,7 @@
 		3F76BF1D1B5DB9AA00692E5E /* RPSyntaxHighlighter */ = {
 			isa = PBXGroup;
 			children = (
+				3FFE0FDD1B5F44F500609AE1 /* Text VIew */,
 				3F76BF301B5DBAB400692E5E /* generic.json */,
 				3F76BF1E1B5DB9AA00692E5E /* RPScopedMatch.h */,
 				3F76BF1F1B5DB9AA00692E5E /* RPScopedMatch.m */,
@@ -1231,344 +597,9 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3FBD38661B56F7A300EB9792 /* js-libraries */ = {
-			isa = PBXGroup;
-			children = (
-				3FBD38671B56F7A300EB9792 /* ace.js */,
-				3FBD38681B56F7A300EB9792 /* ext-beautify.js */,
-				3FBD38691B56F7A300EB9792 /* ext-chromevox.js */,
-				3FBD386A1B56F7A300EB9792 /* ext-elastic_tabstops_lite.js */,
-				3FBD386B1B56F7A300EB9792 /* ext-emmet.js */,
-				3FBD386C1B56F7A300EB9792 /* ext-error_marker.js */,
-				3FBD386D1B56F7A300EB9792 /* ext-keybinding_menu.js */,
-				3FBD386E1B56F7A300EB9792 /* ext-language_tools.js */,
-				3FBD386F1B56F7A300EB9792 /* ext-linking.js */,
-				3FBD38701B56F7A300EB9792 /* ext-modelist.js */,
-				3FBD38711B56F7A300EB9792 /* ext-old_ie.js */,
-				3FBD38721B56F7A300EB9792 /* ext-searchbox.js */,
-				3FBD38731B56F7A300EB9792 /* ext-settings_menu.js */,
-				3FBD38741B56F7A300EB9792 /* ext-spellcheck.js */,
-				3FBD38751B56F7A300EB9792 /* ext-split.js */,
-				3FBD38761B56F7A300EB9792 /* ext-static_highlight.js */,
-				3FBD38771B56F7A300EB9792 /* ext-statusbar.js */,
-				3FBD38781B56F7A300EB9792 /* ext-textarea.js */,
-				3FBD38791B56F7A300EB9792 /* ext-themelist.js */,
-				3FBD387A1B56F7A300EB9792 /* ext-whitespace.js */,
-				3FBD387B1B56F7A300EB9792 /* keybinding-emacs.js */,
-				3FBD387C1B56F7A300EB9792 /* keybinding-vim.js */,
-				3FBD387D1B56F7A300EB9792 /* mode-abap.js */,
-				3FBD387E1B56F7A300EB9792 /* mode-abc.js */,
-				3FBD387F1B56F7A300EB9792 /* mode-actionscript.js */,
-				3FBD38801B56F7A300EB9792 /* mode-ada.js */,
-				3FBD38811B56F7A300EB9792 /* mode-apache_conf.js */,
-				3FBD38821B56F7A300EB9792 /* mode-applescript.js */,
-				3FBD38831B56F7A300EB9792 /* mode-asciidoc.js */,
-				3FBD38841B56F7A300EB9792 /* mode-assembly_x86.js */,
-				3FBD38851B56F7A300EB9792 /* mode-autohotkey.js */,
-				3FBD38861B56F7A300EB9792 /* mode-batchfile.js */,
-				3FBD38871B56F7A300EB9792 /* mode-c9search.js */,
-				3FBD38881B56F7A300EB9792 /* mode-c_cpp.js */,
-				3FBD38891B56F7A300EB9792 /* mode-cirru.js */,
-				3FBD388A1B56F7A300EB9792 /* mode-clojure.js */,
-				3FBD388B1B56F7A300EB9792 /* mode-cobol.js */,
-				3FBD388C1B56F7A300EB9792 /* mode-coffee.js */,
-				3FBD388D1B56F7A300EB9792 /* mode-coldfusion.js */,
-				3FBD388E1B56F7A300EB9792 /* mode-csharp.js */,
-				3FBD388F1B56F7A300EB9792 /* mode-css.js */,
-				3FBD38901B56F7A300EB9792 /* mode-curly.js */,
-				3FBD38911B56F7A300EB9792 /* mode-d.js */,
-				3FBD38921B56F7A300EB9792 /* mode-dart.js */,
-				3FBD38931B56F7A300EB9792 /* mode-diff.js */,
-				3FBD38941B56F7A300EB9792 /* mode-django.js */,
-				3FBD38951B56F7A300EB9792 /* mode-dockerfile.js */,
-				3FBD38961B56F7A300EB9792 /* mode-dot.js */,
-				3FBD38971B56F7A300EB9792 /* mode-eiffel.js */,
-				3FBD38981B56F7A300EB9792 /* mode-ejs.js */,
-				3FBD38991B56F7A300EB9792 /* mode-elixir.js */,
-				3FBD389A1B56F7A300EB9792 /* mode-elm.js */,
-				3FBD389B1B56F7A300EB9792 /* mode-erlang.js */,
-				3FBD389C1B56F7A300EB9792 /* mode-forth.js */,
-				3FBD389D1B56F7A300EB9792 /* mode-ftl.js */,
-				3FBD389E1B56F7A300EB9792 /* mode-gcode.js */,
-				3FBD389F1B56F7A300EB9792 /* mode-gherkin.js */,
-				3FBD38A01B56F7A300EB9792 /* mode-gitignore.js */,
-				3FBD38A11B56F7A300EB9792 /* mode-glsl.js */,
-				3FBD38A21B56F7A300EB9792 /* mode-golang.js */,
-				3FBD38A31B56F7A300EB9792 /* mode-groovy.js */,
-				3FBD38A41B56F7A300EB9792 /* mode-haml.js */,
-				3FBD38A51B56F7A300EB9792 /* mode-handlebars.js */,
-				3FBD38A61B56F7A300EB9792 /* mode-haskell.js */,
-				3FBD38A71B56F7A300EB9792 /* mode-haxe.js */,
-				3FBD38A81B56F7A300EB9792 /* mode-html.js */,
-				3FBD38A91B56F7A300EB9792 /* mode-html_ruby.js */,
-				3FBD38AA1B56F7A300EB9792 /* mode-ini.js */,
-				3FBD38AB1B56F7A300EB9792 /* mode-io.js */,
-				3FBD38AC1B56F7A300EB9792 /* mode-jack.js */,
-				3FBD38AD1B56F7A300EB9792 /* mode-jade.js */,
-				3FBD38AE1B56F7A300EB9792 /* mode-java.js */,
-				3FBD38AF1B56F7A300EB9792 /* mode-javascript.js */,
-				3FBD38B01B56F7A300EB9792 /* mode-json.js */,
-				3FBD38B11B56F7A300EB9792 /* mode-jsoniq.js */,
-				3FBD38B21B56F7A300EB9792 /* mode-jsp.js */,
-				3FBD38B31B56F7A300EB9792 /* mode-jsx.js */,
-				3FBD38B41B56F7A300EB9792 /* mode-julia.js */,
-				3FBD38B51B56F7A300EB9792 /* mode-latex.js */,
-				3FBD38B61B56F7A300EB9792 /* mode-lean.js */,
-				3FBD38B71B56F7A300EB9792 /* mode-less.js */,
-				3FBD38B81B56F7A300EB9792 /* mode-liquid.js */,
-				3FBD38B91B56F7A300EB9792 /* mode-lisp.js */,
-				3FBD38BA1B56F7A300EB9792 /* mode-live_script.js */,
-				3FBD38BB1B56F7A300EB9792 /* mode-livescript.js */,
-				3FBD38BC1B56F7A300EB9792 /* mode-logiql.js */,
-				3FBD38BD1B56F7A300EB9792 /* mode-lsl.js */,
-				3FBD38BE1B56F7A300EB9792 /* mode-lua.js */,
-				3FBD38BF1B56F7A300EB9792 /* mode-luapage.js */,
-				3FBD38C01B56F7A300EB9792 /* mode-lucene.js */,
-				3FBD38C11B56F7A300EB9792 /* mode-makefile.js */,
-				3FBD38C21B56F7A300EB9792 /* mode-markdown.js */,
-				3FBD38C31B56F7A300EB9792 /* mode-mask.js */,
-				3FBD38C41B56F7A300EB9792 /* mode-matlab.js */,
-				3FBD38C51B56F7A300EB9792 /* mode-maze.js */,
-				3FBD38C61B56F7A300EB9792 /* mode-mel.js */,
-				3FBD38C71B56F7A300EB9792 /* mode-mips_assembler.js */,
-				3FBD38C81B56F7A300EB9792 /* mode-mipsassembler.js */,
-				3FBD38C91B56F7A300EB9792 /* mode-mushcode.js */,
-				3FBD38CA1B56F7A300EB9792 /* mode-mysql.js */,
-				3FBD38CB1B56F7A300EB9792 /* mode-nix.js */,
-				3FBD38CC1B56F7A300EB9792 /* mode-objectivec.js */,
-				3FBD38CD1B56F7A300EB9792 /* mode-ocaml.js */,
-				3FBD38CE1B56F7A300EB9792 /* mode-pascal.js */,
-				3FBD38CF1B56F7A300EB9792 /* mode-perl.js */,
-				3FBD38D01B56F7A300EB9792 /* mode-pgsql.js */,
-				3FBD38D11B56F7A300EB9792 /* mode-php.js */,
-				3FBD38D21B56F7A300EB9792 /* mode-plain_text.js */,
-				3FBD38D31B56F7A300EB9792 /* mode-powershell.js */,
-				3FBD38D41B56F7A300EB9792 /* mode-praat.js */,
-				3FBD38D51B56F7A300EB9792 /* mode-prolog.js */,
-				3FBD38D61B56F7A300EB9792 /* mode-properties.js */,
-				3FBD38D71B56F7A300EB9792 /* mode-protobuf.js */,
-				3FBD38D81B56F7A300EB9792 /* mode-python.js */,
-				3FBD38D91B56F7A300EB9792 /* mode-r.js */,
-				3FBD38DA1B56F7A300EB9792 /* mode-rdoc.js */,
-				3FBD38DB1B56F7A300EB9792 /* mode-rhtml.js */,
-				3FBD38DC1B56F7A300EB9792 /* mode-ruby.js */,
-				3FBD38DD1B56F7A300EB9792 /* mode-rust.js */,
-				3FBD38DE1B56F7A300EB9792 /* mode-sass.js */,
-				3FBD38DF1B56F7A300EB9792 /* mode-scad.js */,
-				3FBD38E01B56F7A300EB9792 /* mode-scala.js */,
-				3FBD38E11B56F7A300EB9792 /* mode-scheme.js */,
-				3FBD38E21B56F7A300EB9792 /* mode-scss.js */,
-				3FBD38E31B56F7A300EB9792 /* mode-sh.js */,
-				3FBD38E41B56F7A300EB9792 /* mode-sjs.js */,
-				3FBD38E51B56F7A300EB9792 /* mode-smarty.js */,
-				3FBD38E61B56F7A300EB9792 /* mode-snippets.js */,
-				3FBD38E71B56F7A300EB9792 /* mode-soy_template.js */,
-				3FBD38E81B56F7A300EB9792 /* mode-space.js */,
-				3FBD38E91B56F7A300EB9792 /* mode-sql.js */,
-				3FBD38EA1B56F7A300EB9792 /* mode-sqlserver.js */,
-				3FBD38EB1B56F7A300EB9792 /* mode-stylus.js */,
-				3FBD38EC1B56F7A300EB9792 /* mode-svg.js */,
-				3FBD38ED1B56F7A300EB9792 /* mode-tcl.js */,
-				3FBD38EE1B56F7A300EB9792 /* mode-tex.js */,
-				3FBD38EF1B56F7A300EB9792 /* mode-text.js */,
-				3FBD38F01B56F7A300EB9792 /* mode-textile.js */,
-				3FBD38F11B56F7A300EB9792 /* mode-toml.js */,
-				3FBD38F21B56F7A300EB9792 /* mode-twig.js */,
-				3FBD38F31B56F7A300EB9792 /* mode-typescript.js */,
-				3FBD38F41B56F7A300EB9792 /* mode-vala.js */,
-				3FBD38F51B56F7A300EB9792 /* mode-vbscript.js */,
-				3FBD38F61B56F7A300EB9792 /* mode-velocity.js */,
-				3FBD38F71B56F7A300EB9792 /* mode-verilog.js */,
-				3FBD38F81B56F7A300EB9792 /* mode-vhdl.js */,
-				3FBD38F91B56F7A300EB9792 /* mode-xml.js */,
-				3FBD38FA1B56F7A300EB9792 /* mode-xquery.js */,
-				3FBD38FB1B56F7A300EB9792 /* mode-yaml.js */,
-				3FBD38FC1B56F7A300EB9792 /* snippets */,
-				3FBD397C1B56F7A300EB9792 /* theme-ambiance.js */,
-				3FBD397D1B56F7A300EB9792 /* theme-chaos.js */,
-				3FBD397E1B56F7A300EB9792 /* theme-chrome.js */,
-				3FBD397F1B56F7A300EB9792 /* theme-clouds.js */,
-				3FBD39801B56F7A300EB9792 /* theme-clouds_midnight.js */,
-				3FBD39811B56F7A300EB9792 /* theme-cobalt.js */,
-				3FBD39821B56F7A300EB9792 /* theme-crimson_editor.js */,
-				3FBD39831B56F7A300EB9792 /* theme-dawn.js */,
-				3FBD39841B56F7A300EB9792 /* theme-dreamweaver.js */,
-				3FBD39851B56F7A300EB9792 /* theme-eclipse.js */,
-				3FBD39861B56F7A300EB9792 /* theme-github.js */,
-				3FBD39871B56F7A300EB9792 /* theme-idle_fingers.js */,
-				3FBD39881B56F7A300EB9792 /* theme-iplastic.js */,
-				3FBD39891B56F7A300EB9792 /* theme-katzenmilch.js */,
-				3FBD398A1B56F7A300EB9792 /* theme-kr_theme.js */,
-				3FBD398B1B56F7A300EB9792 /* theme-kuroir.js */,
-				3FBD398C1B56F7A300EB9792 /* theme-merbivore.js */,
-				3FBD398D1B56F7A300EB9792 /* theme-merbivore_soft.js */,
-				3FBD398E1B56F7A300EB9792 /* theme-mono_industrial.js */,
-				3FBD398F1B56F7A300EB9792 /* theme-monokai.js */,
-				3FBD39901B56F7A300EB9792 /* theme-pastel_on_dark.js */,
-				3FBD39911B56F7A300EB9792 /* theme-solarized_dark.js */,
-				3FBD39921B56F7A300EB9792 /* theme-solarized_light.js */,
-				3FBD39931B56F7A300EB9792 /* theme-sqlserver.js */,
-				3FBD39941B56F7A300EB9792 /* theme-terminal.js */,
-				3FBD39951B56F7A300EB9792 /* theme-textmate.js */,
-				3FBD39961B56F7A300EB9792 /* theme-tomorrow.js */,
-				3FBD39971B56F7A300EB9792 /* theme-tomorrow_night.js */,
-				3FBD39981B56F7A300EB9792 /* theme-tomorrow_night_blue.js */,
-				3FBD39991B56F7A300EB9792 /* theme-tomorrow_night_bright.js */,
-				3FBD399A1B56F7A300EB9792 /* theme-tomorrow_night_eighties.js */,
-				3FBD399B1B56F7A300EB9792 /* theme-twilight.js */,
-				3FBD399C1B56F7A300EB9792 /* theme-vibrant_ink.js */,
-				3FBD399D1B56F7A300EB9792 /* theme-xcode.js */,
-				3FBD399E1B56F7A300EB9792 /* worker-coffee.js */,
-				3FBD399F1B56F7A300EB9792 /* worker-css.js */,
-				3FBD39A01B56F7A300EB9792 /* worker-html.js */,
-				3FBD39A11B56F7A300EB9792 /* worker-javascript.js */,
-				3FBD39A21B56F7A300EB9792 /* worker-json.js */,
-				3FBD39A31B56F7A300EB9792 /* worker-lua.js */,
-				3FBD39A41B56F7A300EB9792 /* worker-php.js */,
-				3FBD39A51B56F7A300EB9792 /* worker-xml.js */,
-				3FBD39A61B56F7A300EB9792 /* worker-xquery.js */,
-			);
-			path = "js-libraries";
-			sourceTree = "<group>";
-		};
-		3FBD38FC1B56F7A300EB9792 /* snippets */ = {
-			isa = PBXGroup;
-			children = (
-				3FBD38FD1B56F7A300EB9792 /* abap.js */,
-				3FBD38FE1B56F7A300EB9792 /* abc.js */,
-				3FBD38FF1B56F7A300EB9792 /* actionscript.js */,
-				3FBD39001B56F7A300EB9792 /* ada.js */,
-				3FBD39011B56F7A300EB9792 /* apache_conf.js */,
-				3FBD39021B56F7A300EB9792 /* applescript.js */,
-				3FBD39031B56F7A300EB9792 /* asciidoc.js */,
-				3FBD39041B56F7A300EB9792 /* assembly_x86.js */,
-				3FBD39051B56F7A300EB9792 /* autohotkey.js */,
-				3FBD39061B56F7A300EB9792 /* batchfile.js */,
-				3FBD39071B56F7A300EB9792 /* c9search.js */,
-				3FBD39081B56F7A300EB9792 /* c_cpp.js */,
-				3FBD39091B56F7A300EB9792 /* cirru.js */,
-				3FBD390A1B56F7A300EB9792 /* clojure.js */,
-				3FBD390B1B56F7A300EB9792 /* cobol.js */,
-				3FBD390C1B56F7A300EB9792 /* coffee.js */,
-				3FBD390D1B56F7A300EB9792 /* coldfusion.js */,
-				3FBD390E1B56F7A300EB9792 /* csharp.js */,
-				3FBD390F1B56F7A300EB9792 /* css.js */,
-				3FBD39101B56F7A300EB9792 /* curly.js */,
-				3FBD39111B56F7A300EB9792 /* d.js */,
-				3FBD39121B56F7A300EB9792 /* dart.js */,
-				3FBD39131B56F7A300EB9792 /* diff.js */,
-				3FBD39141B56F7A300EB9792 /* django.js */,
-				3FBD39151B56F7A300EB9792 /* dockerfile.js */,
-				3FBD39161B56F7A300EB9792 /* dot.js */,
-				3FBD39171B56F7A300EB9792 /* eiffel.js */,
-				3FBD39181B56F7A300EB9792 /* ejs.js */,
-				3FBD39191B56F7A300EB9792 /* elixir.js */,
-				3FBD391A1B56F7A300EB9792 /* elm.js */,
-				3FBD391B1B56F7A300EB9792 /* erlang.js */,
-				3FBD391C1B56F7A300EB9792 /* forth.js */,
-				3FBD391D1B56F7A300EB9792 /* ftl.js */,
-				3FBD391E1B56F7A300EB9792 /* gcode.js */,
-				3FBD391F1B56F7A300EB9792 /* gherkin.js */,
-				3FBD39201B56F7A300EB9792 /* gitignore.js */,
-				3FBD39211B56F7A300EB9792 /* glsl.js */,
-				3FBD39221B56F7A300EB9792 /* golang.js */,
-				3FBD39231B56F7A300EB9792 /* groovy.js */,
-				3FBD39241B56F7A300EB9792 /* haml.js */,
-				3FBD39251B56F7A300EB9792 /* handlebars.js */,
-				3FBD39261B56F7A300EB9792 /* haskell.js */,
-				3FBD39271B56F7A300EB9792 /* haxe.js */,
-				3FBD39281B56F7A300EB9792 /* html.js */,
-				3FBD39291B56F7A300EB9792 /* html_ruby.js */,
-				3FBD392A1B56F7A300EB9792 /* ini.js */,
-				3FBD392B1B56F7A300EB9792 /* io.js */,
-				3FBD392C1B56F7A300EB9792 /* jack.js */,
-				3FBD392D1B56F7A300EB9792 /* jade.js */,
-				3FBD392E1B56F7A300EB9792 /* java.js */,
-				3FBD392F1B56F7A300EB9792 /* javascript.js */,
-				3FBD39301B56F7A300EB9792 /* json.js */,
-				3FBD39311B56F7A300EB9792 /* jsoniq.js */,
-				3FBD39321B56F7A300EB9792 /* jsp.js */,
-				3FBD39331B56F7A300EB9792 /* jsx.js */,
-				3FBD39341B56F7A300EB9792 /* julia.js */,
-				3FBD39351B56F7A300EB9792 /* latex.js */,
-				3FBD39361B56F7A300EB9792 /* lean.js */,
-				3FBD39371B56F7A300EB9792 /* less.js */,
-				3FBD39381B56F7A300EB9792 /* liquid.js */,
-				3FBD39391B56F7A300EB9792 /* lisp.js */,
-				3FBD393A1B56F7A300EB9792 /* live_script.js */,
-				3FBD393B1B56F7A300EB9792 /* livescript.js */,
-				3FBD393C1B56F7A300EB9792 /* logiql.js */,
-				3FBD393D1B56F7A300EB9792 /* lsl.js */,
-				3FBD393E1B56F7A300EB9792 /* lua.js */,
-				3FBD393F1B56F7A300EB9792 /* luapage.js */,
-				3FBD39401B56F7A300EB9792 /* lucene.js */,
-				3FBD39411B56F7A300EB9792 /* makefile.js */,
-				3FBD39421B56F7A300EB9792 /* markdown.js */,
-				3FBD39431B56F7A300EB9792 /* mask.js */,
-				3FBD39441B56F7A300EB9792 /* matlab.js */,
-				3FBD39451B56F7A300EB9792 /* maze.js */,
-				3FBD39461B56F7A300EB9792 /* mel.js */,
-				3FBD39471B56F7A300EB9792 /* mips_assembler.js */,
-				3FBD39481B56F7A300EB9792 /* mipsassembler.js */,
-				3FBD39491B56F7A300EB9792 /* mushcode.js */,
-				3FBD394A1B56F7A300EB9792 /* mysql.js */,
-				3FBD394B1B56F7A300EB9792 /* nix.js */,
-				3FBD394C1B56F7A300EB9792 /* objectivec.js */,
-				3FBD394D1B56F7A300EB9792 /* ocaml.js */,
-				3FBD394E1B56F7A300EB9792 /* pascal.js */,
-				3FBD394F1B56F7A300EB9792 /* perl.js */,
-				3FBD39501B56F7A300EB9792 /* pgsql.js */,
-				3FBD39511B56F7A300EB9792 /* php.js */,
-				3FBD39521B56F7A300EB9792 /* plain_text.js */,
-				3FBD39531B56F7A300EB9792 /* powershell.js */,
-				3FBD39541B56F7A300EB9792 /* praat.js */,
-				3FBD39551B56F7A300EB9792 /* prolog.js */,
-				3FBD39561B56F7A300EB9792 /* properties.js */,
-				3FBD39571B56F7A300EB9792 /* protobuf.js */,
-				3FBD39581B56F7A300EB9792 /* python.js */,
-				3FBD39591B56F7A300EB9792 /* r.js */,
-				3FBD395A1B56F7A300EB9792 /* rdoc.js */,
-				3FBD395B1B56F7A300EB9792 /* rhtml.js */,
-				3FBD395C1B56F7A300EB9792 /* ruby.js */,
-				3FBD395D1B56F7A300EB9792 /* rust.js */,
-				3FBD395E1B56F7A300EB9792 /* sass.js */,
-				3FBD395F1B56F7A300EB9792 /* scad.js */,
-				3FBD39601B56F7A300EB9792 /* scala.js */,
-				3FBD39611B56F7A300EB9792 /* scheme.js */,
-				3FBD39621B56F7A300EB9792 /* scss.js */,
-				3FBD39631B56F7A300EB9792 /* sh.js */,
-				3FBD39641B56F7A300EB9792 /* sjs.js */,
-				3FBD39651B56F7A300EB9792 /* smarty.js */,
-				3FBD39661B56F7A300EB9792 /* snippets.js */,
-				3FBD39671B56F7A300EB9792 /* soy_template.js */,
-				3FBD39681B56F7A300EB9792 /* space.js */,
-				3FBD39691B56F7A300EB9792 /* sql.js */,
-				3FBD396A1B56F7A300EB9792 /* sqlserver.js */,
-				3FBD396B1B56F7A300EB9792 /* stylus.js */,
-				3FBD396C1B56F7A300EB9792 /* svg.js */,
-				3FBD396D1B56F7A300EB9792 /* tcl.js */,
-				3FBD396E1B56F7A300EB9792 /* tex.js */,
-				3FBD396F1B56F7A300EB9792 /* text.js */,
-				3FBD39701B56F7A300EB9792 /* textile.js */,
-				3FBD39711B56F7A300EB9792 /* toml.js */,
-				3FBD39721B56F7A300EB9792 /* twig.js */,
-				3FBD39731B56F7A300EB9792 /* typescript.js */,
-				3FBD39741B56F7A300EB9792 /* vala.js */,
-				3FBD39751B56F7A300EB9792 /* vbscript.js */,
-				3FBD39761B56F7A300EB9792 /* velocity.js */,
-				3FBD39771B56F7A300EB9792 /* verilog.js */,
-				3FBD39781B56F7A300EB9792 /* vhdl.js */,
-				3FBD39791B56F7A300EB9792 /* xml.js */,
-				3FBD397A1B56F7A300EB9792 /* xquery.js */,
-				3FBD397B1B56F7A300EB9792 /* yaml.js */,
-			);
-			path = snippets;
-			sourceTree = "<group>";
-		};
 		3FBD3AE81B56F87F00EB9792 /* editor-wrapper */ = {
 			isa = PBXGroup;
 			children = (
-				3FBD38661B56F7A300EB9792 /* js-libraries */,
 				3FBD3AE61B56F7E100EB9792 /* editor.html */,
 				3FBD3AE91B56F8B300EB9792 /* NEditorViewController.h */,
 				3FBD3AEA1B56F8B300EB9792 /* NEditorViewController.m */,
@@ -1679,6 +710,15 @@
 				3FBD3B831B59C29C00EB9792 /* NRepositoryTableViewCell.xib */,
 			);
 			name = cells;
+			sourceTree = "<group>";
+		};
+		3FFE0FDD1B5F44F500609AE1 /* Text VIew */ = {
+			isa = PBXGroup;
+			children = (
+				3FFE0FE41B5F451200609AE1 /* NSyntaxHighlightTextStorage.h */,
+				3FFE0FE51B5F451200609AE1 /* NSyntaxHighlightTextStorage.m */,
+			);
+			name = "Text VIew";
 			sourceTree = "<group>";
 		};
 		CAA57F58EADF0E93CD3A86D9 /* Pods */ = {
@@ -1812,425 +852,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBD3A611B56F7A300EB9792 /* golang.js in Resources */,
-				3FBD39DF1B56F7A300EB9792 /* mode-gherkin.js in Resources */,
-				3FBD3A2E1B56F7A300EB9792 /* mode-tex.js in Resources */,
-				3FBD3A551B56F7A300EB9792 /* dot.js in Resources */,
 				3F76BEE61B59EBD600692E5E /* jsp.plist in Resources */,
 				3F76BEFE1B59EBD600692E5E /* prolog.plist in Resources */,
-				3FBD3A001B56F7A300EB9792 /* mode-lucene.js in Resources */,
-				3FBD3A791B56F7A300EB9792 /* live_script.js in Resources */,
-				3FBD39DE1B56F7A300EB9792 /* mode-gcode.js in Resources */,
-				3FBD39BB1B56F7A300EB9792 /* keybinding-emacs.js in Resources */,
 				3F76BEF51B59EBD600692E5E /* objectivec.plist in Resources */,
-				3FBD39C21B56F7A300EB9792 /* mode-applescript.js in Resources */,
-				3FBD3A521B56F7A300EB9792 /* diff.js in Resources */,
-				3FBD3A9D1B56F7A300EB9792 /* sass.js in Resources */,
-				3FBD39C61B56F7A300EB9792 /* mode-batchfile.js in Resources */,
-				3FBD3ABB1B56F7A300EB9792 /* theme-ambiance.js in Resources */,
-				3FBD3A931B56F7A300EB9792 /* praat.js in Resources */,
-				3FBD39E11B56F7A300EB9792 /* mode-glsl.js in Resources */,
-				3FBD39E01B56F7A300EB9792 /* mode-gitignore.js in Resources */,
-				3FBD3A581B56F7A300EB9792 /* elixir.js in Resources */,
-				3FBD3A391B56F7A300EB9792 /* mode-xml.js in Resources */,
-				3FBD3AA01B56F7A300EB9792 /* scheme.js in Resources */,
-				3FBD3AAE1B56F7A300EB9792 /* text.js in Resources */,
-				3FBD3A711B56F7A300EB9792 /* jsp.js in Resources */,
-				3FBD39EC1B56F7A300EB9792 /* mode-jack.js in Resources */,
-				3FBD3A671B56F7A300EB9792 /* html.js in Resources */,
-				3FBD3A5B1B56F7A300EB9792 /* forth.js in Resources */,
 				3F76BEEC1B59EBD600692E5E /* lua.plist in Resources */,
 				3F76BECC1B59EBD600692E5E /* c.plist in Resources */,
-				3FBD3A071B56F7A300EB9792 /* mode-mips_assembler.js in Resources */,
-				3FBD3AD11B56F7A300EB9792 /* theme-solarized_light.js in Resources */,
-				3FBD3AB71B56F7A300EB9792 /* vhdl.js in Resources */,
-				3FBD3A211B56F7A300EB9792 /* mode-scheme.js in Resources */,
-				3FBD39B11B56F7A300EB9792 /* ext-old_ie.js in Resources */,
-				3FBD3A8A1B56F7A300EB9792 /* nix.js in Resources */,
 				3FBD3B7F1B59B93B00EB9792 /* NRepositoryFormTableViewCell.xib in Resources */,
-				3FBD39F11B56F7A300EB9792 /* mode-jsoniq.js in Resources */,
 				3FBD383C1B56DD9100EB9792 /* Main.storyboard in Resources */,
-				3FBD3AD91B56F7A300EB9792 /* theme-tomorrow_night_eighties.js in Resources */,
-				3FBD3A0A1B56F7A300EB9792 /* mode-mysql.js in Resources */,
-				3FBD3AE11B56F7A300EB9792 /* worker-json.js in Resources */,
-				3FBD3A191B56F7A300EB9792 /* mode-r.js in Resources */,
-				3FBD3A051B56F7A300EB9792 /* mode-maze.js in Resources */,
-				3FBD39D01B56F7A300EB9792 /* mode-curly.js in Resources */,
-				3FBD3AB41B56F7A300EB9792 /* vbscript.js in Resources */,
-				3FBD3A321B56F7A300EB9792 /* mode-twig.js in Resources */,
 				3F76BEFC1B59EBD600692E5E /* plist.plist in Resources */,
 				3F76BED91B59EBD600692E5E /* f-script.plist in Resources */,
-				3FBD3A511B56F7A300EB9792 /* dart.js in Resources */,
-				3FBD3AC01B56F7A300EB9792 /* theme-cobalt.js in Resources */,
-				3FBD3AC11B56F7A300EB9792 /* theme-crimson_editor.js in Resources */,
 				3F76BF041B59EBD600692E5E /* sgml.plist in Resources */,
-				3FBD3A8E1B56F7A300EB9792 /* perl.js in Resources */,
-				3FBD3A371B56F7A300EB9792 /* mode-verilog.js in Resources */,
 				3F76BEC21B59EBD600692E5E /* apache.plist in Resources */,
-				3FBD39EE1B56F7A300EB9792 /* mode-java.js in Resources */,
 				3F76BEE41B59EBD600692E5E /* javafx.plist in Resources */,
-				3FBD3A911B56F7A300EB9792 /* plain_text.js in Resources */,
-				3FBD3A641B56F7A300EB9792 /* handlebars.js in Resources */,
-				3FBD3A701B56F7A300EB9792 /* jsoniq.js in Resources */,
-				3FBD3A4E1B56F7A300EB9792 /* css.js in Resources */,
-				3FBD39D21B56F7A300EB9792 /* mode-dart.js in Resources */,
-				3FBD3A261B56F7A300EB9792 /* mode-snippets.js in Resources */,
-				3FBD39B31B56F7A300EB9792 /* ext-settings_menu.js in Resources */,
-				3FBD3A1E1B56F7A300EB9792 /* mode-sass.js in Resources */,
-				3FBD39B61B56F7A300EB9792 /* ext-static_highlight.js in Resources */,
 				3FBD3B5E1B597AC500EB9792 /* file.png in Resources */,
-				3FBD3A661B56F7A300EB9792 /* haxe.js in Resources */,
-				3FBD3A131B56F7A300EB9792 /* mode-powershell.js in Resources */,
-				3FBD3ACD1B56F7A300EB9792 /* theme-mono_industrial.js in Resources */,
-				3FBD3A871B56F7A300EB9792 /* mipsassembler.js in Resources */,
-				3FBD3ABC1B56F7A300EB9792 /* theme-chaos.js in Resources */,
-				3FBD3AD41B56F7A300EB9792 /* theme-textmate.js in Resources */,
-				3FBD3AD21B56F7A300EB9792 /* theme-sqlserver.js in Resources */,
-				3FBD3A5C1B56F7A300EB9792 /* ftl.js in Resources */,
-				3FBD39D61B56F7A300EB9792 /* mode-dot.js in Resources */,
-				3FBD39C51B56F7A300EB9792 /* mode-autohotkey.js in Resources */,
 				3F76BECF1B59EBD600692E5E /* coldfusion.plist in Resources */,
 				3F76BEF41B59EBD600692E5E /* nrnhoc.plist in Resources */,
-				3FBD3A3E1B56F7A300EB9792 /* actionscript.js in Resources */,
-				3FBD3A5F1B56F7A300EB9792 /* gitignore.js in Resources */,
-				3FBD3A9B1B56F7A300EB9792 /* ruby.js in Resources */,
-				3FBD39EB1B56F7A300EB9792 /* mode-io.js in Resources */,
-				3FBD3A0E1B56F7A300EB9792 /* mode-pascal.js in Resources */,
-				3FBD39E71B56F7A300EB9792 /* mode-haxe.js in Resources */,
-				3FBD3A031B56F7A300EB9792 /* mode-mask.js in Resources */,
-				3FBD3ABF1B56F7A300EB9792 /* theme-clouds_midnight.js in Resources */,
-				3FBD3A7E1B56F7A300EB9792 /* luapage.js in Resources */,
 				3F76BED31B59EBD600692E5E /* css.plist in Resources */,
-				3FBD3AC41B56F7A300EB9792 /* theme-eclipse.js in Resources */,
-				3FBD3A951B56F7A300EB9792 /* properties.js in Resources */,
-				3FBD39B41B56F7A300EB9792 /* ext-spellcheck.js in Resources */,
 				3F76BEF21B59EBD600692E5E /* nemerle.plist in Resources */,
-				3FBD3A151B56F7A300EB9792 /* mode-prolog.js in Resources */,
-				3FBD39DC1B56F7A300EB9792 /* mode-forth.js in Resources */,
-				3FBD3A3F1B56F7A300EB9792 /* ada.js in Resources */,
-				3FBD3A2A1B56F7A300EB9792 /* mode-sqlserver.js in Resources */,
-				3FBD39E31B56F7A300EB9792 /* mode-groovy.js in Resources */,
-				3FBD3A6E1B56F7A300EB9792 /* javascript.js in Resources */,
 				3FBD3B581B596B5D00EB9792 /* folder-open.png in Resources */,
-				3FBD3A1A1B56F7A300EB9792 /* mode-rdoc.js in Resources */,
-				3FBD3A1B1B56F7A300EB9792 /* mode-rhtml.js in Resources */,
 				3FBD3B591B596B5D00EB9792 /* folder-open@2x.png in Resources */,
 				3F76BEC01B59EBD600692E5E /* ada.plist in Resources */,
-				3FBD39EA1B56F7A300EB9792 /* mode-ini.js in Resources */,
-				3FBD39BE1B56F7A300EB9792 /* mode-abc.js in Resources */,
-				3FBD3AD51B56F7A300EB9792 /* theme-tomorrow.js in Resources */,
-				3FBD3AB01B56F7A300EB9792 /* toml.js in Resources */,
-				3FBD39CA1B56F7A300EB9792 /* mode-clojure.js in Resources */,
-				3FBD3A441B56F7A300EB9792 /* autohotkey.js in Resources */,
-				3FBD3AD01B56F7A300EB9792 /* theme-solarized_dark.js in Resources */,
-				3FBD39AC1B56F7A300EB9792 /* ext-error_marker.js in Resources */,
-				3FBD3A9A1B56F7A300EB9792 /* rhtml.js in Resources */,
-				3FBD3AA91B56F7A300EB9792 /* sqlserver.js in Resources */,
-				3FBD39BA1B56F7A300EB9792 /* ext-whitespace.js in Resources */,
 				3F76BECD1B59EBD600692E5E /* cobol.plist in Resources */,
 				3F76BF001B59EBD600692E5E /* r.plist in Resources */,
-				3FBD3A281B56F7A300EB9792 /* mode-space.js in Resources */,
-				3FBD39C11B56F7A300EB9792 /* mode-apache_conf.js in Resources */,
-				3FBD3A6D1B56F7A300EB9792 /* java.js in Resources */,
-				3FBD39E51B56F7A300EB9792 /* mode-handlebars.js in Resources */,
-				3FBD3A491B56F7A300EB9792 /* clojure.js in Resources */,
 				3F76BEFB1B59EBD600692E5E /* php.plist in Resources */,
-				3FBD3A401B56F7A300EB9792 /* apache_conf.js in Resources */,
-				3FBD3A221B56F7A300EB9792 /* mode-scss.js in Resources */,
-				3FBD3AA21B56F7A300EB9792 /* sh.js in Resources */,
 				3FBD38411B56DD9100EB9792 /* LaunchScreen.xib in Resources */,
-				3FBD3A6A1B56F7A300EB9792 /* io.js in Resources */,
-				3FBD39EF1B56F7A300EB9792 /* mode-javascript.js in Resources */,
-				3FBD3A501B56F7A300EB9792 /* d.js in Resources */,
-				3FBD3A2F1B56F7A300EB9792 /* mode-text.js in Resources */,
 				3F76BEEE1B59EBD600692E5E /* mel.plist in Resources */,
-				3FBD3A591B56F7A300EB9792 /* elm.js in Resources */,
-				3FBD3A961B56F7A300EB9792 /* protobuf.js in Resources */,
-				3FBD3A3C1B56F7A300EB9792 /* abap.js in Resources */,
-				3FBD3ACB1B56F7A300EB9792 /* theme-merbivore.js in Resources */,
-				3FBD3AD61B56F7A300EB9792 /* theme-tomorrow_night.js in Resources */,
 				3F76BED81B59EBD600692E5E /* eztpl.plist in Resources */,
-				3FBD3A4B1B56F7A300EB9792 /* coffee.js in Resources */,
 				3F76BEEA1B59EBD600692E5E /* logtalk.plist in Resources */,
-				3FBD3AAF1B56F7A300EB9792 /* textile.js in Resources */,
 				3F76BF051B59EBD600692E5E /* shell.plist in Resources */,
-				3FBD3A1F1B56F7A300EB9792 /* mode-scad.js in Resources */,
-				3FBD3ADA1B56F7A300EB9792 /* theme-twilight.js in Resources */,
-				3FBD3A1D1B56F7A300EB9792 /* mode-rust.js in Resources */,
-				3FBD3AD71B56F7A300EB9792 /* theme-tomorrow_night_blue.js in Resources */,
-				3FBD3A981B56F7A300EB9792 /* r.js in Resources */,
-				3FBD3A451B56F7A300EB9792 /* batchfile.js in Resources */,
-				3FBD3A2D1B56F7A300EB9792 /* mode-tcl.js in Resources */,
-				3FBD3A381B56F7A300EB9792 /* mode-vhdl.js in Resources */,
 				3F76BF0E1B59EBD600692E5E /* vb.plist in Resources */,
-				3FBD39F71B56F7A300EB9792 /* mode-less.js in Resources */,
 				3F76BF111B59EBD600692E5E /* xml.plist in Resources */,
 				3F76BEF61B59EBD600692E5E /* objectivecaml.plist in Resources */,
-				3FBD3A691B56F7A300EB9792 /* ini.js in Resources */,
-				3FBD39CC1B56F7A300EB9792 /* mode-coffee.js in Resources */,
-				3FBD3A731B56F7A300EB9792 /* julia.js in Resources */,
-				3FBD3A0F1B56F7A300EB9792 /* mode-perl.js in Resources */,
 				3F76BEC41B59EBD600692E5E /* asm-mips.plist in Resources */,
-				3FBD39C31B56F7A300EB9792 /* mode-asciidoc.js in Resources */,
 				3F76BEF91B59EBD600692E5E /* pdf.plist in Resources */,
-				3FBD39F61B56F7A300EB9792 /* mode-lean.js in Resources */,
-				3FBD3A771B56F7A300EB9792 /* liquid.js in Resources */,
-				3FBD3A601B56F7A300EB9792 /* glsl.js in Resources */,
-				3FBD39FB1B56F7A300EB9792 /* mode-livescript.js in Resources */,
-				3FBD3A341B56F7A300EB9792 /* mode-vala.js in Resources */,
 				3FBD3B5A1B596B5D00EB9792 /* folder.png in Resources */,
 				3F76BED71B59EBD600692E5E /* erl.plist in Resources */,
-				3FBD39D51B56F7A300EB9792 /* mode-dockerfile.js in Resources */,
-				3FBD3A081B56F7A300EB9792 /* mode-mipsassembler.js in Resources */,
-				3FBD39F81B56F7A300EB9792 /* mode-liquid.js in Resources */,
-				3FBD3AD81B56F7A300EB9792 /* theme-tomorrow_night_bright.js in Resources */,
-				3FBD3A831B56F7A300EB9792 /* matlab.js in Resources */,
 				3F76BF2E1B5DB9AA00692E5E /* tomorrow-night.json in Resources */,
-				3FBD3A781B56F7A300EB9792 /* lisp.js in Resources */,
-				3FBD3A561B56F7A300EB9792 /* eiffel.js in Resources */,
-				3FBD39B21B56F7A300EB9792 /* ext-searchbox.js in Resources */,
-				3FBD39CB1B56F7A300EB9792 /* mode-cobol.js in Resources */,
-				3FBD39B01B56F7A300EB9792 /* ext-modelist.js in Resources */,
-				3FBD39ED1B56F7A300EB9792 /* mode-jade.js in Resources */,
-				3FBD39BF1B56F7A300EB9792 /* mode-actionscript.js in Resources */,
-				3FBD39AE1B56F7A300EB9792 /* ext-language_tools.js in Resources */,
-				3FBD39D81B56F7A300EB9792 /* mode-ejs.js in Resources */,
-				3FBD3A941B56F7A300EB9792 /* prolog.js in Resources */,
-				3FBD39B91B56F7A300EB9792 /* ext-themelist.js in Resources */,
 				3F76BEE51B59EBD600692E5E /* javascript.plist in Resources */,
-				3FBD3A891B56F7A300EB9792 /* mysql.js in Resources */,
 				3F76BEC61B59EBD600692E5E /* asp-js.plist in Resources */,
-				3FBD3ACE1B56F7A300EB9792 /* theme-monokai.js in Resources */,
 				3F76BEF71B59EBD600692E5E /* ox.plist in Resources */,
-				3FBD39BC1B56F7A300EB9792 /* keybinding-vim.js in Resources */,
-				3FBD3A971B56F7A300EB9792 /* python.js in Resources */,
-				3FBD3A751B56F7A300EB9792 /* lean.js in Resources */,
-				3FBD3AB31B56F7A300EB9792 /* vala.js in Resources */,
-				3FBD3A651B56F7A300EB9792 /* haskell.js in Resources */,
-				3FBD3A921B56F7A300EB9792 /* powershell.js in Resources */,
-				3FBD3A5E1B56F7A300EB9792 /* gherkin.js in Resources */,
-				3FBD3ABE1B56F7A300EB9792 /* theme-clouds.js in Resources */,
-				3FBD3A231B56F7A300EB9792 /* mode-sh.js in Resources */,
-				3FBD3AE51B56F7A300EB9792 /* worker-xquery.js in Resources */,
-				3FBD3ADE1B56F7A300EB9792 /* worker-css.js in Resources */,
-				3FBD3A7F1B56F7A300EB9792 /* lucene.js in Resources */,
-				3FBD3ACA1B56F7A300EB9792 /* theme-kuroir.js in Resources */,
 				3F76BED61B59EBD600692E5E /* eiffel.plist in Resources */,
 				3F76BEFF1B59EBD600692E5E /* python.plist in Resources */,
-				3FBD3A6F1B56F7A300EB9792 /* json.js in Resources */,
-				3FBD3AB81B56F7A300EB9792 /* xml.js in Resources */,
 				3F76BEED1B59EBD600692E5E /* matlab.plist in Resources */,
-				3FBD3A171B56F7A300EB9792 /* mode-protobuf.js in Resources */,
-				3FBD3A881B56F7A300EB9792 /* mushcode.js in Resources */,
 				3F76BEDF1B59EBD600692E5E /* haskell.plist in Resources */,
 				3F76BF011B59EBD600692E5E /* rhtml.plist in Resources */,
 				3F76BF101B59EBD600692E5E /* vhdl.plist in Resources */,
-				3FBD3AC91B56F7A300EB9792 /* theme-kr_theme.js in Resources */,
 				3F76BF0F1B59EBD600692E5E /* verilog.plist in Resources */,
-				3FBD3A011B56F7A300EB9792 /* mode-makefile.js in Resources */,
-				3FBD3A361B56F7A300EB9792 /* mode-velocity.js in Resources */,
-				3FBD3A621B56F7A300EB9792 /* groovy.js in Resources */,
-				3FBD39AD1B56F7A300EB9792 /* ext-keybinding_menu.js in Resources */,
-				3FBD3A271B56F7A300EB9792 /* mode-soy_template.js in Resources */,
 				3F76BED11B59EBD600692E5E /* csharp.plist in Resources */,
-				3FBD3A3A1B56F7A300EB9792 /* mode-xquery.js in Resources */,
 				3F76BF081B59EBD600692E5E /* standard.plist in Resources */,
 				3F76BF071B59EBD600692E5E /* sql.plist in Resources */,
 				3F76BEF11B59EBD600692E5E /* mysql.plist in Resources */,
 				3F76BEEB1B59EBD600692E5E /* lsl.plist in Resources */,
-				3FBD3A541B56F7A300EB9792 /* dockerfile.js in Resources */,
-				3FBD39F31B56F7A300EB9792 /* mode-jsx.js in Resources */,
-				3FBD39E91B56F7A300EB9792 /* mode-html_ruby.js in Resources */,
-				3FBD3A9C1B56F7A300EB9792 /* rust.js in Resources */,
 				3F76BF061B59EBD600692E5E /* sml.plist in Resources */,
-				3FBD3A841B56F7A300EB9792 /* maze.js in Resources */,
-				3FBD39DA1B56F7A300EB9792 /* mode-elm.js in Resources */,
 				3F76BEE31B59EBD600692E5E /* java.plist in Resources */,
 				3F76BF021B59EBD600692E5E /* ruby.plist in Resources */,
 				3F76BED41B59EBD600692E5E /* d.plist in Resources */,
-				3FBD3A461B56F7A300EB9792 /* c9search.js in Resources */,
-				3FBD3AB51B56F7A300EB9792 /* velocity.js in Resources */,
-				3FBD3AE21B56F7A300EB9792 /* worker-lua.js in Resources */,
-				3FBD3A161B56F7A300EB9792 /* mode-properties.js in Resources */,
 				3F76BEE01B59EBD600692E5E /* header.plist in Resources */,
-				3FBD3AAB1B56F7A300EB9792 /* svg.js in Resources */,
-				3FBD3A801B56F7A300EB9792 /* makefile.js in Resources */,
 				3F76BEEF1B59EBD600692E5E /* metapost.plist in Resources */,
 				3F76BEC91B59EBD600692E5E /* aspdotnet-vb.plist in Resources */,
-				3FBD3A9F1B56F7A300EB9792 /* scala.js in Resources */,
-				3FBD39D91B56F7A300EB9792 /* mode-elixir.js in Resources */,
-				3FBD39BD1B56F7A300EB9792 /* mode-abap.js in Resources */,
-				3FBD3A8D1B56F7A300EB9792 /* pascal.js in Resources */,
-				3FBD3AA61B56F7A300EB9792 /* soy_template.js in Resources */,
-				3FBD3A3D1B56F7A300EB9792 /* abc.js in Resources */,
-				3FBD3A431B56F7A300EB9792 /* assembly_x86.js in Resources */,
-				3FBD39D71B56F7A300EB9792 /* mode-eiffel.js in Resources */,
-				3FBD3A021B56F7A300EB9792 /* mode-markdown.js in Resources */,
 				3FBD3B0C1B57171900EB9792 /* code_example.txt in Resources */,
-				3FBD3AA31B56F7A300EB9792 /* sjs.js in Resources */,
-				3FBD39D41B56F7A300EB9792 /* mode-django.js in Resources */,
-				3FBD39AA1B56F7A300EB9792 /* ext-elastic_tabstops_lite.js in Resources */,
 				3F76BF031B59EBD600692E5E /* scala.plist in Resources */,
 				3F76BEBF1B59EBD600692E5E /* active4d.plist in Resources */,
 				3F76BEDB1B59EBD600692E5E /* freefem.plist in Resources */,
-				3FBD39CE1B56F7A300EB9792 /* mode-csharp.js in Resources */,
 				3F76BEDE1B59EBD600692E5E /* graphviz.plist in Resources */,
-				3FBD3A041B56F7A300EB9792 /* mode-matlab.js in Resources */,
-				3FBD3A5A1B56F7A300EB9792 /* erlang.js in Resources */,
-				3FBD3AC71B56F7A300EB9792 /* theme-iplastic.js in Resources */,
-				3FBD3AC21B56F7A300EB9792 /* theme-dawn.js in Resources */,
 				3F76BEC81B59EBD600692E5E /* aspdotnet-cs.plist in Resources */,
-				3FBD39A91B56F7A300EB9792 /* ext-chromevox.js in Resources */,
-				3FBD3AB21B56F7A300EB9792 /* typescript.js in Resources */,
 				3FBD3B851B59C29C00EB9792 /* NRepositoryTableViewCell.xib in Resources */,
 				3F76BF311B5DBAB400692E5E /* generic.json in Resources */,
-				3FBD3A6B1B56F7A300EB9792 /* jack.js in Resources */,
-				3FBD39CF1B56F7A300EB9792 /* mode-css.js in Resources */,
-				3FBD39AF1B56F7A300EB9792 /* ext-linking.js in Resources */,
-				3FBD3AE01B56F7A300EB9792 /* worker-javascript.js in Resources */,
 				3F76BEDC1B59EBD600692E5E /* gedcom.plist in Resources */,
-				3FBD3A7C1B56F7A300EB9792 /* lsl.js in Resources */,
 				3F76BF091B59EBD600692E5E /* stata.plist in Resources */,
 				3F76BEC51B59EBD600692E5E /* asm-x86.plist in Resources */,
-				3FBD39B81B56F7A300EB9792 /* ext-textarea.js in Resources */,
-				3FBD39F41B56F7A300EB9792 /* mode-julia.js in Resources */,
-				3FBD3ABA1B56F7A300EB9792 /* yaml.js in Resources */,
-				3FBD39FA1B56F7A300EB9792 /* mode-live_script.js in Resources */,
 				3F76BEDD1B59EBD600692E5E /* gnuassembler.plist in Resources */,
-				3FBD3AC81B56F7A300EB9792 /* theme-katzenmilch.js in Resources */,
-				3FBD3A4C1B56F7A300EB9792 /* coldfusion.js in Resources */,
 				3F76BECB1B59EBD600692E5E /* batch.plist in Resources */,
-				3FBD3A7B1B56F7A300EB9792 /* logiql.js in Resources */,
-				3FBD3A741B56F7A300EB9792 /* latex.js in Resources */,
-				3FBD39D31B56F7A300EB9792 /* mode-diff.js in Resources */,
-				3FBD3AAD1B56F7A300EB9792 /* tex.js in Resources */,
 				3F76BECA1B59EBD600692E5E /* awk.plist in Resources */,
-				3FBD3A471B56F7A300EB9792 /* c_cpp.js in Resources */,
-				3FBD3A7D1B56F7A300EB9792 /* lua.js in Resources */,
 				3F76BF0C1B59EBD600692E5E /* torquescript.plist in Resources */,
-				3FBD3A121B56F7A300EB9792 /* mode-plain_text.js in Resources */,
 				3F76BEE11B59EBD600692E5E /* html.plist in Resources */,
-				3FBD39C71B56F7A300EB9792 /* mode-c9search.js in Resources */,
 				3FBD3B5F1B597AC500EB9792 /* file@2x.png in Resources */,
-				3FBD3A1C1B56F7A300EB9792 /* mode-ruby.js in Resources */,
-				3FBD39F21B56F7A300EB9792 /* mode-jsp.js in Resources */,
 				3F76BF0B1B59EBD600692E5E /* tcltk.plist in Resources */,
-				3FBD39CD1B56F7A300EB9792 /* mode-coldfusion.js in Resources */,
-				3FBD39A71B56F7A300EB9792 /* ace.js in Resources */,
-				3FBD39D11B56F7A300EB9792 /* mode-d.js in Resources */,
-				3FBD3AE31B56F7A300EB9792 /* worker-php.js in Resources */,
 				3F76BEFA1B59EBD600692E5E /* perl.plist in Resources */,
-				3FBD3A991B56F7A300EB9792 /* rdoc.js in Resources */,
-				3FBD3AA41B56F7A300EB9792 /* smarty.js in Resources */,
-				3FBD39C81B56F7A300EB9792 /* mode-c_cpp.js in Resources */,
-				3FBD3AA11B56F7A300EB9792 /* scss.js in Resources */,
-				3FBD39FF1B56F7A300EB9792 /* mode-luapage.js in Resources */,
-				3FBD39F01B56F7A300EB9792 /* mode-json.js in Resources */,
 				3F76BEBD1B59EBD600692E5E /* actionscript.plist in Resources */,
-				3FBD39AB1B56F7A300EB9792 /* ext-emmet.js in Resources */,
 				3F76BEDA1B59EBD600692E5E /* fortran.plist in Resources */,
 				3F76BED51B59EBD600692E5E /* dylan.plist in Resources */,
 				3F76BED01B59EBD600692E5E /* cpp.plist in Resources */,
-				3FBD3AC51B56F7A300EB9792 /* theme-github.js in Resources */,
 				3F76BEE21B59EBD600692E5E /* idl.plist in Resources */,
-				3FBD3A7A1B56F7A300EB9792 /* livescript.js in Resources */,
 				3F76BED21B59EBD600692E5E /* csound.plist in Resources */,
 				3F76BEF01B59EBD600692E5E /* metaslang.plist in Resources */,
-				3FBD39A81B56F7A300EB9792 /* ext-beautify.js in Resources */,
-				3FBD3AAA1B56F7A300EB9792 /* stylus.js in Resources */,
 				3F76BEBE1B59EBD600692E5E /* actionscript3.plist in Resources */,
-				3FBD39DD1B56F7A300EB9792 /* mode-ftl.js in Resources */,
-				3FBD3AD31B56F7A300EB9792 /* theme-terminal.js in Resources */,
-				3FBD39F91B56F7A300EB9792 /* mode-lisp.js in Resources */,
-				3FBD39C01B56F7A300EB9792 /* mode-ada.js in Resources */,
-				3FBD3ACC1B56F7A300EB9792 /* theme-merbivore_soft.js in Resources */,
-				3FBD3A761B56F7A300EB9792 /* less.js in Resources */,
-				3FBD3A5D1B56F7A300EB9792 /* gcode.js in Resources */,
-				3FBD3A4D1B56F7A300EB9792 /* csharp.js in Resources */,
-				3FBD39C91B56F7A300EB9792 /* mode-cirru.js in Resources */,
-				3FBD39F51B56F7A300EB9792 /* mode-latex.js in Resources */,
-				3FBD3ADC1B56F7A300EB9792 /* theme-xcode.js in Resources */,
 				3F76BEF81B59EBD600692E5E /* pascal.plist in Resources */,
 				3FBD383E1B56DD9100EB9792 /* Images.xcassets in Resources */,
-				3FBD3A251B56F7A300EB9792 /* mode-smarty.js in Resources */,
-				3FBD3A141B56F7A300EB9792 /* mode-praat.js in Resources */,
 				3F76BF0D1B59EBD600692E5E /* udo.plist in Resources */,
-				3FBD3AC61B56F7A300EB9792 /* theme-idle_fingers.js in Resources */,
-				3FBD3AA51B56F7A300EB9792 /* snippets.js in Resources */,
-				3FBD3A811B56F7A300EB9792 /* markdown.js in Resources */,
-				3FBD3AB91B56F7A300EB9792 /* xquery.js in Resources */,
-				3FBD3A681B56F7A300EB9792 /* html_ruby.js in Resources */,
-				3FBD39E81B56F7A300EB9792 /* mode-html.js in Resources */,
-				3FBD39DB1B56F7A300EB9792 /* mode-erlang.js in Resources */,
-				3FBD39FE1B56F7A300EB9792 /* mode-lua.js in Resources */,
-				3FBD3A901B56F7A300EB9792 /* php.js in Resources */,
-				3FBD3A821B56F7A300EB9792 /* mask.js in Resources */,
-				3FBD3A241B56F7A300EB9792 /* mode-sjs.js in Resources */,
-				3FBD39E61B56F7A300EB9792 /* mode-haskell.js in Resources */,
-				3FBD3A101B56F7A300EB9792 /* mode-pgsql.js in Resources */,
-				3FBD3AC31B56F7A300EB9792 /* theme-dreamweaver.js in Resources */,
-				3FBD3A9E1B56F7A300EB9792 /* scad.js in Resources */,
-				3FBD3A091B56F7A300EB9792 /* mode-mushcode.js in Resources */,
 				3F76BEFD1B59EBD600692E5E /* postscript.plist in Resources */,
-				3FBD39B71B56F7A300EB9792 /* ext-statusbar.js in Resources */,
-				3FBD3A721B56F7A300EB9792 /* jsx.js in Resources */,
 				3F76BEE91B59EBD600692E5E /* lisp.plist in Resources */,
-				3FBD3ADD1B56F7A300EB9792 /* worker-coffee.js in Resources */,
 				3F76BEE81B59EBD600692E5E /* lilypond.plist in Resources */,
-				3FBD39B51B56F7A300EB9792 /* ext-split.js in Resources */,
 				3F76BEC31B59EBD600692E5E /* applescript.plist in Resources */,
-				3FBD3ADF1B56F7A300EB9792 /* worker-html.js in Resources */,
 				3FBD3AE71B56F7E100EB9792 /* editor.html in Resources */,
 				3F76BEC71B59EBD600692E5E /* asp-vb.plist in Resources */,
-				3FBD3AE41B56F7A300EB9792 /* worker-xml.js in Resources */,
-				3FBD3A421B56F7A300EB9792 /* asciidoc.js in Resources */,
-				3FBD3A3B1B56F7A300EB9792 /* mode-yaml.js in Resources */,
-				3FBD3A311B56F7A300EB9792 /* mode-toml.js in Resources */,
-				3FBD39E41B56F7A300EB9792 /* mode-haml.js in Resources */,
-				3FBD39FC1B56F7A300EB9792 /* mode-logiql.js in Resources */,
-				3FBD3A481B56F7A300EB9792 /* cirru.js in Resources */,
-				3FBD39FD1B56F7A300EB9792 /* mode-lsl.js in Resources */,
-				3FBD3A061B56F7A300EB9792 /* mode-mel.js in Resources */,
 				3F76BEF31B59EBD600692E5E /* none.plist in Resources */,
-				3FBD39C41B56F7A300EB9792 /* mode-assembly_x86.js in Resources */,
-				3FBD3A2C1B56F7A300EB9792 /* mode-svg.js in Resources */,
-				3FBD3A2B1B56F7A300EB9792 /* mode-stylus.js in Resources */,
-				3FBD3AB11B56F7A300EB9792 /* twig.js in Resources */,
 				3F76BEC11B59EBD600692E5E /* ampl.plist in Resources */,
-				3FBD3A331B56F7A300EB9792 /* mode-typescript.js in Resources */,
-				3FBD3A351B56F7A300EB9792 /* mode-vbscript.js in Resources */,
-				3FBD3A181B56F7A300EB9792 /* mode-python.js in Resources */,
 				3F76BECE1B59EBD600692E5E /* coffeescript.plist in Resources */,
-				3FBD3A8B1B56F7A300EB9792 /* objectivec.js in Resources */,
-				3FBD3A0D1B56F7A300EB9792 /* mode-ocaml.js in Resources */,
-				3FBD3A8F1B56F7A300EB9792 /* pgsql.js in Resources */,
-				3FBD39E21B56F7A300EB9792 /* mode-golang.js in Resources */,
-				3FBD3A631B56F7A300EB9792 /* haml.js in Resources */,
-				3FBD3A6C1B56F7A300EB9792 /* jade.js in Resources */,
-				3FBD3ACF1B56F7A300EB9792 /* theme-pastel_on_dark.js in Resources */,
-				3FBD3A201B56F7A300EB9792 /* mode-scala.js in Resources */,
-				3FBD3AB61B56F7A300EB9792 /* verilog.js in Resources */,
-				3FBD3A531B56F7A300EB9792 /* django.js in Resources */,
-				3FBD3A291B56F7A300EB9792 /* mode-sql.js in Resources */,
-				3FBD3A0C1B56F7A300EB9792 /* mode-objectivec.js in Resources */,
-				3FBD3A411B56F7A300EB9792 /* applescript.js in Resources */,
-				3FBD3A4A1B56F7A300EB9792 /* cobol.js in Resources */,
-				3FBD3AA71B56F7A300EB9792 /* space.js in Resources */,
-				3FBD3AAC1B56F7A300EB9792 /* tcl.js in Resources */,
 				3F76BF0A1B59EBD600692E5E /* supercollider.plist in Resources */,
-				3FBD3A571B56F7A300EB9792 /* ejs.js in Resources */,
-				3FBD3A111B56F7A300EB9792 /* mode-php.js in Resources */,
-				3FBD3A0B1B56F7A300EB9792 /* mode-nix.js in Resources */,
-				3FBD3A4F1B56F7A300EB9792 /* curly.js in Resources */,
-				3FBD3AA81B56F7A300EB9792 /* sql.js in Resources */,
-				3FBD3A301B56F7A300EB9792 /* mode-textile.js in Resources */,
-				3FBD3ABD1B56F7A300EB9792 /* theme-chrome.js in Resources */,
-				3FBD3A8C1B56F7A300EB9792 /* ocaml.js in Resources */,
-				3FBD3A861B56F7A300EB9792 /* mips_assembler.js in Resources */,
 				3F76BEE71B59EBD600692E5E /* latex.plist in Resources */,
-				3FBD3ADB1B56F7A300EB9792 /* theme-vibrant_ink.js in Resources */,
 				3FBD3B5B1B596B5D00EB9792 /* folder@2x.png in Resources */,
-				3FBD3A851B56F7A300EB9792 /* mel.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2310,6 +1031,7 @@
 				3FBD3B841B59C29C00EB9792 /* NRepositoryTableViewCell.m in Sources */,
 				3FBD3B161B581CDB00EB9792 /* NTreeItem.m in Sources */,
 				3FBD3B431B582B1C00EB9792 /* RATreeView+Private.m in Sources */,
+				3FFE0FE61B5F451200609AE1 /* NSyntaxHighlightTextStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
