@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F139E321B6173DB00026841 /* NDiffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F139E311B6173DB00026841 /* NDiffViewController.m */; };
+		3F139E371B61B73800026841 /* NDiffLinesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F139E351B61B73800026841 /* NDiffLinesTableViewCell.m */; };
+		3F139E381B61B73800026841 /* NDiffLinesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F139E361B61B73800026841 /* NDiffLinesTableViewCell.xib */; };
+		3F139E3C1B61F3A600026841 /* NDiffFileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F139E3A1B61F3A600026841 /* NDiffFileTableViewCell.m */; };
+		3F139E3D1B61F3A600026841 /* NDiffFileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F139E3B1B61F3A600026841 /* NDiffFileTableViewCell.xib */; };
 		3F76BE4A1B59E43D00692E5E /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F76BE491B59E43D00692E5E /* ObjectiveGit.framework */; };
 		3F76BE4B1B59E43D00692E5E /* ObjectiveGit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F76BE491B59E43D00692E5E /* ObjectiveGit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F76BEBD1B59EBD600692E5E /* actionscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F76BE681B59EBD600692E5E /* actionscript.plist */; };
@@ -199,6 +204,14 @@
 
 /* Begin PBXFileReference section */
 		357B5DE6DCD283BD23927111 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3F139E301B6173DB00026841 /* NDiffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDiffViewController.h; sourceTree = "<group>"; };
+		3F139E311B6173DB00026841 /* NDiffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDiffViewController.m; sourceTree = "<group>"; };
+		3F139E341B61B73800026841 /* NDiffLinesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDiffLinesTableViewCell.h; sourceTree = "<group>"; };
+		3F139E351B61B73800026841 /* NDiffLinesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDiffLinesTableViewCell.m; sourceTree = "<group>"; };
+		3F139E361B61B73800026841 /* NDiffLinesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NDiffLinesTableViewCell.xib; sourceTree = "<group>"; };
+		3F139E391B61F3A600026841 /* NDiffFileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDiffFileTableViewCell.h; sourceTree = "<group>"; };
+		3F139E3A1B61F3A600026841 /* NDiffFileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDiffFileTableViewCell.m; sourceTree = "<group>"; };
+		3F139E3B1B61F3A600026841 /* NDiffFileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NDiffFileTableViewCell.xib; sourceTree = "<group>"; };
 		3F76BE491B59E43D00692E5E /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = "builds/nucleus/Build/Products/Debug-iphoneos/ObjectiveGit.framework"; sourceTree = "<group>"; };
 		3F76BE681B59EBD600692E5E /* actionscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript.plist; sourceTree = "<group>"; };
 		3F76BE691B59EBD600692E5E /* actionscript3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript3.plist; sourceTree = "<group>"; };
@@ -396,6 +409,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F139E291B61739B00026841 /* diff */ = {
+			isa = PBXGroup;
+			children = (
+				3F139E331B61B70E00026841 /* cells */,
+				3F139E301B6173DB00026841 /* NDiffViewController.h */,
+				3F139E311B6173DB00026841 /* NDiffViewController.m */,
+			);
+			name = diff;
+			sourceTree = "<group>";
+		};
+		3F139E331B61B70E00026841 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				3F139E341B61B73800026841 /* NDiffLinesTableViewCell.h */,
+				3F139E351B61B73800026841 /* NDiffLinesTableViewCell.m */,
+				3F139E361B61B73800026841 /* NDiffLinesTableViewCell.xib */,
+				3F139E391B61F3A600026841 /* NDiffFileTableViewCell.h */,
+				3F139E3A1B61F3A600026841 /* NDiffFileTableViewCell.m */,
+				3F139E3B1B61F3A600026841 /* NDiffFileTableViewCell.xib */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
 		3F76BE671B59EBD600692E5E /* Syntax Definitions */ = {
 			isa = PBXGroup;
 			children = (
@@ -692,6 +728,7 @@
 		3FBD3B7A1B59B0EA00EB9792 /* repositories */ = {
 			isa = PBXGroup;
 			children = (
+				3F139E291B61739B00026841 /* diff */,
 				3FBD3B8C1B59D6D200EB9792 /* cells */,
 				3FBD3B771B59B0B900EB9792 /* NRepositoriesViewController.h */,
 				3FBD3B781B59B0B900EB9792 /* NRepositoriesViewController.m */,
@@ -863,6 +900,7 @@
 				3F76BED91B59EBD600692E5E /* f-script.plist in Resources */,
 				3F76BF041B59EBD600692E5E /* sgml.plist in Resources */,
 				3F76BEC21B59EBD600692E5E /* apache.plist in Resources */,
+				3F139E3D1B61F3A600026841 /* NDiffFileTableViewCell.xib in Resources */,
 				3F76BEE41B59EBD600692E5E /* javafx.plist in Resources */,
 				3FBD3B5E1B597AC500EB9792 /* file.png in Resources */,
 				3F76BECF1B59EBD600692E5E /* coldfusion.plist in Resources */,
@@ -872,6 +910,7 @@
 				3FBD3B581B596B5D00EB9792 /* folder-open.png in Resources */,
 				3FBD3B591B596B5D00EB9792 /* folder-open@2x.png in Resources */,
 				3F76BEC01B59EBD600692E5E /* ada.plist in Resources */,
+				3F139E381B61B73800026841 /* NDiffLinesTableViewCell.xib in Resources */,
 				3F76BECD1B59EBD600692E5E /* cobol.plist in Resources */,
 				3F76BF001B59EBD600692E5E /* r.plist in Resources */,
 				3F76BEFB1B59EBD600692E5E /* php.plist in Resources */,
@@ -1003,6 +1042,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FBD3B441B582B1C00EB9792 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */,
+				3F139E321B6173DB00026841 /* NDiffViewController.m in Sources */,
 				3FBD3B3F1B582B1C00EB9792 /* RATreeNodeController.m in Sources */,
 				3FBD3B401B582B1C00EB9792 /* RATreeNodeItem+Private.m in Sources */,
 				3F76BF2B1B5DB9AA00692E5E /* RPSyntaxHighlighter.m in Sources */,
@@ -1017,6 +1057,7 @@
 				3FBD3B481B582B1C00EB9792 /* RATreeView.m in Sources */,
 				3FBD3B101B5780E800EB9792 /* NTreeViewController.m in Sources */,
 				3FBD3B791B59B0B900EB9792 /* NRepositoriesViewController.m in Sources */,
+				3F139E3C1B61F3A600026841 /* NDiffFileTableViewCell.m in Sources */,
 				3F76BF2F1B5DB9AA00692E5E /* UIColor+RPSyntaxAdditions.m in Sources */,
 				3FBD3B421B582B1C00EB9792 /* RATreeView+Enums.m in Sources */,
 				3FBD3B461B582B1C00EB9792 /* RATreeView+TableViewDelegate.m in Sources */,
@@ -1026,6 +1067,7 @@
 				3F76BF2C1B5DB9AA00692E5E /* RPSyntaxMatcher.m in Sources */,
 				3F76BF2D1B5DB9AA00692E5E /* RPSyntaxTheme.m in Sources */,
 				3FBD3AEB1B56F8B300EB9792 /* NEditorViewController.m in Sources */,
+				3F139E371B61B73800026841 /* NDiffLinesTableViewCell.m in Sources */,
 				3FBD38331B56DD9100EB9792 /* main.m in Sources */,
 				3FBD3B3E1B582B1C00EB9792 /* RATreeNodeCollectionController.m in Sources */,
 				3FBD3B841B59C29C00EB9792 /* NRepositoryTableViewCell.m in Sources */,

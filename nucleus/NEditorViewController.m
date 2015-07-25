@@ -9,6 +9,7 @@
 #import "NEditorViewController.h"
 #import "RPSyntaxHighlighter.h"
 #import "RPLanguages.h"
+#import "NSyntaxHighlightTextStorage.h"
 
 #define USE_NATIVE_EDITOR YES
 
@@ -16,6 +17,9 @@
 @property (nonatomic, strong) UIWebView *editorWebView;
 @property (nonatomic, strong) UITextView *textView;
 @property (nonatomic, strong) NSString *language;
+@property (nonatomic, strong) NSyntaxHighlightTextStorage* textStorage;
+@property (nonatomic, strong) NSDate *lastEditedDate;
+@property (nonatomic, copy) NSString *filepath;
 @end
 
 @implementation NEditorViewController
@@ -23,25 +27,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     if (USE_NATIVE_EDITOR) {
-        _textView = [[UITextView alloc] initWithFrame:self.view.bounds];
-
-//        NSTextStorage *textStorage = [[NSTextStorage alloc] initWithAttributedString:textString];
-//        NSLayoutManager *textLayout = [[NSLayoutManager alloc] init];
-//        [textStorage addLayoutManager:textLayout];
-//        NSTextContainer *textContainer = [[NSTextContainer alloc] initWithSize:self.view.bounds.size];
-//        [textLayout addTextContainer:textContainer];
-//        UITextView *textView = [[UITextView alloc] initWithFrame:CGRectMake(20,20,self.view.bounds.size.width-20,self.view.bounds.size.height-20)
-//                                                   textContainer:textContainer];
-        
-        _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
-        _textView.backgroundColor = [UIColor blackColor];
-        _textView.delegate = self;
-        [self.view addSubview:_textView];
+        [self createTextView];
     } else {
         [self.view addSubview:self.editorWebView];
     }
     [self.view setBackgroundColor:[UIColor blackColor]];
     [self loadFile:_filePath];
+    [NSTimer scheduledTimerWithTimeInterval:.5f target:self selector:@selector(update:) userInfo:nil repeats:YES];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,6 +41,7 @@
 }
 
 - (void)loadFile:(NSString *)filePath {
+    _filePath = filePath;
     NSString* htmlFilePath = [[NSBundle mainBundle] pathForResource:@"editor" ofType:@"html"];
     NSString *htmlString = [NSString stringWithContentsOfFile:htmlFilePath encoding:NSUTF8StringEncoding error:nil];
     NSString *code = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
@@ -60,7 +53,7 @@
             dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
                 NSAttributedString *attrString = [RPSyntaxHighlighter highlightCode:code withLanguage:weakSelf.language];
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    weakSelf.textView.attributedText = attrString;
+                    [weakSelf.textStorage setAttributedString:attrString];
                 });
             });
 
@@ -76,6 +69,29 @@
         [self.editorWebView loadHTMLString:htmlString baseURL:[NSURL URLWithString:@""]];
     }
 }
+
+- (void)createTextView
+{
+    _textStorage = [NSyntaxHighlightTextStorage new];
+    CGRect newTextViewRect = self.view.bounds;
+    
+    NSLayoutManager *layoutManager = [[NSLayoutManager alloc] init];
+    
+    // 3. Create a text container
+    CGSize containerSize = CGSizeMake(newTextViewRect.size.width,  CGFLOAT_MAX);
+    NSTextContainer *container = [[NSTextContainer alloc] initWithSize:containerSize];
+    container.widthTracksTextView = YES;
+    [layoutManager addTextContainer:container];
+    [_textStorage addLayoutManager:layoutManager];
+    
+    // 4. Create a UITextView
+    _textView = [[UITextView alloc] initWithFrame:self.view.bounds textContainer:container];
+    _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
+    _textView.backgroundColor = [UIColor blackColor];
+    _textView.delegate = self;
+    [self.view addSubview:_textView];
+}
+
 
 - (void)setFilePath:(NSString *)filePath {
     if (filePath && ![_filePath isEqualToString:filePath]) {
@@ -101,19 +117,40 @@
 }
 
 #pragma mark - Text View Delegate 
-- (void)textViewDidChange:(UITextView *)textView {
+- (void)update:(NSTimer *)timer {
+    if (!_lastEditedDate) {
+        return;
+    }
+    NSDate *methodFinish = [NSDate date];
+    NSTimeInterval timeInterval = [methodFinish timeIntervalSinceDate:_lastEditedDate];
+    if (timeInterval > .5f) {
+        _lastEditedDate = nil;
+        [self updateSyntaxHighlight];
+        [self saveFile];
+    }
+}
+
+- (void)updateSyntaxHighlight {
     __weak __typeof__(self) weakSelf = self;
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        NSAttributedString *attrString = [RPSyntaxHighlighter highlightCode:textView.text withLanguage:weakSelf.language];
+        NSAttributedString *attrString = [RPSyntaxHighlighter highlightCode:weakSelf.textView.text withLanguage:weakSelf.language];
         dispatch_async(dispatch_get_main_queue(), ^{
             if ([weakSelf.textView.attributedText.string isEqualToString:attrString.string]) {
-                NSRange selectedRange = weakSelf.textView.selectedRange;
-                weakSelf.textView.scrollEnabled = NO;
-                weakSelf.textView.attributedText = attrString;
-                weakSelf.textView.selectedRange = selectedRange;
-                weakSelf.textView.scrollEnabled = YES;
+                [weakSelf.textStorage setAttributedString:attrString];
             }
         });
     });
+}
+
+- (void)saveFile {
+    NSError *error = nil;
+    [_textView.text writeToFile:_filePath atomically:YES encoding:NSUTF8StringEncoding error:&error];
+    if (error) {
+        NSLog(@"Error saving file: %@", error);
+    }
+}
+
+- (void)textViewDidChange:(UITextView *)textView {
+    _lastEditedDate = [NSDate date];
 }
 @end

@@ -51,7 +51,8 @@
 {
     NRepositoriesViewController *controller = [[NRepositoriesViewController alloc] initWithStyle:UITableViewStyleGrouped];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
-    navigationController.modalPresentationStyle = UIModalPresentationPageSheet;
+//    navigationController.modalPresentationStyle = UIModalPresentationPageSheet;
+    [navigationController.navigationBar setTranslucent:NO];
     [self presentViewController:navigationController animated:YES completion:nil];
 }
 

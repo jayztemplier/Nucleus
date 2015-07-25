@@ -10,6 +10,7 @@
 #import <ObjectiveGit/ObjectiveGit.h>
 #import "NRepositoryFormTableViewCell.h"
 #import "NRepositoryTableViewCell.h"
+#import "NDiffViewController.h"
 
 @interface NRepositoriesViewController () <NRepositoryFormTableViewCellDelegate, NRepositoryTableViewCellDelegate>
 @property (nonatomic, strong) NSArray *dataSource;
@@ -80,6 +81,27 @@
             if (error) {
                 NSLog(@"%@", error.localizedDescription);
             }
+//            GTDiff *diff = [GTDiff diffWorkingDirectoryToHEADInRepository:repo options:nil error:&error];
+//            if (error) {
+//                NSLog(@"%@", error.localizedDescription);
+//            }
+//            [diff enumerateDeltasUsingBlock:^(GTDiffDelta *delta, BOOL *stop) {
+//                GTDiffPatch *patch = [delta generatePatch:nil];
+//                NSLog(@"%@", patch);
+//                [patch enumerateHunksUsingBlock:^(GTDiffHunk *hunk, BOOL *stop) {
+//                    NSLog(@"%@", hunk);
+//                    [hunk enumerateLinesInHunk:nil usingBlock:^(GTDiffLine *diffLine, BOOL *stop) {
+//                        NSLog(@"%@// lines: %d, oldLineNumber: %d, newLineNumber: %d, content: %@", diffLine, diffLine.lineCount, diffLine.oldLineNumber, diffLine.newLineNumber, diffLine.content);
+//                    }];
+//                }];
+//            }];
+            
+//            [repo enumerateFileStatusWithOptions:nil error:&error usingBlock:^(GTStatusDelta * headToIndex, GTStatusDelta * indexToWorkingDirectory, BOOL *stop) {
+//                NSLog(@"%@", indexToWorkingDirectory);
+//                NSLog(@"%@", indexToWorkingDirectory.newFile);
+//                NSURL *url = [localURL URLByAppendingPathComponent:indexToWorkingDirectory.newFile.path];
+//                NSLog(@"%@", [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil]);
+//            }];
             static NSDateFormatter *dateFormatter;
             if (!dateFormatter) {
                 dateFormatter = [[NSDateFormatter alloc] init];
@@ -94,6 +116,19 @@
         cell.delegate = self;
         return cell;
     }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSDictionary *info = self.dataSource[indexPath.row];
+    
+    NSURL* appDocsDir = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+    NSURL* localURL = [NSURL URLWithString:info[@"title"] relativeToURL:appDocsDir];
+    NSError *error = nil;
+    GTRepository *repo = [GTRepository repositoryWithURL:localURL error:&error];
+    NDiffViewController *controller = [[NDiffViewController alloc] init];
+    controller.view.frame = self.view.bounds;
+    controller.repositoryURL = localURL;
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 - (void)cell:(NRepositoryFormTableViewCell *)cell didPressCloneRepositoryAt:(NSString *)url {

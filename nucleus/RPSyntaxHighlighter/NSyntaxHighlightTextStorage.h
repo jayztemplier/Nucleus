@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class RPSyntaxHighlighter;
 @interface NSyntaxHighlightTextStorage : NSTextStorage
 {
     NSMutableAttributedString *_backingStore;
 }
+
+@property (nonatomic, strong) RPSyntaxHighlighter *syntaxHighlighter;
+@property (nonatomic, strong) NSString *syntaxLanguage;
 @end

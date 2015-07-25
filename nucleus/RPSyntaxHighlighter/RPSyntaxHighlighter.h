@@ -44,5 +44,4 @@
  @return a syntax highlighted `NSAttributedString`
  */
 + (NSAttributedString *)highlightCode:(NSString *)code withLanguage:(NSString *)language;
-
 @end

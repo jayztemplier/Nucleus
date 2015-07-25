@@ -7,6 +7,7 @@
 //
 
 #import "NSyntaxHighlightTextStorage.h"
+#import "RPSyntaxHighlighter.h"
 
 @implementation NSyntaxHighlightTextStorage
 
@@ -50,4 +51,5 @@
     [self edited:NSTextStorageEditedAttributes range:range changeInLength:0];
     [self endEditing];
 }
+
 @end
